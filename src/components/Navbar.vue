@@ -5,52 +5,58 @@
         ><img src="../assets/DistrictlogoB.png" alt=""
       /></a>
       <ul class="menu">
-        <li @mouseover="listOne = true" @mouseleave="listOne = false">
-          <a href="#">Menu Item</a>
+        <li>
+          <a href="#" class="main-menu">Home</a>
 
-          <transition name="fade">
+          <!-- <transition name="fade">
             <ul v-if="listOne" @click="listOne = false">
               <li><a href="#">Sub Menu Item</a></li>
               <li><a href="#">Sub Menu Item</a></li>
               <li><a href="#">Sub Menu Item</a></li>
             </ul>
-          </transition>
+          </transition> -->
         </li>
 
         <li @mouseover="listTwo = true" @mouseleave="listTwo = false">
-          <a href="#">Menu Item</a>
+          <a href="#" class="main-menu">About us</a>
 
           <transition name="fade">
-            <ul v-if="listTwo" @click="listTwo = false">
-              <li><a href="#">Sub Menu Item</a></li>
-              <li><a href="#">Sub Menu Item</a></li>
-              <li><a href="#">Sub Menu Item</a></li>
+            <ul v-if="listTwo" @click="listTwo = false" class="menu2">
+              <li class="sub-menu"><a href="#">Who we are</a></li>
+              <li class="sub-menu"><a href="#">Team 2021-22</a></li>
+              <li class="sub-menu"><a href="#">Zonal Bifurcation</a></li>
+              <li class="sub-menu"><a href="#">FAQ</a></li>
             </ul>
           </transition>
         </li>
 
         <li @mouseover="listThree = true" @mouseleave="listThree = false">
-          <a href="#">Menu Item</a>
+          <a href="#" class="main-menu">Our Initiatives</a>
 
           <transition name="fade">
             <ul v-if="listThree" @click="listThree = false">
-              <li><a href="#">Sub Menu Item</a></li>
-              <li><a href="#">Sub Menu Item</a></li>
-              <li><a href="#">Sub Menu Item</a></li>
+              <li class="sub-menu"><a href="#">Community Service</a></li>
+              <li class="sub-menu"><a href="#">Club Service</a></li>
+              <li class="sub-menu"><a href="#">Career & Skills</a></li>
+              <li class="sub-menu"><a href="#">Going Global</a></li>
+              <li class="sub-menu"><a href="#">Sports</a></li>
             </ul>
           </transition>
         </li>
 
         <li @mouseover="listFour = true" @mouseleave="listFour = false">
-          <a href="#">Menu Item</a>
+          <a href="#" class="main-menu">For Members</a>
 
           <transition name="fade">
             <ul v-if="listFour" @click="listFour = false">
-              <li><a href="#">Sub Menu Item</a></li>
-              <li><a href="#">Sub Menu Item</a></li>
-              <li><a href="#">Sub Menu Item</a></li>
+              <li class="sub-menu"><a href="#">Pranali</a></li>
+              <li class="sub-menu"><a href="#">Resources</a></li>
             </ul>
           </transition>
+        </li>
+
+        <li>
+          <a href="#" class="main-menu">Contact Us</a>
         </li>
       </ul>
 
@@ -127,7 +133,7 @@ export default {
 
   data() {
     return {
-      listOne:   false,
+      // listOne:   false,
       listTwo:   false,
       listThree: false,
       listFour:  false,
@@ -162,16 +168,14 @@ export default {
 
 <style scoped>
 .menu {
-  font: 14px/1.5 "Open Sans", sans-serif;
   font-weight: 600;
   margin: 0;
-  padding: 0;
   list-style: none;
 }
 
 .menu a {
   display: block;
-  padding: 20px;
+  padding: 25px;
   color: darkgray;
   text-decoration: none;
 }
@@ -182,14 +186,31 @@ export default {
   position: relative;
   background:transparent;
   color: darkgray;
-  min-width: 180px;
+  min-width: 150px;
 }
+
+.main-menu:hover {
+  color: #333;
+}
+
+.sub-menu a{
+  padding: 15px;
+}
+/* 
+.menu2{
+  display: block;
+  float: left;
+  position: relative;
+  background:transparent;
+  color: darkgray;
+  min-width: 150px;
+} */
 
 .menu li ul {
   z-index: 999;
   position: absolute;
   left: 0;
-  top: 61px;
+  top: 76px;
   margin: 0;
   padding: 0;
 }
