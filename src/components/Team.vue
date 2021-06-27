@@ -120,7 +120,7 @@
     <div class="col-md-3 col-sm-5 col-xs-10">
       <article class="material-card Purple">
         <h2>
-          <span style="font-size:20px">Rtr. Shanmukhswami Godwa</span>
+          <span style="font-size:20px">Rtr. Shanmukhswami Gowda</span>
           <strong>
             <i class="fa fa-fw fa-star"></i>
             Deputy DRR & Corporate Communications Chair
@@ -184,7 +184,7 @@
     <div class="col-md-3 col-sm-5 col-xs-10">
       <article class="material-card Teal">
         <h2>
-          <span>Rtr. Chinmay Seth</span>
+          <span>Rtr. Chinmay Sheth</span>
           <strong>
             <i class="fa fa-fw fa-star"></i>
             District Technology Development Chair
@@ -378,7 +378,7 @@
   </div>
 </section><br>
 <!-- Council -->
-<div class="container">
+<!-- <div class="container">
   <div class="items"> 
   <h1 class="heading">ChangeMaker Council</h1>
   <details>
@@ -388,25 +388,25 @@
       <h3>Rtr. Ajinkya Dhuri</h3>
       <span>Jt. Secretry</span>
     </div>
-    <!-- member-->
+    
     <div class="team-member">
       <img class="team-photo" src="../assets/council/Ruhika.jpg"><br>
       <h3>Rtr. Ajinkya Dhuri</h3>
       <span>Jt. Secretry</span>
     </div>
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div> 
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div> 
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
@@ -420,25 +420,25 @@
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div>
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div>
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div> 
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div> 
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
@@ -452,25 +452,25 @@
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div>
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div>
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div> 
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div> 
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
@@ -484,25 +484,25 @@
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div>
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div>
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div> 
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div> 
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
@@ -516,25 +516,25 @@
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div>
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div>
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div> 
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div> 
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
@@ -548,25 +548,25 @@
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div>
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div>
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div> 
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div> 
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
@@ -580,25 +580,25 @@
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div>
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div>
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div> 
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div> 
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
@@ -612,25 +612,25 @@
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div>
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div>
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div> 
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div> 
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
@@ -644,25 +644,25 @@
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div>
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div>
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div> 
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div> 
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
@@ -676,25 +676,25 @@
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div>
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div>
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div> 
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div> 
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
@@ -708,25 +708,25 @@
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div>
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div>
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div> 
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div> 
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
@@ -740,25 +740,25 @@
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div>
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div>
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div> 
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div> 
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
@@ -772,25 +772,25 @@
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div>
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div>
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div> 
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div> 
-    <!-- member-->
+    
     <div class="team-member">
     <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
       <h3>Person's Name</h3>
@@ -798,7 +798,7 @@
     </div> 
 </details>
  </div>
-</div>
+</div> -->
     </div>    
 </template>
 
@@ -918,8 +918,6 @@ h1.team-h1 {
   }
   
 }
-
-
 
 @media (max-width:650px){
   .team-member {

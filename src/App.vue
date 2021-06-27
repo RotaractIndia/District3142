@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div :style="cssProps"></div>
+    <div></div>
     <Navbar />
     <router-view/>
     <Footer />

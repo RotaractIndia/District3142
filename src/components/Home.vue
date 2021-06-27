@@ -42,7 +42,7 @@
         <a class="card" href="#!">
           <div
             class="front"
-            style="background-image: url(https://github.com/Chinmay2911/RID3142/blob/main/src/assets/thrustOne.png?raw=true)"
+            style="background-image: url(https://i.ibb.co/YjXYb1V/thrust-One.png)"
           >
           </div>
           <div class="back">
@@ -59,7 +59,7 @@
         <a class="card" href="#!">
           <div
             class="front"
-            style="background-image: url(https://github.com/Chinmay2911/RID3142/blob/main/src/assets/thrustTwo.png?raw=true)"
+            style="background-image: url(https://i.ibb.co/Gc9ymFw/thrust-Two.png)"
           >
           </div>
           <div class="back">
@@ -76,7 +76,7 @@
         <a class="card" href="#!">
           <div
             class="front"
-            style="background-image: url(https://github.com/Chinmay2911/RID3142/blob/main/src/assets/thrustThree.png?raw=true)"
+            style="background-image: url(https://i.ibb.co/wphZV1J/thrust-Three.png)"
           >
           </div>
           <div class="back">
@@ -137,7 +137,7 @@
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Aspernatur tenetur distinctio neque?Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
               consequuntur sequi suscipit iure fuga ea!Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-              consequuntur sequi suscipit iure fuga ea!
+              consequuntur sequi suscipit iure fuga ea! 
             </p>
             <div class="user">
               <a href="#">Read More</a>
@@ -175,7 +175,7 @@
           </div>
           <div class="card-body-blog">
             <span class="tag tag-pink">Travel</span>
-            <h4>New York City | Layout, People, Economy, Culture, & History</h4>
+            <h4>New York City | Layout, People, Economy, Culture</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
               consequuntur sequi suscipit iure fuga ea!Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
