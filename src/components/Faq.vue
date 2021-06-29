@@ -3,35 +3,11 @@
   <div><img src="../assets/faq.png" class="image"></div>
   <div class="items"> 
   <h1>Frequently Asked Questions</h1>
-  <details>
-   <summary>Item 1</summary>
-   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!</p>
-</details>
-<details>
-   <summary>Item 2</summary>
-   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!</p>
-</details>
-<details>
-   <summary>Item 3</summary>
-   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!</p>
-</details>
-<details>
-   <summary>Item 4</summary>
-   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!</p>
-</details>
-<details>
-   <summary>Item 5</summary>
-   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!</p>
-</details>
-<details>
-   <summary>Item 6</summary>
-   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!</p>
-</details>
-<details>
-   <summary>Item 7</summary>
-   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!</p>
-</details>
- 
+
+  <details v-for="(question, k) in questions" :key="k">
+   <summary>{{question.q}}</summary>
+   <p>{{question.a}}</p>
+   </details>
  </div>
 </div>
 </template>
@@ -39,6 +15,32 @@
 <script>
 export default {
   name: "Faq",
+  data(){
+     return{
+        questions:[
+           {
+              q:"What is Rotaract?",
+              a:"Rotaract is the youth wing of Rotary. It’s a non-profit International Youth Organisation that works by the motto of self-development and fellowship – through service. It brings together like minded young adults between the age group of 16 to 30 years, who wish to lead a change and make the society a better place to live in.",
+           },
+           {
+              q:"Who is eligible to join Rotaract ?",
+              a:"Anyone and everyone between the age group of 16 to 30years. Our family is inclusive of members from all caste, creed, sex and gender.",
+           },
+           {
+              q:"What are the benefits of joining Rotaract?",
+              a:"The advantages are innumerable, personal growth , opportunity to network with people from different professional backgrounds, finding a family, gaining community service hours , overcoming your limitations , building leadership skills, implementing your thought process, letters and citations to build your resume. The list can go on!",
+           },
+           {
+              q:"How to join a Rotaract Club?",
+              a:"We wish to grow our community and steps to be a part of us are as follows: \n-	Zonal bifurcation page \n-	Find the zone inclusive / near your residential area. \n-	Connect with the Zonal Rotaract Representative of that respective zone. \n-	They will be more than happy to guide you until you find the suitable club for yourself. ",
+           },
+           {
+              q:"Why to partner with us?",
+              a:"Rotaract district 3142’s strongest suit has to be, its more than 3000 energetically charged, vibrant rotaractors. As a brand we resonate with words like youth, leadership, responsibility, fellowship and personal development. We as an entity can provide your brand with multiple platforms to showcase yourself at various occasions. Building and maintaining relationships is what we are good at. Press below to contact us for partnerships and sponsorships.",
+           },
+        ]
+     }
+  }
 };
 </script>
 
@@ -78,6 +80,10 @@ h1 {
    max-width: 650px;
 }
 
+p{
+   padding-top: 20px !important;
+   white-space: pre-wrap;
+}
 details,
 summary {
 	width: 100%;
@@ -86,8 +92,6 @@ summary {
 }
 
 summary::marker{
-   content: '+' "    ";
-   font-size: 2rem;
    font-weight: 900;
    padding-right: 25px;
 }

@@ -18,7 +18,7 @@
             </h1>
             <br />
             <div class="mt-3">
-              <a class="btn text-white mr-2" href="" role="button">Know More</a>
+              <a class="btn text-white mr-2" href="" role="button">Join us</a>
             </div>
           </div>
         </div>
@@ -47,12 +47,9 @@
           </div>
           <div class="back">
             <div>
-              <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
               <p>
-                Provident consectetur natus voluptatem quis tenetur sed beatae
-                eius sint.
+                We are a part of a supremely fast paced world, while we humans have taken nature for granted for the longest time. Climate Change has become a major global challenge today and we are becoming more vulnerable to it every passing minute.  Here at RID 3142, we actively take steps towards sustainability, awareness and partnering with organisations that work for the same cause.
               </p>
-              <button class="button">Click Here</button>
             </div>
           </div></a
         >
@@ -64,12 +61,10 @@
           </div>
           <div class="back">
             <div>
-              <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
               <p>
-                Provident consectetur natus voluptatem quis tenetur sed beatae
-                eius sint.
+                Rotaract District 3142 is a part of one of the largest youth organisations. Taking strides towards being a credible brand and increasing our brand value is our prime focus. We as a district scream youth, responsible, energy, fun and self- development. We welcome all brands, big or small to join us and help us create the change we wish to. Partnership is our strong suit!
               </p>
-              <button class="button">Click Here</button>
+              <!-- <button class="button">Click Here</button> -->
             </div>
           </div></a
         >
@@ -81,12 +76,9 @@
           </div>
           <div class="back">
             <div>
-              <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
               <p>
-                Provident consectetur natus voluptatem quis tenetur sed beatae
-                eius sint.
+                There is no health without mental health. Your mental health matters and we, here at RID 3142, strongly advocate for it. We, the change makers intend on breaking the stigma, continuing our work on denying the stereotypes associated with disorders and treatments. Help us make the world a safe space to talk, to seek help and empathise. 
               </p>
-              <button class="button">Click Here</button>
             </div>
           </div></a
         >
@@ -109,11 +101,11 @@
           >
             <h3>Official Merchandise of Rotaract 3142</h3>
             <p class="font-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              <i><b>Ekatra is all we do!</b></i> <br>
+              Come Ekatra and flaunt the feeling of proud rotaraction with our cool merchandise.<br> Shop for Rotaract District 3142’s Official Merchandise Support is very important and special to us. 
             </p>
             <a href="#" class="read-more"
-              >Read More <i class="icofont-long-arrow-right"></i
+              >Buy now<i class="icofont-long-arrow-right"></i
             ></a>
           </div>
         </div>

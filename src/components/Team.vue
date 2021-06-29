@@ -1,5 +1,5 @@
 <template>
-<div>
+  <div>
     <section id="about" class="about">
       <div class="container">
         <div class="row justify-content-between">
@@ -24,9 +24,10 @@
             <p data-aos="fade-up" data-aos-delay="100">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
-              aute irure dolor in reprehenderit.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
-              aute irure dolor in reprehenderit. <br><br>
+              aute irure dolor in reprehenderit.Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Duis aute irure dolor in
+              reprehenderit. <br /><br />
             </p>
           </div>
         </div>
@@ -35,385 +36,167 @@
     <!-- Drr Words -->
     <h1 class="heading">DRR Words</h1>
     <div class="body_wrapper">
-  <div class="body_inner_left_holder">
-    <article class="material-card Red">
-        <h2>
-          <span>Rtn. Rtr. Rahesh Donny</span>
-          <strong>
-            District Rotaract Representative
-          </strong>
-        </h2>
-        <div class="mc-content">
-          <div class="img-container">
-            <img class="img-responsive" src="../assets/ct/Rahesh.jpeg">
+      <div class="body_inner_left_holder">
+        <article class="material-card Red">
+          <h2>
+            <span>Rtn. Rtr. Rahesh Donny</span>
+            <strong> District Rotaract Representative </strong>
+          </h2>
+          <div class="mc-content">
+            <div class="img-container">
+              <img class="img-responsive" src="../assets/ct/Rahesh.jpeg" />
+            </div>
           </div>
-        </div>
-      </article>
-  </div>
-  <div class="body_inner_right">
-    Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-  </div>
-</div>
-<div class="body_wrapper">
-  <div class="body_inner_left_holder">
-    <article class="material-card Red">
-        <h2>
-          <span>Rtn. Rtr. Amit Lad</span>
-          <strong style="font-size: 15px;">
-            Immediate Past District Rotaract Representative
-          </strong>
-        </h2>
-        <div class="mc-content">
-          <div class="img-container">
-            <img class="img-responsive" src="../assets/ct/Amit.jpg">
+        </article>
+      </div>
+      <div class="body_inner_right">
+        Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the
+        1500s, when an unknown printer took a galley of type and scrambled it to
+        make a type specimen book. It has survived not only five centuries, but
+        also the leap into electronic typesetting, remaining essentially
+        unchanged. It was popularised in the 1960s with the release of Letraset
+        sheets containing Lorem Ipsum passages, and more recently with desktop
+        publishing software like Aldus PageMaker including versions of Lorem
+        Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+      </div>
+    </div>
+    <div class="body_wrapper">
+      <div class="body_inner_left_holder">
+        <article class="material-card Red">
+          <h2>
+            <span>Rtn. Rtr. Amit Lad</span>
+            <strong style="font-size: 15px">
+              Immediate Past District Rotaract Representative
+            </strong>
+          </h2>
+          <div class="mc-content">
+            <div class="img-container">
+              <img class="img-responsive" src="../assets/ct/Amit.jpg" />
+            </div>
           </div>
-        </div>
-      </article>
-  </div>
-  <div class="body_inner_right">
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-  </div>
-</div>
-<div class="body_wrapper">
-  <div class="body_inner_left_holder">
-    <article class="material-card Red">
-        <h2>
-          <span>Rtn. Rtr. Adil Khan</span>
-          <strong>
-            DRR Elect | Deputy DRR & District Zonal Chair
-          </strong>
-        </h2>
-        <div class="mc-content">
-          <div class="img-container">
-            <img class="img-responsive" src="../assets/ct/Adil.jpg">
+        </article>
+      </div>
+      <div class="body_inner_right">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and
+        typesetting industry. Lorem Ipsum has been the industry's standard dummy
+        text ever since the 1500s, when an unknown printer took a galley of type
+        and scrambled it to make a type specimen book. It has survived not only
+        five centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+      </div>
+    </div>
+    <div class="body_wrapper">
+      <div class="body_inner_left_holder">
+        <article class="material-card Red">
+          <h2>
+            <span>Rtn. Rtr. Adil Khan</span>
+            <strong> DRR Elect | Deputy DRR & District Zonal Chair </strong>
+          </h2>
+          <div class="mc-content">
+            <div class="img-container">
+              <img class="img-responsive" src="../assets/ct/Adil.jpg" />
+            </div>
           </div>
-        </div>
-      </article>
-  </div>
-  <div class="body_inner_right">
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-  </div>
-</div>
+        </article>
+      </div>
+      <div class="body_inner_right">
+        With the motto of "Self-development through fellowship and service," it
+        should be our prime focus to promote an environment that enables
+        individuals to do just that. To achieve this, sustainability of
+        experienced, well-trained members is imperative to help newer members
+        understand the power of Rotaract. In the coming years, our true
+        Rotaraction is going to be challenged; however, we should overcome this
+        by realising the importance of the organisation and the impact of our
+        work - on our lives as well as others'. My personal gain through
+        Rotaract has been immense career advancement, which is why I wish that
+        every Rotaractor benefits from the movement not only on the personal
+        front but in the professional aspect as well. It is only wise to grab
+        every opportunity provided to hone our skills by coming onto the working
+        face of the movement. We need to encourage our members to work on ground
+        and witness the change that it brings about in an individual while
+        making a change in the world. After all, as much as we give to Rotaract,
+        we are bound to get back in multitude.
+      </div>
+    </div>
     <!-- core team -->
     <section class="container">
-  <div class="page-header">
-    <h1 class="heading">Core Team<br>
-    </h1>
-  </div>
-  <div class="row active-with-click">
-    <div class="col-md-3 col-sm-5 col-xs-10">
-      <article class="material-card Deep-Purple">
-        <h2>
-          <span>Rtr. Mithila Salvi</span>
-          <strong>
-            <i class="fa fa-fw fa-star"></i>
-            District Secretry
-          </strong>
-        </h2>
-        <div class="mc-content">
-          <div class="img-container">
-            <img class="img-responsive" src="../assets/ct/Mithila.jpg">
-          </div>
+      <div class="page-header">
+        <h1 class="heading">Core Team<br /></h1>
+      </div>
+      <div class="row active-with-click">
+
+
+        <div
+        v-for="(member,k) in coreTeam" :key="k" 
+        class="col-md-3 col-sm-5 col-xs-10">
+          <article class="material-card" :class=member.color>
+            <h2>
+              <span>{{member.name}}</span>
+              <strong>
+                <i class="fa fa-fw fa-star"></i>
+                {{member.position}}
+              </strong>
+            </h2>
+            <div class="mc-content">
+              <div class="img-container">
+                <img class="img-responsive" src="../assets/ct/Mithila.jpg"/>
+              </div>
+            </div>
+          </article>
         </div>
-      </article>
-    </div>
-    <div class="col-md-3 col-sm-5 col-xs-10">
-      <article class="material-card Purple">
-        <h2>
-          <span style="font-size:20px">Rtr. Shanmukhswami Gowda</span>
-          <strong>
-            <i class="fa fa-fw fa-star"></i>
-            Deputy DRR & Corporate Communications Chair
-          </strong>
-        </h2>
-        <div class="mc-content">
-          <div class="img-container">
-            <img class="img-responsive" src="../assets/ct/Shanmukh.jpg">
-          </div>
-        </div>
-      </article>
-    </div>
-    <div class="col-md-3 col-sm-5 col-xs-10">
-      <article class="material-card Blue">
-        <h2>
-          <span>Rtn. Rtr. Swapnil Kadu</span>
-          <strong>
-            <i class="fa fa-fw fa-star"></i>
-            District Finance Chair
-          </strong>
-        </h2>
-        <div class="mc-content">
-          <div class="img-container">
-            <img class="img-responsive" src="../assets/ct/Swapnil.jpg">
-          </div>
-        </div>
-      </article>
-    </div>
-    <div class="col-md-3 col-sm-5 col-xs-10">
-      <article class="material-card Light-Blue">
-        <h2>
-          <span>Rtr. Vijal Kathrani</span>
-          <strong>
-            <i class="fa fa-fw fa-star"></i>
-            District TRS Chair
-          </strong>
-        </h2>
-        <div class="mc-content">
-          <div class="img-container">
-            <img class="img-responsive" src="../assets/ct/Vijal.jpg">
-          </div>
-        </div>
-      </article>
-    </div>
-    <div class="col-md-3 col-sm-5 col-xs-10">
-      <article class="material-card Cyan">
-        <h2>
-          <span>Rtr. Gauri Rane</span>
-          <strong>
-            <i class="fa fa-fw fa-star"></i>
-            District Digital Communications Chair
-          </strong>
-        </h2>
-        <div class="mc-content">
-          <div class="img-container">
-            <img class="img-responsive" src="../assets/ct/Gauri.jpg">
-          </div>
-        </div>
-      </article>
-    </div>
-    <div class="col-md-3 col-sm-5 col-xs-10">
-      <article class="material-card Teal">
-        <h2>
-          <span>Rtr. Chinmay Sheth</span>
-          <strong>
-            <i class="fa fa-fw fa-star"></i>
-            District Technology Development Chair
-          </strong>
-        </h2>
-        <div class="mc-content">
-          <div class="img-container">
-            <img class="img-responsive" src="../assets/ct/ChinmayS.jpg">
-          </div>
-        </div>
-      </article>
-    </div>
-    <div class="col-md-3 col-sm-5 col-xs-10">
-      <article class="material-card Green">
-        <h2>
-          <span>Rtr. Sushmita Valecha</span>
-          <strong>
-            <i class="fa fa-fw fa-star"></i>
-            District Avenues 1 Chair
-          </strong>
-        </h2>
-        <div class="mc-content">
-          <div class="img-container">
-            <img class="img-responsive" src="../assets/ct/Sushmita.jpg">
-          </div>
-        </div>
-      </article>
-    </div>
-    <div class="col-md-3 col-sm-5 col-xs-10">
-      <article class="material-card Light-Green">
-        <h2>
-          <span>Rtn. Rtr. Hardik Patel</span>
-          <strong>
-            <i class="fa fa-fw fa-star"></i>
-            District Avenues 2 Chair
-          </strong>
-        </h2>
-        <div class="mc-content">
-          <div class="img-container">
-            <img class="img-responsive" src="../assets/ct/Hardik.jpg">
-          </div>
-        </div>
-      </article>
-    </div>
-    <div class="col-md-3 col-sm-5 col-xs-10">
-      <article class="material-card Lime">
-        <h2>
-          <span>Rtr. Siddhi Kubal</span>
-          <strong>
-            <i class="fa fa-fw fa-star"></i>
-            District Administration Chair
-          </strong>
-        </h2>
-        <div class="mc-content">
-          <div class="img-container">
-            <img class="img-responsive" src="../assets/ct/Siddhi.jpg">
-          </div>
-        </div>
-      </article>
-    </div>
-    <div class="col-md-3 col-sm-5 col-xs-10">
-      <article class="material-card Yellow">
-        <h2>
-          <span>Rtn. Rtr. Vaibhav Vispute</span>
-          <strong>
-            <i class="fa fa-fw fa-star"></i>
-            District Sergeant-At-Arms
-          </strong>
-        </h2>
-        <div class="mc-content">
-          <div class="img-container">
-            <img class="img-responsive" src="../assets/ct/Vaibhav.jpg">
-          </div>
-        </div>
-      </article>
-    </div>
-    <!-- <div class="col-md-3 col-sm-5 col-xs-10">
-      <article class="material-card Amber">
-        <h2>
-          <span>Marlon Brando</span>
-          <strong>
-            <i class="fa fa-fw fa-star"></i>
-            The Godfather
-          </strong>
-        </h2>
-        <div class="mc-content">
-          <div class="img-container">
-            <img class="img-responsive" src="https://material-cards.s3-eu-west-1.amazonaws.com/thumb-marlon-brando.jpg">
-          </div>
-          <div class="mc-description">
-            He is hailed for bringing a gripping realism to film acting, and is frequently cited as the greatest and most influential actor of all time.[2] A cultural icon, Brando is most famous for his Academy ...
-          </div>
-        </div>
-      </article>
-    </div>
-    <div class="col-md-3 col-sm-5 col-xs-10">
-      <article class="material-card Orange">
-        <h2>
-          <span>Kevin Spacey</span>
-          <strong>
-            <i class="fa fa-fw fa-star"></i>
-            American Beauty
-          </strong>
-        </h2>
-        <div class="mc-content">
-          <div class="img-container">
-            <img class="img-responsive" src="https://material-cards.s3-eu-west-1.amazonaws.com/thumb-kevin-spacey.jpg">
-          </div>
-          <div class="mc-description">
-            He began his career as a stage actor during the 1980s, before being cast in supporting roles in film and television. He gained critical acclaim in the early 1990s, culminating in his first Academy Award ...
-          </div>
-        </div>
-      </article>
-    </div>
-    <div class="col-md-3 col-sm-5 col-xs-10">
-      <article class="material-card Deep-Orange">
-        <h2>
-          <span>Robert De Niro</span>
-          <strong>
-            <i class="fa fa-fw fa-star"></i>
-            Taxy Driver
-          </strong>
-        </h2>
-        <div class="mc-content">
-          <div class="img-container">
-            <img class="img-responsive" src="https://material-cards.s3-eu-west-1.amazonaws.com/thumb-robert-de-niro.jpg">
-          </div>
-          <div class="mc-description">
-            His first major film roles were in the sports drama Bang the Drum Slowly (1973) and Martin Scorsese's crime film Mean Streets (1973). In 1974, after being turned down for the role of Sonny Corleone in the crime ...
-          </div>
-        </div>
-      </article>
-    </div>
-    <div class="col-md-3 col-sm-5 col-xs-10">
-      <article class="material-card Brown">
-        <h2>
-          <span>Steve Mcqueen</span>
-          <strong>
-            <i class="fa fa-fw fa-star"></i>
-            Papillon
-          </strong>
-        </h2>
-        <div class="mc-content">
-          <div class="img-container">
-            <img class="img-responsive" src="https://material-cards.s3-eu-west-1.amazonaws.com/thumb-steve-mcqueen.jpg">
-          </div>
-          <div class="mc-description">
-            Called "The King of Cool", his "anti-hero" persona, developed at the height of the Vietnam War-era counterculture, made him a top box-office draw of the 1960s and 1970s. McQueen received an Academy Award nomination for his ...
-          </div>
-        </div>
-      </article>
-    </div>
-    <div class="col-md-3 col-sm-5 col-xs-10">
-      <article class="material-card Grey">
-        <h2>
-          <span>Rugter Hauer</span>
-          <strong>
-            <i class="fa fa-fw fa-star"></i>
-            Blade Runner
-          </strong>
-        </h2>
-        <div class="mc-content">
-          <div class="img-container">
-            <img class="img-responsive" src="https://material-cards.s3-eu-west-1.amazonaws.com/thumb-rugter-hauer.jpg">
-          </div>
-          <div class="mc-description">
-            Blonde, blue-eyed, tall and handsome Dutch actor Rutger Hauer has an international reputation for playing everything from romantic leads to action heroes to sinister villains. Hauer was born in Breukelen, a town in the province ...
-          </div>
-        </div>
-      </article>
-    </div>
-    <div class="col-md-3 col-sm-5 col-xs-10">
-      <article class="material-card Blue-Grey">
-        <h2>
-          <span>Morgan Freeman</span>
-          <strong>
-            <i class="fa fa-fw fa-star"></i>
-            Glory
-          </strong>
-        </h2>
-        <div class="mc-content">
-          <div class="img-container">
-            <img class="img-responsive" src="https://material-cards.s3-eu-west-1.amazonaws.com/thumb-morgan-freeman.jpg">
-          </div>
-          <div class="mc-description">
-            Freeman has received Academy Award nominations for his performances in Street Smart, Driving Miss Daisy, The Shawshank Redemption and Invictus ...
-          </div>
-        </div>
-      </article>
-    </div> -->
-  </div>
-</section><br>
-<!-- Council -->
-<!-- <div class="container">
+      </div>
+    </section>
+    <br />
+    <!-- Council -->
+    <div class="container">
   <div class="items"> 
   <h1 class="heading">ChangeMaker Council</h1>
-  <details>
-   <summary><b>Team Secretrait</b></summary><br>
-   <div class="team-member">
-      <img class="team-photo" src="../assets/council/Ajinkya.jpg"><br>
-      <h3>Rtr. Ajinkya Dhuri</h3>
-      <span>Jt. Secretry</span>
+  <details
+  v-for="(member,k) in council" :key="k"
+  >
+   <summary><b>{{member.avenue}}</b></summary><br>
+
+<div class="council-container">
+  <div class="deputy-container" v-if="member['deputy']">
+    <div class="team-member"
+    v-for="(dep, j) in member['deputy']" :key="j">
+        <img class="team-photo" :src=dep.photo><br>
+        <h3>{{dep.name}}</h3>
+        <span>{{dep.designation}}</span>
+      </div>
+  </div>
+
+  <div class="director-container">
+   <div class="team-member" v-for="(dir, i) in member['directors']" :key="i">
+      <img class="team-photo" :src=dir.photo><br>
+      <h3>{{dir.name}}</h3>
+      <span>{{dir.designation}}</span>
     </div>
-    
-    <div class="team-member">
-      <img class="team-photo" src="../assets/council/Ruhika.jpg"><br>
-      <h3>Rtr. Ajinkya Dhuri</h3>
-      <span>Jt. Secretry</span>
-    </div>
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
+  </div>
+
+</div>
 </details>
-<details>
+<!-- <details>
    <summary><b>Team Finance</b></summary><br>
    <div class="team-member">
       <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
@@ -796,22 +579,547 @@
       <h3>Person's Name</h3>
       <span>This section could be used to show a very short bio description for each member</span>
     </div> 
-</details>
+</details> -->
  </div>
-</div> -->
-    </div>    
+</div>
+  </div>
 </template>
 
 <script>
 export default {
-    name:'Team',
-}
+  name: "Team",
+  data(){
+    return{
+      coreTeam:[
+        { name:"Rtr. Mithila Salvi", position:"District Secretry", image:"../assets/ct/Mithila.jpg", color:"Deep-Purple" },
+        { name:"Rtr. Shanmukhswami Gowda", position:"Deputy DRR & Corporate Communications Chair", image:"../assets/ct/Shanmukh.jpg", color:"Purple" },
+        { name:"Rtn. Rtr. Swapnil Kadu", position:"District Finance Chair", image:"../assets/ct/Swapnil.jpg", color:"Blue" },
+        { name:"Rtr. Vijal Kathrani", position:"District TRS Chair", image:"../assets/ct/Vijal.jpg", color:"Light-Blue" },
+        { name:"Rtr. Gauri Rane", position:"District Digital Communications Chair", image:"../assets/ct/Gauri.jpg", color:"Cyan" },
+        { name:"Rtr. Chinmay Sheth", position:"District Technology Development Chair", image:"../assets/ct/ChinmayS.jpg", color:"Teal" },
+        { name:"Rtr. Sushmita Valecha", position:"District Avenues 1 Chair", image:"../assets/ct/Sushmita.jpg", color:"Green" },
+        { name:"Rtn. Rtr. Hardik Patel", position:"District Avenues 2 Chair", image:"../assets/ct/Hardik.jpg", color:"Light-Green" },
+        { name:"Rtr. Siddhi Kubal", position:"District Administration Chair", image:"../assets/ct/Siddhi.jpg", color:"Lime" },
+        { name:"Rtn. Rtr. Vaibhav Vispute", position:"District Sergeant-At-Arms", image:"../assets/ct/Vaibhav.jpg", color:"Yellow" },
+      ],
+      council:[
+        {
+          avenue:"Team Secretariat",
+          directors:[
+            {
+              name:"Rtr. Ajinkya Dhuri",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Secretary"
+            },
+            {
+              name:"Rtr. Dr. Projesh Mukherjee",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Secretary"
+            },
+            {
+              name:"Rtr. Ruhika Kalsekar",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Secretary"
+            },
+            {
+              name:"Rtr. Sagar Brijwani",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Secretary"
+            },
+          ],
+        },
+        {
+          avenue:"Team Finance",
+          directors:[
+            {
+              name:"Rtr. Sahil Agarwal",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Director Finance"
+            },
+            {
+              name:"Rtr. Jitesh Bhatia ",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Director Finance"
+            },
+            {
+              name:"Rtr. Vijay Kumawat",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Director Finance"
+            },
+            {
+              name:"Rtr. Abhishek Pandey",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Director Finance"
+            },
+          ],
+        },
+        {
+          avenue:"Team Club Service",
+          deputy:[
+            {
+              name:"Rtr.Mahanand Vishwakarma",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Deputy Avenues 1 Chair"
+            },
+          ],
+          directors:[
+            {
+              name:"Rtr. Viren Lassi",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Club Service Director"
+            },
+            {
+              name:"Rtr. Jugnu Borkar",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Club Service Director"
+            },
+            {
+              name:"Rtr Mayuri Sapkale",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Club Service Director"
+            },
+            {
+              name:"Rtr. Abhishek Pandey",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Director Finance"
+            },
+          ],
+        },
+        {
+          avenue:"Team Community Service",
+          deputy:[
+            {
+              name:"Rtr.Mahanand Vishwakarma",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Deputy Avenues 1 Chair"
+            },
+          ],
+          directors:[
+            {
+              name:"Rtr. Prem Nadar",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Community Service Director"
+            },
+            {
+              name:"Rtr. Mitesh Jain",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Community Service Director"
+            },
+            {
+              name:"Rtr. Srushti Yashwante",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Community Service Director"
+            },
+            {
+              name:"Rtr. Mansi Kante",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Community Service Director"
+            },
+          ],
+        },
+        {
+          avenue:"Team Entrepreneurship Development",
+          deputy:[
+            {
+              name:"Rtr.Mahanand Vishwakarma",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Deputy Avenues 1 Chair"
+            },
+          ],
+          directors:[
+            {
+              name:"Rtr. Prasad Yadav",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Entrepreneurship Development Director"
+            },
+            {
+              name:"Rtr. Natasha Jain",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Entrepreneurship Development Director"
+            },
+            {
+              name:"Rtr. Twinkle Matta",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Entrepreneurship Development Director"
+            },
+          ],
+        },
+        {
+          avenue:"Team Sports",
+          deputy:[
+            {
+              name:"Rtr.Dr. Preeti Bhogle",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Deputy Avenues 2 Chair"
+            },
+          ],
+          directors:[
+            {
+              name:"Rtr. Kunal Kataria",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Director Sports"
+            },
+            {
+              name:"Rtr. Aditya Gharat",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Director Sports"
+            },
+            {
+              name:"Rtr. Rruchi Bhandari",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Director Sports"
+            },
+          ],
+        },
+        {
+          avenue:"Team International Service",
+          deputy:[
+            {
+              name:"Rtr.Dr. Preeti Bhogle",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Deputy Avenues 2 Chair"
+            },
+          ],
+          directors:[
+            {
+              name:"Rtr. Aishwarya Gupta ",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"International Service Director"
+            },
+            {
+              name:"Rtr. Needhi Shukla",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt International Service Director"
+            },
+            {
+              name:"Rtr. Rushikesh Bhadane",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt International Service Director"
+            },
+          ],
+        },
+        {
+          avenue:"Team Professional Development",
+          deputy:[
+            {
+              name:"Rtr.Dr. Preeti Bhogle",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Deputy Avenues 2 Chair"
+            },
+          ],
+          directors:[
+            {
+              name:"Rtr. Vishal Shah",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Professional Development Director"
+            },
+            {
+              name:"Rtr. Reena Mapari",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Professional Development Director"
+            },
+            {
+              name:"Rtr. Anvi Shetty",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Professional Development Director"
+            },
+          ],
+        },
+        {
+          avenue:"Team Admin & Events",
+          deputy:[
+            {
+              name:"Rtr.Ranjeet Pandey",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Deputy Events and Admin"
+            },
+          ],
+          directors:[
+            {
+              name:"Rtr. Shraddha Purohit",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Director Admin"
+            },
+            {
+              name:"Rtr. Noopur Rahane",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Director Admin"
+            },
+            {
+              name:"Rtn. Rtr. Archit Patki",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Director Admin"
+            },
+            {
+              name:"Rtr. Tanmay Deshpande",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Director Events"
+            },
+            {
+              name:"Rtr. Sumit Bhanage",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Director Events"
+            },
+            {
+              name:"Rtr. Vijay Malkani",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Director Events"
+            },
+          ],
+        },
+        {
+          avenue:"Team Digital Communications",
+          deputy:[
+            {
+              name:"Rtr. Mayuresh Jadhav",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Deputy Digital Communications Chair"
+            },
+          ],
+          directors:[
+            {
+              name:"Rtr. Radhika Jagtap",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Social Media Director"
+            },
+            {
+              name:"Rtr. Chinmay Pradhan",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Social Media Director"
+            },
+            {
+              name:"Rtr. Sagar Pandit",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Creative Director"
+            },
+            {
+              name:"Rtr. Jayesh Zurunge",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Creative Director"
+            },
+            {
+              name:"Rtr. Kiran Barai",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Creative Director"
+            },
+            {
+              name:"Rtr. Jitesh Bhatia",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Editor"
+            },
+          ],
+        },
+        {
+          avenue:"Team Photography",
+          deputy:[
+            {
+              name:"Rtr. Mayuresh Jadhav",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Deputy Digital Communications Chair"
+            },
+          ],
+          directors:[
+            {
+              name:"Rtr. Rahul Yadav",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Director of Photography"
+            },
+            {
+              name:"Rtr. Viraj Sawant",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Assistant Director of Photography"
+            },
+            {
+              name:"Rtr. Rahul Chahande",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Assistant Professional Development Director"
+            },
+            {
+              name:"Rtr. Shubhang Kashikar",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Assistant Director of Photography"
+            },
+          ],
+        },
+        {
+          avenue:"Team Marketing",
+          deputy:[
+            {
+              name:"Rtr. Rahul Shelar",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Deputy Corporate Communicataions Chair"
+            },
+            {
+              name:"Rtr. Ravi Suthar",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Deputy Corporate Communicataions Chair"
+            },
+          ],
+          directors:[
+            {
+              name:"Rtr. Jinit Patel",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Director Marketing"
+            },
+            {
+              name:"Rtr. Omkar Kadu",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Director Marketing"
+            },
+            {
+              name:"Rtr. Zenil Shah",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Director Marketing"
+            },
+            {
+              name:"Rtr. Keerthana Nambiar",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Director Marketing"
+            },
+            {
+              name:"Rtr. Rohan Solanki",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Director Marketing"
+            },
+          ],
+        },
+        {
+          avenue:"Team Public Relations",
+          deputy:[
+            {
+              name:"Rtr. Rahul Shelar",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Deputy Corporate Communicataions Chair"
+            },
+            {
+              name:"Rtr. Ravi Suthar",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Deputy Corporate Communicataions Chair"
+            },
+          ],
+          directors:[
+            {
+              name:"Rtr. Arya Gawade",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Director PR"
+            },
+            {
+              name:"Rtr. Khushabu Agarwal",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Director PR"
+            },
+            {
+              name:"Rtr. Dhiraj Valecha",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Director PR"
+            },
+            {
+              name:"Rtr. Kajal Dusseja",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Director PR"
+            },
+            {
+              name:"Rtr. Rohan Solanki",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Director Marketing"
+            },
+          ],
+        },
+        {
+          avenue:"Team CSR",
+          deputy:[
+            {
+              name:"Rtr. Rahul Shelar",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Deputy Corporate Communicataions Chair"
+            },
+            {
+              name:"Rtr. Ravi Suthar",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Deputy Corporate Communicataions Chair"
+            },
+          ],
+          directors:[
+            {
+              name:"Rtr. Saalim Ali",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Director CSR"
+            },
+            {
+              name:"Rtr. Pratik Mate",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Director CSR"
+            },
+          ],
+        },
+        {
+          avenue:"Team PIS",
+          deputy:[
+            {
+              name:"Rtr. Rahul Shelar",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Deputy Corporate Communicataions Chair"
+            },
+            {
+              name:"Rtr. Ravi Suthar",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Deputy Corporate Communicataions Chair"
+            },
+          ],
+          directors:[
+            {
+              name:"Rtr. Sanjeevani Bhagat",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Director PIS"
+            },
+            {
+              name:"Rtr. Mihir Kocharekar",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Director PIS"
+            },
+            {
+              name:"Rtr. Shashant Singh",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Director PIS"
+            },
+          ],
+        },
+        {
+          avenue:"Team Training, Revival & Sustenance",
+          directors:[
+            {
+              name:"Rtr. Sagar Mulchandani",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Director Training, Revival & Sustenance "
+            },
+            {
+              name:"Rtr. Hrishikesh Sawant",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Director Training, Revival & Sustenance"
+            },
+            {
+              name:"Rtr Shivam Yadav",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Director Training, Revival & Sustenance"
+            },
+          ],
+        },
+      ],
+    }
+  }
+};
 </script>
 
 <style scoped>
+.council-container{
+      display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 /* Team Member CSS 
 ===========================*/
-.summary{
+.summary {
   font-size: 20px;
 }
 h1.team-h1 {
@@ -824,17 +1132,17 @@ h1.team-h1 {
   font-style: italic;
   background-color: white;
   padding: 0px 20px;
-  color: #222; 
+  color: #222;
 }
 
 .cf:before,
 .cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+  content: " "; /* 1 */
+  display: table; /* 2 */
 }
 
 .cf:after {
-    clear: both;
+  clear: both;
 }
 
 /**
@@ -842,7 +1150,7 @@ h1.team-h1 {
  * Include this rule to trigger hasLayout and contain floats.
  */
 .cf {
-    *zoom: 1;
+  *zoom: 1;
 }
 
 .team-container {
@@ -863,8 +1171,9 @@ h1.team-h1 {
   margin-right: 5%;
 }
 
-.team-member:last-child {margin-right: 0;}
-
+.team-member:last-child {
+  margin-right: 0;
+}
 
 .team-member span,
 .team-member h3 {
@@ -877,18 +1186,16 @@ h1.team-h1 {
 .team-member h3 {
   margin-top: 8px;
   color: #000000;
-  font-family: 'Roboto',sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
 }
 
 .email {
-  color: #EA2678;
-  
+  color: #ea2678;
 }
 
 .team-member span {
   display: block;
- 
 }
 .team-photo {
   border-radius: 50%;
@@ -900,26 +1207,22 @@ h1.team-h1 {
   transition: 0.1s transform ease-in-out;
 }
 
-
 .team-photo:hover {
   transform: scale(0.9);
   cursor: pointer;
 }
 
-
 /* code for phone layout */
-@media (max-width:850px){
+@media (max-width: 850px) {
   .team-member {
-    width:25%;
+    width: 25%;
     margin-left: 4%;
     margin-right: 4%;
     margin-bottom: 40px;
-    
   }
-  
 }
 
-@media (max-width:650px){
+@media (max-width: 650px) {
   .team-member {
     float: none;
     display: block;
@@ -927,88 +1230,88 @@ h1.team-h1 {
     width: 100%;
     text-align: center;
   }
-  
+
   .team-member h3,
   .team-member span {
     margin: 15px auto;
   }
 }
 
-
 /* ENDS Team Member CSS 
 ===========================*/
 .container-team {
-	display: flex;
-	width: 100%;
-    padding: 50px;
+  display: flex;
+  width: 100%;
+  padding: 50px;
 }
 
 .image-team {
-    padding-top: 50px;
-	width: 100%;
-	padding-right: 55px;
-    float: left;
+  padding-top: 50px;
+  width: 100%;
+  padding-right: 55px;
+  float: left;
 }
 
 h1 {
-	text-align: center;
-	text-transform: uppercase;
-    font-family: 'FairPlayDisplay' !important; 
-    font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "FairPlayDisplay" !important;
+  font-weight: 600;
 }
 
 .items {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
   padding-bottom: 25px;
   font-size: 20px;
 }
 
 details,
 summary {
-	width: 100%;
-	padding-top: 20px;
-    font-family: 'Roboto',sans-serif;
+  width: 100%;
+  padding-top: 20px;
+  font-family: "Roboto", sans-serif;
 }
 
 summary {
-	border-top: 2px solid rgba(51, 51, 51, 0.39);
+  border-top: 2px solid rgba(51, 51, 51, 0.39);
 }
 
 @media (max-width: 900px) {
-	.container {
-		display: flex;
-		flex-direction: column;
-		height: 600px;
-	}
-	.image {
-		display: none;
-	}
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+  }
+  .image {
+    display: none;
+  }
 }
 
-hr{
+hr {
   height: 15px;
   width: 25%;
 }
-.body_wrapper{
-  margin-left:19%;
-  margin-right:10%;
-  display:flex;
-  padding:20px;
+.body_wrapper {
+  margin-left: 19%;
+  margin-right: 10%;
+  display: flex;
+  padding: 20px;
 }
-.body_inner_left_holder{
-  width:33.333%;
-  padding-right:60px;
-  padding-top:10px;
+.body_inner_left_holder {
+  width: 33.333%;
+  padding-right: 60px;
+  padding-top: 10px;
 }
-.body_inner_left{
-  width:100%;
- }
-.body_inner_right{
-  display:flex;
-  width:55%;
-  justify-content:flex-start;
-  float:right;
+.body_inner_left {
+  width: 100%;
+}
+.body_inner_right {
+  padding-top: 25px;
+  display: flex;
+  width: 55%;
+  justify-content: flex-start;
+  float: right;
 }
 .heading {
   padding: 35px;
@@ -1054,9 +1357,9 @@ hr{
   height: 0;
   padding-bottom: calc(100% - 16px);
   margin-bottom: 10em;
-  font-family: 'Roboto',sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-.img-responsive{
+.img-responsive {
   height: auto;
   width: 100%;
 }
@@ -1090,7 +1393,7 @@ hr{
 }
 .material-card h2:before,
 .material-card h2:after {
-  content: ' ';
+  content: " ";
   position: absolute;
   left: 0;
   top: -16px;
@@ -1245,7 +1548,7 @@ hr{
   -o-transition: all 0.9s;
   transition: all 0.9s;
 }
-.img-container{
+.img-container {
   height: auto;
   width: 100%;
   filter: grayscale(100%);
@@ -1315,59 +1618,59 @@ hr{
   top: -32px;
 }
 .material-card.Red h2 {
-  background-color: #F44336;
+  background-color: #f44336;
 }
 .material-card.Red h2:after {
-  border-top-color: #F44336;
-  border-right-color: #F44336;
+  border-top-color: #f44336;
+  border-right-color: #f44336;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Red h2:before {
   border-top-color: transparent;
-  border-right-color: #B71C1C;
-  border-bottom-color: #B71C1C;
+  border-right-color: #b71c1c;
+  border-bottom-color: #b71c1c;
   border-left-color: transparent;
 }
 .material-card.Red.mc-active h2:before {
   border-top-color: transparent;
-  border-right-color: #F44336;
-  border-bottom-color: #F44336;
+  border-right-color: #f44336;
+  border-bottom-color: #f44336;
   border-left-color: transparent;
 }
 .material-card.Red.mc-active h2:after {
-  border-top-color: #B71C1C;
-  border-right-color: #B71C1C;
+  border-top-color: #b71c1c;
+  border-right-color: #b71c1c;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Red .mc-btn-action {
-  background-color: #F44336;
+  background-color: #f44336;
 }
 .material-card.Red .mc-btn-action:hover {
-  background-color: #B71C1C;
+  background-color: #b71c1c;
 }
 .material-card.Red .mc-footer h4 {
-  color: #B71C1C;
+  color: #b71c1c;
 }
 .material-card.Red .mc-footer a {
-  background-color: #B71C1C;
+  background-color: #b71c1c;
 }
 .material-card.Red.mc-active .mc-content {
-  background-color: #FFEBEE;
+  background-color: #ffebee;
 }
 .material-card.Red.mc-active .mc-footer {
-  background-color: #FFCDD2;
+  background-color: #ffcdd2;
 }
 .material-card.Red.mc-active .mc-btn-action {
-  border-color: #FFEBEE;
+  border-color: #ffebee;
 }
 .material-card.Blue-Grey h2 {
-  background-color: #607D8B;
+  background-color: #607d8b;
 }
 .material-card.Blue-Grey h2:after {
-  border-top-color: #607D8B;
-  border-right-color: #607D8B;
+  border-top-color: #607d8b;
+  border-right-color: #607d8b;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
@@ -1379,8 +1682,8 @@ hr{
 }
 .material-card.Blue-Grey.mc-active h2:before {
   border-top-color: transparent;
-  border-right-color: #607D8B;
-  border-bottom-color: #607D8B;
+  border-right-color: #607d8b;
+  border-bottom-color: #607d8b;
   border-left-color: transparent;
 }
 .material-card.Blue-Grey.mc-active h2:after {
@@ -1390,7 +1693,7 @@ hr{
   border-left-color: transparent;
 }
 .material-card.Blue-Grey .mc-btn-action {
-  background-color: #607D8B;
+  background-color: #607d8b;
 }
 .material-card.Blue-Grey .mc-btn-action:hover {
   background-color: #263238;
@@ -1402,308 +1705,308 @@ hr{
   background-color: #263238;
 }
 .material-card.Blue-Grey.mc-active .mc-content {
-  background-color: #ECEFF1;
+  background-color: #eceff1;
 }
 .material-card.Blue-Grey.mc-active .mc-footer {
-  background-color: #CFD8DC;
+  background-color: #cfd8dc;
 }
 .material-card.Blue-Grey.mc-active .mc-btn-action {
-  border-color: #ECEFF1;
+  border-color: #eceff1;
 }
 .material-card.Pink h2 {
-  background-color: #E91E63;
+  background-color: #e91e63;
 }
 .material-card.Pink h2:after {
-  border-top-color: #E91E63;
-  border-right-color: #E91E63;
+  border-top-color: #e91e63;
+  border-right-color: #e91e63;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Pink h2:before {
   border-top-color: transparent;
-  border-right-color: #880E4F;
-  border-bottom-color: #880E4F;
+  border-right-color: #880e4f;
+  border-bottom-color: #880e4f;
   border-left-color: transparent;
 }
 .material-card.Pink.mc-active h2:before {
   border-top-color: transparent;
-  border-right-color: #E91E63;
-  border-bottom-color: #E91E63;
+  border-right-color: #e91e63;
+  border-bottom-color: #e91e63;
   border-left-color: transparent;
 }
 .material-card.Pink.mc-active h2:after {
-  border-top-color: #880E4F;
-  border-right-color: #880E4F;
+  border-top-color: #880e4f;
+  border-right-color: #880e4f;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Pink .mc-btn-action {
-  background-color: #E91E63;
+  background-color: #e91e63;
 }
 .material-card.Pink .mc-btn-action:hover {
-  background-color: #880E4F;
+  background-color: #880e4f;
 }
 .material-card.Pink .mc-footer h4 {
-  color: #880E4F;
+  color: #880e4f;
 }
 .material-card.Pink .mc-footer a {
-  background-color: #880E4F;
+  background-color: #880e4f;
 }
 .material-card.Pink.mc-active .mc-content {
-  background-color: #FCE4EC;
+  background-color: #fce4ec;
 }
 .material-card.Pink.mc-active .mc-footer {
-  background-color: #F8BBD0;
+  background-color: #f8bbd0;
 }
 .material-card.Pink.mc-active .mc-btn-action {
-  border-color: #FCE4EC;
+  border-color: #fce4ec;
 }
 .material-card.Purple h2 {
-  background-color: #9C27B0;
+  background-color: #9c27b0;
 }
 .material-card.Purple h2:after {
-  border-top-color: #9C27B0;
-  border-right-color: #9C27B0;
+  border-top-color: #9c27b0;
+  border-right-color: #9c27b0;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Purple h2:before {
   border-top-color: transparent;
-  border-right-color: #4A148C;
-  border-bottom-color: #4A148C;
+  border-right-color: #4a148c;
+  border-bottom-color: #4a148c;
   border-left-color: transparent;
 }
 .material-card.Purple.mc-active h2:before {
   border-top-color: transparent;
-  border-right-color: #9C27B0;
-  border-bottom-color: #9C27B0;
+  border-right-color: #9c27b0;
+  border-bottom-color: #9c27b0;
   border-left-color: transparent;
 }
 .material-card.Purple.mc-active h2:after {
-  border-top-color: #4A148C;
-  border-right-color: #4A148C;
+  border-top-color: #4a148c;
+  border-right-color: #4a148c;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Purple .mc-btn-action {
-  background-color: #9C27B0;
+  background-color: #9c27b0;
 }
 .material-card.Purple .mc-btn-action:hover {
-  background-color: #4A148C;
+  background-color: #4a148c;
 }
 .material-card.Purple .mc-footer h4 {
-  color: #4A148C;
+  color: #4a148c;
 }
 .material-card.Purple .mc-footer a {
-  background-color: #4A148C;
+  background-color: #4a148c;
 }
 .material-card.Purple.mc-active .mc-content {
-  background-color: #F3E5F5;
+  background-color: #f3e5f5;
 }
 .material-card.Purple.mc-active .mc-footer {
-  background-color: #E1BEE7;
+  background-color: #e1bee7;
 }
 .material-card.Purple.mc-active .mc-btn-action {
-  border-color: #F3E5F5;
+  border-color: #f3e5f5;
 }
 .material-card.Deep-Purple h2 {
-  background-color: #673AB7;
+  background-color: #673ab7;
 }
 .material-card.Deep-Purple h2:after {
-  border-top-color: #673AB7;
-  border-right-color: #673AB7;
+  border-top-color: #673ab7;
+  border-right-color: #673ab7;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Deep-Purple h2:before {
   border-top-color: transparent;
-  border-right-color: #311B92;
-  border-bottom-color: #311B92;
+  border-right-color: #311b92;
+  border-bottom-color: #311b92;
   border-left-color: transparent;
 }
 .material-card.Deep-Purple.mc-active h2:before {
   border-top-color: transparent;
-  border-right-color: #673AB7;
-  border-bottom-color: #673AB7;
+  border-right-color: #673ab7;
+  border-bottom-color: #673ab7;
   border-left-color: transparent;
 }
 .material-card.Deep-Purple.mc-active h2:after {
-  border-top-color: #311B92;
-  border-right-color: #311B92;
+  border-top-color: #311b92;
+  border-right-color: #311b92;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Deep-Purple .mc-btn-action {
-  background-color: #673AB7;
+  background-color: #673ab7;
 }
 .material-card.Deep-Purple .mc-btn-action:hover {
-  background-color: #311B92;
+  background-color: #311b92;
 }
 .material-card.Deep-Purple .mc-footer h4 {
-  color: #311B92;
+  color: #311b92;
 }
 .material-card.Deep-Purple .mc-footer a {
-  background-color: #311B92;
+  background-color: #311b92;
 }
 .material-card.Deep-Purple.mc-active .mc-content {
-  background-color: #EDE7F6;
+  background-color: #ede7f6;
 }
 .material-card.Deep-Purple.mc-active .mc-footer {
-  background-color: #D1C4E9;
+  background-color: #d1c4e9;
 }
 .material-card.Deep-Purple.mc-active .mc-btn-action {
-  border-color: #EDE7F6;
+  border-color: #ede7f6;
 }
 .material-card.Indigo h2 {
-  background-color: #3F51B5;
+  background-color: #3f51b5;
 }
 .material-card.Indigo h2:after {
-  border-top-color: #3F51B5;
-  border-right-color: #3F51B5;
+  border-top-color: #3f51b5;
+  border-right-color: #3f51b5;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Indigo h2:before {
   border-top-color: transparent;
-  border-right-color: #1A237E;
-  border-bottom-color: #1A237E;
+  border-right-color: #1a237e;
+  border-bottom-color: #1a237e;
   border-left-color: transparent;
 }
 .material-card.Indigo.mc-active h2:before {
   border-top-color: transparent;
-  border-right-color: #3F51B5;
-  border-bottom-color: #3F51B5;
+  border-right-color: #3f51b5;
+  border-bottom-color: #3f51b5;
   border-left-color: transparent;
 }
 .material-card.Indigo.mc-active h2:after {
-  border-top-color: #1A237E;
-  border-right-color: #1A237E;
+  border-top-color: #1a237e;
+  border-right-color: #1a237e;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Indigo .mc-btn-action {
-  background-color: #3F51B5;
+  background-color: #3f51b5;
 }
 .material-card.Indigo .mc-btn-action:hover {
-  background-color: #1A237E;
+  background-color: #1a237e;
 }
 .material-card.Indigo .mc-footer h4 {
-  color: #1A237E;
+  color: #1a237e;
 }
 .material-card.Indigo .mc-footer a {
-  background-color: #1A237E;
+  background-color: #1a237e;
 }
 .material-card.Indigo.mc-active .mc-content {
-  background-color: #E8EAF6;
+  background-color: #e8eaf6;
 }
 .material-card.Indigo.mc-active .mc-footer {
-  background-color: #C5CAE9;
+  background-color: #c5cae9;
 }
 .material-card.Indigo.mc-active .mc-btn-action {
-  border-color: #E8EAF6;
+  border-color: #e8eaf6;
 }
 .material-card.Blue h2 {
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 .material-card.Blue h2:after {
-  border-top-color: #2196F3;
-  border-right-color: #2196F3;
+  border-top-color: #2196f3;
+  border-right-color: #2196f3;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Blue h2:before {
   border-top-color: transparent;
-  border-right-color: #0D47A1;
-  border-bottom-color: #0D47A1;
+  border-right-color: #0d47a1;
+  border-bottom-color: #0d47a1;
   border-left-color: transparent;
 }
 .material-card.Blue.mc-active h2:before {
   border-top-color: transparent;
-  border-right-color: #2196F3;
-  border-bottom-color: #2196F3;
+  border-right-color: #2196f3;
+  border-bottom-color: #2196f3;
   border-left-color: transparent;
 }
 .material-card.Blue.mc-active h2:after {
-  border-top-color: #0D47A1;
-  border-right-color: #0D47A1;
+  border-top-color: #0d47a1;
+  border-right-color: #0d47a1;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Blue .mc-btn-action {
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 .material-card.Blue .mc-btn-action:hover {
-  background-color: #0D47A1;
+  background-color: #0d47a1;
 }
 .material-card.Blue .mc-footer h4 {
-  color: #0D47A1;
+  color: #0d47a1;
 }
 .material-card.Blue .mc-footer a {
-  background-color: #0D47A1;
+  background-color: #0d47a1;
 }
 .material-card.Blue.mc-active .mc-content {
-  background-color: #E3F2FD;
+  background-color: #e3f2fd;
 }
 .material-card.Blue.mc-active .mc-footer {
-  background-color: #BBDEFB;
+  background-color: #bbdefb;
 }
 .material-card.Blue.mc-active .mc-btn-action {
-  border-color: #E3F2FD;
+  border-color: #e3f2fd;
 }
 .material-card.Light-Blue h2 {
-  background-color: #03A9F4;
+  background-color: #03a9f4;
 }
 .material-card.Light-Blue h2:after {
-  border-top-color: #03A9F4;
-  border-right-color: #03A9F4;
+  border-top-color: #03a9f4;
+  border-right-color: #03a9f4;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Light-Blue h2:before {
   border-top-color: transparent;
-  border-right-color: #01579B;
-  border-bottom-color: #01579B;
+  border-right-color: #01579b;
+  border-bottom-color: #01579b;
   border-left-color: transparent;
 }
 .material-card.Light-Blue.mc-active h2:before {
   border-top-color: transparent;
-  border-right-color: #03A9F4;
-  border-bottom-color: #03A9F4;
+  border-right-color: #03a9f4;
+  border-bottom-color: #03a9f4;
   border-left-color: transparent;
 }
 .material-card.Light-Blue.mc-active h2:after {
-  border-top-color: #01579B;
-  border-right-color: #01579B;
+  border-top-color: #01579b;
+  border-right-color: #01579b;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Light-Blue .mc-btn-action {
-  background-color: #03A9F4;
+  background-color: #03a9f4;
 }
 .material-card.Light-Blue .mc-btn-action:hover {
-  background-color: #01579B;
+  background-color: #01579b;
 }
 .material-card.Light-Blue .mc-footer h4 {
-  color: #01579B;
+  color: #01579b;
 }
 .material-card.Light-Blue .mc-footer a {
-  background-color: #01579B;
+  background-color: #01579b;
 }
 .material-card.Light-Blue.mc-active .mc-content {
-  background-color: #E1F5FE;
+  background-color: #e1f5fe;
 }
 .material-card.Light-Blue.mc-active .mc-footer {
-  background-color: #B3E5FC;
+  background-color: #b3e5fc;
 }
 .material-card.Light-Blue.mc-active .mc-btn-action {
-  border-color: #E1F5FE;
+  border-color: #e1f5fe;
 }
 .material-card.Cyan h2 {
-  background-color: #00BCD4;
+  background-color: #00bcd4;
 }
 .material-card.Cyan h2:after {
-  border-top-color: #00BCD4;
-  border-right-color: #00BCD4;
+  border-top-color: #00bcd4;
+  border-right-color: #00bcd4;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
@@ -1715,8 +2018,8 @@ hr{
 }
 .material-card.Cyan.mc-active h2:before {
   border-top-color: transparent;
-  border-right-color: #00BCD4;
-  border-bottom-color: #00BCD4;
+  border-right-color: #00bcd4;
+  border-bottom-color: #00bcd4;
   border-left-color: transparent;
 }
 .material-card.Cyan.mc-active h2:after {
@@ -1726,7 +2029,7 @@ hr{
   border-left-color: transparent;
 }
 .material-card.Cyan .mc-btn-action {
-  background-color: #00BCD4;
+  background-color: #00bcd4;
 }
 .material-card.Cyan .mc-btn-action:hover {
   background-color: #006064;
@@ -1738,13 +2041,13 @@ hr{
   background-color: #006064;
 }
 .material-card.Cyan.mc-active .mc-content {
-  background-color: #E0F7FA;
+  background-color: #e0f7fa;
 }
 .material-card.Cyan.mc-active .mc-footer {
-  background-color: #B2EBF2;
+  background-color: #b2ebf2;
 }
 .material-card.Cyan.mc-active .mc-btn-action {
-  border-color: #E0F7FA;
+  border-color: #e0f7fa;
 }
 .material-card.Teal h2 {
   background-color: #009688;
@@ -1757,8 +2060,8 @@ hr{
 }
 .material-card.Teal h2:before {
   border-top-color: transparent;
-  border-right-color: #004D40;
-  border-bottom-color: #004D40;
+  border-right-color: #004d40;
+  border-bottom-color: #004d40;
   border-left-color: transparent;
 }
 .material-card.Teal.mc-active h2:before {
@@ -1768,8 +2071,8 @@ hr{
   border-left-color: transparent;
 }
 .material-card.Teal.mc-active h2:after {
-  border-top-color: #004D40;
-  border-right-color: #004D40;
+  border-top-color: #004d40;
+  border-right-color: #004d40;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
@@ -1777,125 +2080,125 @@ hr{
   background-color: #009688;
 }
 .material-card.Teal .mc-btn-action:hover {
-  background-color: #004D40;
+  background-color: #004d40;
 }
 .material-card.Teal .mc-footer h4 {
-  color: #004D40;
+  color: #004d40;
 }
 .material-card.Teal .mc-footer a {
-  background-color: #004D40;
+  background-color: #004d40;
 }
 .material-card.Teal.mc-active .mc-content {
-  background-color: #E0F2F1;
+  background-color: #e0f2f1;
 }
 .material-card.Teal.mc-active .mc-footer {
-  background-color: #B2DFDB;
+  background-color: #b2dfdb;
 }
 .material-card.Teal.mc-active .mc-btn-action {
-  border-color: #E0F2F1;
+  border-color: #e0f2f1;
 }
 .material-card.Green h2 {
-  background-color: #4CAF50;
+  background-color: #4caf50;
 }
 .material-card.Green h2:after {
-  border-top-color: #4CAF50;
-  border-right-color: #4CAF50;
+  border-top-color: #4caf50;
+  border-right-color: #4caf50;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Green h2:before {
   border-top-color: transparent;
-  border-right-color: #1B5E20;
-  border-bottom-color: #1B5E20;
+  border-right-color: #1b5e20;
+  border-bottom-color: #1b5e20;
   border-left-color: transparent;
 }
 .material-card.Green.mc-active h2:before {
   border-top-color: transparent;
-  border-right-color: #4CAF50;
-  border-bottom-color: #4CAF50;
+  border-right-color: #4caf50;
+  border-bottom-color: #4caf50;
   border-left-color: transparent;
 }
 .material-card.Green.mc-active h2:after {
-  border-top-color: #1B5E20;
-  border-right-color: #1B5E20;
+  border-top-color: #1b5e20;
+  border-right-color: #1b5e20;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Green .mc-btn-action {
-  background-color: #4CAF50;
+  background-color: #4caf50;
 }
 .material-card.Green .mc-btn-action:hover {
-  background-color: #1B5E20;
+  background-color: #1b5e20;
 }
 .material-card.Green .mc-footer h4 {
-  color: #1B5E20;
+  color: #1b5e20;
 }
 .material-card.Green .mc-footer a {
-  background-color: #1B5E20;
+  background-color: #1b5e20;
 }
 .material-card.Green.mc-active .mc-content {
-  background-color: #E8F5E9;
+  background-color: #e8f5e9;
 }
 .material-card.Green.mc-active .mc-footer {
-  background-color: #C8E6C9;
+  background-color: #c8e6c9;
 }
 .material-card.Green.mc-active .mc-btn-action {
-  border-color: #E8F5E9;
+  border-color: #e8f5e9;
 }
 .material-card.Light-Green h2 {
-  background-color: #8BC34A;
+  background-color: #8bc34a;
 }
 .material-card.Light-Green h2:after {
-  border-top-color: #8BC34A;
-  border-right-color: #8BC34A;
+  border-top-color: #8bc34a;
+  border-right-color: #8bc34a;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Light-Green h2:before {
   border-top-color: transparent;
-  border-right-color: #33691E;
-  border-bottom-color: #33691E;
+  border-right-color: #33691e;
+  border-bottom-color: #33691e;
   border-left-color: transparent;
 }
 .material-card.Light-Green.mc-active h2:before {
   border-top-color: transparent;
-  border-right-color: #8BC34A;
-  border-bottom-color: #8BC34A;
+  border-right-color: #8bc34a;
+  border-bottom-color: #8bc34a;
   border-left-color: transparent;
 }
 .material-card.Light-Green.mc-active h2:after {
-  border-top-color: #33691E;
-  border-right-color: #33691E;
+  border-top-color: #33691e;
+  border-right-color: #33691e;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Light-Green .mc-btn-action {
-  background-color: #8BC34A;
+  background-color: #8bc34a;
 }
 .material-card.Light-Green .mc-btn-action:hover {
-  background-color: #33691E;
+  background-color: #33691e;
 }
 .material-card.Light-Green .mc-footer h4 {
-  color: #33691E;
+  color: #33691e;
 }
 .material-card.Light-Green .mc-footer a {
-  background-color: #33691E;
+  background-color: #33691e;
 }
 .material-card.Light-Green.mc-active .mc-content {
-  background-color: #F1F8E9;
+  background-color: #f1f8e9;
 }
 .material-card.Light-Green.mc-active .mc-footer {
-  background-color: #DCEDC8;
+  background-color: #dcedc8;
 }
 .material-card.Light-Green.mc-active .mc-btn-action {
-  border-color: #F1F8E9;
+  border-color: #f1f8e9;
 }
 .material-card.Lime h2 {
-  background-color: #CDDC39;
+  background-color: #cddc39;
 }
 .material-card.Lime h2:after {
-  border-top-color: #CDDC39;
-  border-right-color: #CDDC39;
+  border-top-color: #cddc39;
+  border-right-color: #cddc39;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
@@ -1907,8 +2210,8 @@ hr{
 }
 .material-card.Lime.mc-active h2:before {
   border-top-color: transparent;
-  border-right-color: #CDDC39;
-  border-bottom-color: #CDDC39;
+  border-right-color: #cddc39;
+  border-bottom-color: #cddc39;
   border-left-color: transparent;
 }
 .material-card.Lime.mc-active h2:after {
@@ -1918,7 +2221,7 @@ hr{
   border-left-color: transparent;
 }
 .material-card.Lime .mc-btn-action {
-  background-color: #CDDC39;
+  background-color: #cddc39;
 }
 .material-card.Lime .mc-btn-action:hover {
   background-color: #827717;
@@ -1930,205 +2233,205 @@ hr{
   background-color: #827717;
 }
 .material-card.Lime.mc-active .mc-content {
-  background-color: #F9FBE7;
+  background-color: #f9fbe7;
 }
 .material-card.Lime.mc-active .mc-footer {
-  background-color: #F0F4C3;
+  background-color: #f0f4c3;
 }
 .material-card.Lime.mc-active .mc-btn-action {
-  border-color: #F9FBE7;
+  border-color: #f9fbe7;
 }
 .material-card.Yellow h2 {
-  background-color: #FFEB3B;
+  background-color: #ffeb3b;
 }
 .material-card.Yellow h2:after {
-  border-top-color: #FFEB3B;
-  border-right-color: #FFEB3B;
+  border-top-color: #ffeb3b;
+  border-right-color: #ffeb3b;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Yellow h2:before {
   border-top-color: transparent;
-  border-right-color: #F57F17;
-  border-bottom-color: #F57F17;
+  border-right-color: #f57f17;
+  border-bottom-color: #f57f17;
   border-left-color: transparent;
 }
 .material-card.Yellow.mc-active h2:before {
   border-top-color: transparent;
-  border-right-color: #FFEB3B;
-  border-bottom-color: #FFEB3B;
+  border-right-color: #ffeb3b;
+  border-bottom-color: #ffeb3b;
   border-left-color: transparent;
 }
 .material-card.Yellow.mc-active h2:after {
-  border-top-color: #F57F17;
-  border-right-color: #F57F17;
+  border-top-color: #f57f17;
+  border-right-color: #f57f17;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Yellow .mc-btn-action {
-  background-color: #FFEB3B;
+  background-color: #ffeb3b;
 }
 .material-card.Yellow .mc-btn-action:hover {
-  background-color: #F57F17;
+  background-color: #f57f17;
 }
 .material-card.Yellow .mc-footer h4 {
-  color: #F57F17;
+  color: #f57f17;
 }
 .material-card.Yellow .mc-footer a {
-  background-color: #F57F17;
+  background-color: #f57f17;
 }
 .material-card.Yellow.mc-active .mc-content {
-  background-color: #FFFDE7;
+  background-color: #fffde7;
 }
 .material-card.Yellow.mc-active .mc-footer {
-  background-color: #FFF9C4;
+  background-color: #fff9c4;
 }
 .material-card.Yellow.mc-active .mc-btn-action {
-  border-color: #FFFDE7;
+  border-color: #fffde7;
 }
 .material-card.Amber h2 {
-  background-color: #FFC107;
+  background-color: #ffc107;
 }
 .material-card.Amber h2:after {
-  border-top-color: #FFC107;
-  border-right-color: #FFC107;
+  border-top-color: #ffc107;
+  border-right-color: #ffc107;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Amber h2:before {
   border-top-color: transparent;
-  border-right-color: #FF6F00;
-  border-bottom-color: #FF6F00;
+  border-right-color: #ff6f00;
+  border-bottom-color: #ff6f00;
   border-left-color: transparent;
 }
 .material-card.Amber.mc-active h2:before {
   border-top-color: transparent;
-  border-right-color: #FFC107;
-  border-bottom-color: #FFC107;
+  border-right-color: #ffc107;
+  border-bottom-color: #ffc107;
   border-left-color: transparent;
 }
 .material-card.Amber.mc-active h2:after {
-  border-top-color: #FF6F00;
-  border-right-color: #FF6F00;
+  border-top-color: #ff6f00;
+  border-right-color: #ff6f00;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Amber .mc-btn-action {
-  background-color: #FFC107;
+  background-color: #ffc107;
 }
 .material-card.Amber .mc-btn-action:hover {
-  background-color: #FF6F00;
+  background-color: #ff6f00;
 }
 .material-card.Amber .mc-footer h4 {
-  color: #FF6F00;
+  color: #ff6f00;
 }
 .material-card.Amber .mc-footer a {
-  background-color: #FF6F00;
+  background-color: #ff6f00;
 }
 .material-card.Amber.mc-active .mc-content {
-  background-color: #FFF8E1;
+  background-color: #fff8e1;
 }
 .material-card.Amber.mc-active .mc-footer {
-  background-color: #FFECB3;
+  background-color: #ffecb3;
 }
 .material-card.Amber.mc-active .mc-btn-action {
-  border-color: #FFF8E1;
+  border-color: #fff8e1;
 }
 .material-card.Orange h2 {
-  background-color: #FF9800;
+  background-color: #ff9800;
 }
 .material-card.Orange h2:after {
-  border-top-color: #FF9800;
-  border-right-color: #FF9800;
+  border-top-color: #ff9800;
+  border-right-color: #ff9800;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Orange h2:before {
   border-top-color: transparent;
-  border-right-color: #E65100;
-  border-bottom-color: #E65100;
+  border-right-color: #e65100;
+  border-bottom-color: #e65100;
   border-left-color: transparent;
 }
 .material-card.Orange.mc-active h2:before {
   border-top-color: transparent;
-  border-right-color: #FF9800;
-  border-bottom-color: #FF9800;
+  border-right-color: #ff9800;
+  border-bottom-color: #ff9800;
   border-left-color: transparent;
 }
 .material-card.Orange.mc-active h2:after {
-  border-top-color: #E65100;
-  border-right-color: #E65100;
+  border-top-color: #e65100;
+  border-right-color: #e65100;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Orange .mc-btn-action {
-  background-color: #FF9800;
+  background-color: #ff9800;
 }
 .material-card.Orange .mc-btn-action:hover {
-  background-color: #E65100;
+  background-color: #e65100;
 }
 .material-card.Orange .mc-footer h4 {
-  color: #E65100;
+  color: #e65100;
 }
 .material-card.Orange .mc-footer a {
-  background-color: #E65100;
+  background-color: #e65100;
 }
 .material-card.Orange.mc-active .mc-content {
-  background-color: #FFF3E0;
+  background-color: #fff3e0;
 }
 .material-card.Orange.mc-active .mc-footer {
-  background-color: #FFE0B2;
+  background-color: #ffe0b2;
 }
 .material-card.Orange.mc-active .mc-btn-action {
-  border-color: #FFF3E0;
+  border-color: #fff3e0;
 }
 .material-card.Deep-Orange h2 {
-  background-color: #FF5722;
+  background-color: #ff5722;
 }
 .material-card.Deep-Orange h2:after {
-  border-top-color: #FF5722;
-  border-right-color: #FF5722;
+  border-top-color: #ff5722;
+  border-right-color: #ff5722;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Deep-Orange h2:before {
   border-top-color: transparent;
-  border-right-color: #BF360C;
-  border-bottom-color: #BF360C;
+  border-right-color: #bf360c;
+  border-bottom-color: #bf360c;
   border-left-color: transparent;
 }
 .material-card.Deep-Orange.mc-active h2:before {
   border-top-color: transparent;
-  border-right-color: #FF5722;
-  border-bottom-color: #FF5722;
+  border-right-color: #ff5722;
+  border-bottom-color: #ff5722;
   border-left-color: transparent;
 }
 .material-card.Deep-Orange.mc-active h2:after {
-  border-top-color: #BF360C;
-  border-right-color: #BF360C;
+  border-top-color: #bf360c;
+  border-right-color: #bf360c;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 .material-card.Deep-Orange .mc-btn-action {
-  background-color: #FF5722;
+  background-color: #ff5722;
 }
 .material-card.Deep-Orange .mc-btn-action:hover {
-  background-color: #BF360C;
+  background-color: #bf360c;
 }
 .material-card.Deep-Orange .mc-footer h4 {
-  color: #BF360C;
+  color: #bf360c;
 }
 .material-card.Deep-Orange .mc-footer a {
-  background-color: #BF360C;
+  background-color: #bf360c;
 }
 .material-card.Deep-Orange.mc-active .mc-content {
-  background-color: #FBE9E7;
+  background-color: #fbe9e7;
 }
 .material-card.Deep-Orange.mc-active .mc-footer {
-  background-color: #FFCCBC;
+  background-color: #ffccbc;
 }
 .material-card.Deep-Orange.mc-active .mc-btn-action {
-  border-color: #FBE9E7;
+  border-color: #fbe9e7;
 }
 .material-card.Brown h2 {
   background-color: #795548;
@@ -2141,8 +2444,8 @@ hr{
 }
 .material-card.Brown h2:before {
   border-top-color: transparent;
-  border-right-color: #3E2723;
-  border-bottom-color: #3E2723;
+  border-right-color: #3e2723;
+  border-bottom-color: #3e2723;
   border-left-color: transparent;
 }
 .material-card.Brown.mc-active h2:before {
@@ -2152,8 +2455,8 @@ hr{
   border-left-color: transparent;
 }
 .material-card.Brown.mc-active h2:after {
-  border-top-color: #3E2723;
-  border-right-color: #3E2723;
+  border-top-color: #3e2723;
+  border-right-color: #3e2723;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
@@ -2161,29 +2464,29 @@ hr{
   background-color: #795548;
 }
 .material-card.Brown .mc-btn-action:hover {
-  background-color: #3E2723;
+  background-color: #3e2723;
 }
 .material-card.Brown .mc-footer h4 {
-  color: #3E2723;
+  color: #3e2723;
 }
 .material-card.Brown .mc-footer a {
-  background-color: #3E2723;
+  background-color: #3e2723;
 }
 .material-card.Brown.mc-active .mc-content {
-  background-color: #EFEBE9;
+  background-color: #efebe9;
 }
 .material-card.Brown.mc-active .mc-footer {
-  background-color: #D7CCC8;
+  background-color: #d7ccc8;
 }
 .material-card.Brown.mc-active .mc-btn-action {
-  border-color: #EFEBE9;
+  border-color: #efebe9;
 }
 .material-card.Grey h2 {
-  background-color: #9E9E9E;
+  background-color: #9e9e9e;
 }
 .material-card.Grey h2:after {
-  border-top-color: #9E9E9E;
-  border-right-color: #9E9E9E;
+  border-top-color: #9e9e9e;
+  border-right-color: #9e9e9e;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
@@ -2195,8 +2498,8 @@ hr{
 }
 .material-card.Grey.mc-active h2:before {
   border-top-color: transparent;
-  border-right-color: #9E9E9E;
-  border-bottom-color: #9E9E9E;
+  border-right-color: #9e9e9e;
+  border-bottom-color: #9e9e9e;
   border-left-color: transparent;
 }
 .material-card.Grey.mc-active h2:after {
@@ -2206,7 +2509,7 @@ hr{
   border-left-color: transparent;
 }
 .material-card.Grey .mc-btn-action {
-  background-color: #9E9E9E;
+  background-color: #9e9e9e;
 }
 .material-card.Grey .mc-btn-action:hover {
   background-color: #212121;
@@ -2218,20 +2521,20 @@ hr{
   background-color: #212121;
 }
 .material-card.Grey.mc-active .mc-content {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 .material-card.Grey.mc-active .mc-footer {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 .material-card.Grey.mc-active .mc-btn-action {
-  border-color: #FAFAFA;
+  border-color: #fafafa;
 }
 .material-card.Blue-Grey h2 {
-  background-color: #607D8B;
+  background-color: #607d8b;
 }
 .material-card.Blue-Grey h2:after {
-  border-top-color: #607D8B;
-  border-right-color: #607D8B;
+  border-top-color: #607d8b;
+  border-right-color: #607d8b;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
@@ -2243,8 +2546,8 @@ hr{
 }
 .material-card.Blue-Grey.mc-active h2:before {
   border-top-color: transparent;
-  border-right-color: #607D8B;
-  border-bottom-color: #607D8B;
+  border-right-color: #607d8b;
+  border-bottom-color: #607d8b;
   border-left-color: transparent;
 }
 .material-card.Blue-Grey.mc-active h2:after {
@@ -2254,7 +2557,7 @@ hr{
   border-left-color: transparent;
 }
 .material-card.Blue-Grey .mc-btn-action {
-  background-color: #607D8B;
+  background-color: #607d8b;
 }
 .material-card.Blue-Grey .mc-btn-action:hover {
   background-color: #263238;
@@ -2266,18 +2569,18 @@ hr{
   background-color: #263238;
 }
 .material-card.Blue-Grey.mc-active .mc-content {
-  background-color: #ECEFF1;
+  background-color: #eceff1;
 }
 .material-card.Blue-Grey.mc-active .mc-footer {
-  background-color: #CFD8DC;
+  background-color: #cfd8dc;
 }
 .material-card.Blue-Grey.mc-active .mc-btn-action {
-  border-color: #ECEFF1;
+  border-color: #eceff1;
 }
 body {
-  background-color: #ECEFF1;
-  color: #37474F;
-  font-family: 'Raleway', sans-serif;
+  background-color: #eceff1;
+  color: #37474f;
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
   font-size: 16px;
 }
@@ -2287,24 +2590,23 @@ h3 {
   font-weight: 200;
 }
 
-.img-fluid{
+.img-fluid {
   padding: 15px;
 }
 
-
-.image{
-    height: auto;
-    width: 350px;
-    float: center;
+.image {
+  height: auto;
+  width: 350px;
+  float: center;
 }
 
 .about {
   padding: 55px 0;
 }
 
-.year-theme{
-  display:flex; 
-  align-self:flex-end;
+.year-theme {
+  display: flex;
+  align-self: flex-end;
 }
 
 h1 {
@@ -2319,14 +2621,18 @@ h1 {
   padding: 0;
 }
 
-a{
-  font-family: 'Roboto';
+a {
+  font-family: "Roboto";
   color: rgb(90, 90, 90) !important;
   font-size: 18px;
 }
-a:hover{
-  font-family: 'Roboto';
-  color:  #000000 !important;
+a:hover {
+  font-family: "Roboto";
+  color: #000000 !important;
   font-size: 18px;
+}
+
+.material-card.Purple h2 span{
+  font-size:20px;
 }
 </style>
