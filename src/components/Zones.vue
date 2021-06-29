@@ -1,163 +1,255 @@
 <template>
-<div class="container">
-  <div class="items"> 
-  <h1 class="heading">Team Zones</h1>
-<details>
-   <summary><b>Zone 1</b></summary><br> 
-    <!-- member-->
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Rtr. Sneha Wayare</h3>
-      <span>ZRR | Zone 1</span>
-    </div> 
-    <!-- member-->
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Rtr. Kingshuk Mazumder</h3>
-      <span>ZRR | Zone 1</span>
-    </div> 
-    <div class="team-member">
-        <ul>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-        </ul>
-    </div> 
-    <!-- member-->
-    <div class="team-member">
-        <ul>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-        </ul>
-    </div> 
-</details>
-<details>
-   <summary><b>Zone 2</b></summary><br>
-    <!-- member-->
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Rtr. Himanshu Dapurkar</h3>
-      <span>ZRR | Zone 2</span>
-    </div> 
-    <!-- member-->
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Rtr. Pranod Kalsekar</h3>
-      <span>ZRR | Zone 2</span>
-    </div> 
-    <div class="team-member">
-        <ul>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-        </ul>
-    </div> 
-    <!-- member-->
-    <div class="team-member">
-        <ul>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-        </ul>
-    </div> 
-</details>
-<details>
-   <summary><b>Zone 3</b></summary><br>
-   <div class="team-member">
-      <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Rtr. Devashish Mande</h3>
-      <span>ZRR | Zone 3</span>
+  <div class="container">
+    <div class="items">
+      <h1 class="heading">Our Zones</h1>
+
+      <details v-for="(zoneData, k) in zones" :key="k">
+        <summary>
+          <b>{{ zoneData.zone }}</b>
+        </summary>
+        <br />
+        <div>
+          <div class="team-member" v-for="(zrr, i) in zoneData['zrr']" :key="i">
+            <img class="team-photo" :src="zrr.photo" />
+            <h3>{{ zrr.name }}</h3>
+            <span>Zonal Rotaract Representative</span>
+          </div>
+        </div>
+        <div class="team-member">
+          <ul>
+            <li v-for="(club, j) in zoneData['clubs']" :key="j">
+              {{ club.name }}
+              <span v-if="club.isPlatinum" class="platinum-badge"
+                >Platinum</span
+              >
+            </li>
+          </ul>
+        </div>
+      </details>
     </div>
-    <!-- member-->
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Rtr. Amri Neve</h3>
-      <span>ZRR | Zone 3</span>
-    </div>
-    <!-- member-->
-    <div class="team-member">
-        <ul>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-        </ul>
-    </div> 
-</details>
-<details>
-   <summary><b>Zones 4</b></summary><br>
-   <div class="team-member">
-      <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Rtr. Aishwarya Warke</h3>
-      <span>ZRR | Zone 4</span>
-    </div>
-    <!-- member-->
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Rtr. Hetvi Dedhia</h3>
-      <span>ZRR | Zone 4</span>
-    </div>
-    <!-- member-->
-    <div class="team-member">
-        <ul>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-        </ul>
-    </div> 
-    <div class="team-member">
-        <ul>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-            <li>RC Thane Downtown</li>
-        </ul>
-    </div> 
-</details>
- </div>
-</div>
+  </div>
 </template>
 
 <script>
 export default {
-    name:'Zones',
-}
+  name: "Zones",
+  data() {
+    return {
+      zones: [
+        {
+          zone: "Zone 1",
+          zrr: [
+            {
+              name: "Rtr. Sneha Wayare",
+              photo:
+                "http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+            },
+            {
+              name: "Rtr. Kingshuk Mazumder",
+              photo:
+                "http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+            },
+          ],
+          clubs: [
+            {
+              name: "Rotaract Club of Saraswati College of Engineering",
+              isPlatinum: true,
+            },
+            { name: "Rotaract Club of SIES Nerul", isPlatinum: false },
+            { name: "Rotaract Club of BVP Sunrise", isPlatinum: false },
+            {
+              name: "Rotaract Club of Bharati Vidyapeeth Belapur",
+              isPlatinum: false,
+            },
+            {
+              name: "Rotaract Club of Smart City Navi Mumbai",
+              isPlatinum: false,
+            },
+            {
+              name: "Rotaract Club of Navi Mumbai Hillside",
+              isPlatinum: false,
+            },
+            { name: "Rotaract Club of Link Town Airoli", isPlatinum: false },
+            {
+              name: "Rotaract Club of Navi Mumbai Industrial Area",
+              isPlatinum: true,
+            },
+            { name: "Rotaract Club of New Bombay", isPlatinum: false },
+            { name: "Rotaract Club of Lekarz", isPlatinum: false },
+            { name: "Rotaract Club of New Bombay Seaside", isPlatinum: false },
+            {
+              name: "Rotaract Club of Navi Mumbai Industrial Area",
+              isPlatinum: false,
+            },
+            { name: "Rotaract Club of New Bombay Seaside", isPlatinum: false },
+            {
+              name: "Rotaract Club of DY Patil University School of Management",
+              isPlatinum: false,
+            },
+            { name: "Rotaract Club of NMIMS Sunrise", isPlatinum: false },
+            {
+              name: "Rotaract Club of DYPSBB Satellite City",
+              isPlatinum: false,
+            },
+            {
+              name: "Rotaract Club of DY Patil College of Ayurveda",
+              isPlatinum: false,
+            },
+            {
+              name: "Rotaract Club of Navi Mumbai Bayside MGM",
+              isPlatinum: false,
+            },
+            { name: "Rotaract Club of Navi Mumbai Sunrise", isPlatinum: false },
+            {
+              name: "Rotaract Club of D. Y. Patil University school of pharmacy",
+              isPlatinum: false,
+            },
+          ],
+        },
+        {
+          zone: "Zone 2",
+          zrr: [
+            {
+              name: "Rtr. Himanshu Dapurkar",
+              photo:
+                "http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+            },
+            {
+              name: "Rtr. Pranod Kalsekar",
+              photo:
+                "http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+            },
+          ],
+          clubs: [
+            { name: "Rotaract Club of Hiranandani Estate", isPlatinum: true },
+            { name: "Rotaract Club of Thane Central", isPlatinum: false },
+            { name: "Rotaract Club of Thane Downtown", isPlatinum: false },
+            { name: "Rotaract Club of Thane East", isPlatinum: false },
+            {
+              name: "Rotaract Club of Anand Vishwa Gurukul",
+              isPlatinum: false,
+            },
+            { name: "Rotaract Club of Thane Green City", isPlatinum: false },
+            { name: "Rotaract Club of Thane Suburban", isPlatinum: false },
+            {
+              name: "Rotaract Club of KC College  Engineering",
+              isPlatinum: false,
+            },
+            { name: "Rotaract Club of Thane North", isPlatinum: false },
+            { name: "Rotaract Club of Thane North End", isPlatinum: false },
+            { name: "Rotaract Club of Thane TownWing", isPlatinum: false },
+            { name: "Rotaract Club of Thane Hills", isPlatinum: false },
+            { name: "Rotaract Club of Thane Horizon", isPlatinum: false },
+            { name: "Rotaract Club of Singhania School", isPlatinum: false },
+            { name: "Rotaract Club of Thane Premium", isPlatinum: false },
+            { name: "Rotaract Club of Thane Creekside", isPlatinum: false },
+            { name: "Rotaract Club of Thane Mid Town", isPlatinum: false },
+            { name: "Rotaract Club of Thane Lake City", isPlatinum: false },
+            {
+              name: "Rotaract Club of Billabong High International School",
+              isPlatinum: false,
+            },
+            {
+              name: "Rotaract Club of Premium KBP Community",
+              isPlatinum: false,
+            },
+          ],
+        },
+        {
+          zone: "Zone 3",
+          zrr: [
+            {
+              name: "Rtr. Rtr. Devashish Mande",
+              photo:
+                "http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+            },
+            {
+              name: "Rtr. Amri Neve",
+              photo:
+                "http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+            },
+          ],
+          clubs: [
+            { name: "Rotaract Club of Birla", isPlatinum: true },
+            { name: "Rotaract Club of Dombivli", isPlatinum: false },
+            { name: "Rotaract Club of Dombivli East", isPlatinum: false },
+            { name: "Rotaract Club of Dombivli Suncity", isPlatinum: false },
+            { name: "Rotaract Club of Kalyan Central", isPlatinum: false },
+            { name: "Rotaract Club of Kalyan Riverside", isPlatinum: false },
+            { name: "Rotaract Club of Kalyan Diamonds", isPlatinum: false },
+            { name: "Rotaract Club of Kalyan West", isPlatinum: false },
+            {
+              name: "Rotaract Club of KV Pendharkar College",
+              isPlatinum: false,
+            },
+            {
+              name: "Rotaract Club of Dombivli Midtown Youth",
+              isPlatinum: false,
+            },
+            { name: "Rotaract Club of Dombivli Crown City", isPlatinum: false },
+            { name: "Rotaract Club of Dombivli Regency ", isPlatinum: false },
+          ],
+        },
+        {
+          zone: "Zone 4",
+          zrr: [
+            {
+              name: "Rtr. Rtr. Aishwarya Warke",
+              photo:
+                "http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+            },
+            {
+              name: "Rtr. Hetvi Dedhia",
+              photo:
+                "http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+            },
+          ],
+          clubs: [
+            { name: "Rotaract Club of Ambernath", isPlatinum: true },
+            { name: "Rotaract Club of Ambernath East", isPlatinum: false },
+            { name: "Rotaract Club of Ambernath North", isPlatinum: false },
+            { name: "Rotaract Club of Badlapur", isPlatinum: false },
+            {
+              name: "Rotaract Club of Badlapur Industrial Area",
+              isPlatinum: false,
+            },
+            {
+              name: "Rotaract Club of Bharat College Badlapur",
+              isPlatinum: false,
+            },
+            { name: "Rotaract Club of MIM college", isPlatinum: false },
+            {
+              name: "Rotaract Club of Ulhasnagar Sapna Garden",
+              isPlatinum: false,
+            },
+            {
+              name: "Rotaract Club of Chandibai Himatlal Mansukhani College",
+              isPlatinum: false,
+            },
+            {
+              name: "Rotaract Club of Ambernath Smart City",
+              isPlatinum: false,
+            },
+            { name: "Rotaract Club of Ulhasnagar", isPlatinum: false },
+          ],
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style scoped>
+.platinum-badge {
+  font-size: 12px !important;
+  padding: 6px 9px;
+  background: linear-gradient(to bottom, #e5e4e2 0%, #d6d5d3 100%);
+  border-radius: 15px;
+}
 
 /* Team Member CSS 
 ===========================*/
-.summary{
+.summary {
   font-size: 20px;
 }
 h1.team-h1 {
@@ -170,17 +262,17 @@ h1.team-h1 {
   font-style: italic;
   background-color: white;
   padding: 0px 20px;
-  color: #222; 
+  color: #222;
 }
 
 .cf:before,
 .cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+  content: " "; /* 1 */
+  display: table; /* 2 */
 }
 
 .cf:after {
-    clear: both;
+  clear: both;
 }
 
 /**
@@ -188,7 +280,7 @@ h1.team-h1 {
  * Include this rule to trigger hasLayout and contain floats.
  */
 .cf {
-    *zoom: 1;
+  *zoom: 1;
 }
 
 .team-container {
@@ -203,14 +295,25 @@ h1.team-h1 {
 }
 
 .team-member {
-  width: 18%;
   float: left;
   text-align: center;
-  margin-right: 5%;
+  margin-right: 2rem;
 }
 
-.team-member:last-child {margin-right: 0;}
+.team-member ul {
+  list-style-type: none;
+}
 
+.team-member ul li {
+  display: flex;
+  gap: 1rem;
+  text-align: left;
+  padding: 8px;
+}
+
+.team-member:last-child {
+  margin-right: 0;
+}
 
 .team-member span,
 .team-member h3 {
@@ -223,18 +326,16 @@ h1.team-h1 {
 .team-member h3 {
   margin-top: 8px;
   color: #000000;
-  font-family: 'Roboto',sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
 }
 
 .email {
-  color: #EA2678;
-  
+  color: #ea2678;
 }
 
 .team-member span {
   display: block;
- 
 }
 .team-photo {
   border-radius: 50%;
@@ -246,26 +347,22 @@ h1.team-h1 {
   transition: 0.1s transform ease-in-out;
 }
 
-
 .team-photo:hover {
   transform: scale(0.9);
   cursor: pointer;
 }
 
-
 /* code for phone layout */
-@media (max-width:850px){
+@media (max-width: 850px) {
   .team-member {
-    width:25%;
+    width: 25%;
     margin-left: 4%;
     margin-right: 4%;
     margin-bottom: 40px;
-    
   }
-  
 }
 
-@media (max-width:650px){
+@media (max-width: 650px) {
   .team-member {
     float: none;
     display: block;
@@ -273,88 +370,87 @@ h1.team-h1 {
     width: 100%;
     text-align: center;
   }
-  
+
   .team-member h3,
   .team-member span {
     margin: 15px auto;
   }
 }
 
-
 /* ENDS Team Member CSS 
 ===========================*/
 .container-team {
-	display: flex;
-	width: 100%;
-    padding: 50px;
+  display: flex;
+  width: 100%;
+  padding: 50px;
 }
 
 .image-team {
-    padding-top: 50px;
-	width: 100%;
-	padding-right: 55px;
-    float: left;
+  padding-top: 50px;
+  width: 100%;
+  padding-right: 55px;
+  float: left;
 }
 
 h1 {
-	text-align: center;
-	text-transform: uppercase;
-    font-family: 'FairPlayDisplay' !important; 
-    font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "FairPlayDisplay" !important;
+  font-weight: 600;
 }
 
 .items {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
   padding-bottom: 25px;
   font-size: 20px;
 }
 
 details,
 summary {
-	width: 100%;
-	padding-top: 20px;
-    font-family: 'Roboto',sans-serif;
+  width: 100%;
+  padding-top: 20px;
+  font-family: "Roboto", sans-serif;
 }
 
 summary {
-	border-top: 2px solid rgba(51, 51, 51, 0.39);
+  border-top: 2px solid rgba(51, 51, 51, 0.39);
 }
 
 @media (max-width: 900px) {
-	.container {
-		display: flex;
-		flex-direction: column;
-		height: 600px;
-	}
-	.image {
-		display: none;
-	}
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+  }
+  .image {
+    display: none;
+  }
 }
 
-hr{
+hr {
   height: 15px;
   width: 25%;
 }
-.body_wrapper{
-  margin-left:19%;
-  margin-right:10%;
-  display:flex;
-  padding:20px;
+.body_wrapper {
+  margin-left: 19%;
+  margin-right: 10%;
+  display: flex;
+  padding: 20px;
 }
-.body_inner_left_holder{
-  width:33.333%;
-  padding-right:60px;
-  padding-top:10px;
+.body_inner_left_holder {
+  width: 33.333%;
+  padding-right: 60px;
+  padding-top: 10px;
 }
-.body_inner_left{
-  width:100%;
- }
-.body_inner_right{
-  display:flex;
-  width:55%;
-  justify-content:flex-start;
-  float:right;
+.body_inner_left {
+  width: 100%;
+}
+.body_inner_right {
+  display: flex;
+  width: 55%;
+  justify-content: flex-start;
+  float: right;
 }
 .heading {
   padding: 35px;
@@ -395,5 +491,4 @@ hr{
     transform: rotate(359deg);
   }
 }
-
 </style>
