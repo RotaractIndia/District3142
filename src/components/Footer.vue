@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row pt-4">
         <div class="col-lg-3 col-md-5 mb-4 mb-lg-0" style="border-right: 1px solid grey; padding-right: 45px;">
-           <img src="../assets/DistrictlogoB.png" alt="" width="200">
+           <img src="../assets/img/DistrictlogoB.png" alt="" width="200">
            <p><i>Come what may we’ll see it through, Ekatra in all we do</i></p>
           <ul class="list-inline mt-4">
             
@@ -13,11 +13,11 @@
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0" style="margin-left: 25px;">
           <h6 class="text-uppercase font-weight-bold mb-4"><b>About us</b></h6>
           <ul class="list-unstyled mb-0">
-            <li class="mb-2"><a href="#" class="text-muted">Who we are</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">About Rotary</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Team 2021-22</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Zonal Bifurcation</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">FAQs</a></li>
+            <li class="mb-2"><router-link to="about" class="text-muted">Who we are</router-link></li>
+            <!-- <li class="mb-2"><a href="#" class="text-muted">About Rotary</a></li> -->
+            <li class="mb-2"><router-link to="team" class="text-muted">Team 2021-22</router-link></li>
+            <li class="mb-2"><router-link to="zones" class="text-muted">Zonal Bifurcation</router-link></li>
+            <li class="mb-2"><router-link to="faq" class="text-muted">FAQs</router-link></li>
           </ul>
         </div>
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
@@ -40,16 +40,11 @@
         <div class="col-lg-2 col-md-3 mb-lg-6">
           <h6 class="text-uppercase font-weight-bold mb-4"><b>Social Media</b></h6>
           <ul class="list-unstyled mb-0">
-            <li class="mb-2"><a href="#" class="text-muted">Twitter</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Facebook</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Instagram</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Linkedin</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Mail</a></li>
-            <!-- <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
-            <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i class="fa fa-linkedin"></i></a></li>
-            <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i class="fa fa-envelope"></i></a></li> -->
+            <li class="mb-2"><a href="https://twitter.com/Rotaract_3142" target="_blank" class="text-muted">Twitter</a></li>
+            <li class="mb-2"><a href="https://www.facebook.com/rotaract3142" target="_blank" class="text-muted">Facebook</a></li>
+            <li class="mb-2"><a href="https://www.instagram.com/rotaract3142/" target="_blank" class="text-muted">Instagram</a></li>
+            <li class="mb-2"><a href="https://www.linkedin.com/company/rotaract-district-3142/" target="_blank" class="text-muted">Linkedin</a></li>
+            <!-- <li class="mb-2"><a href="#" target="_blank" class="text-muted">Mail</a></li> -->
           </ul>
         </div>
       </div><hr>
@@ -57,11 +52,6 @@
         <p class="text-muted mb-0 py-2">© 2021 Rotaract District 3142 All rights reserved.</p>
       </div>
     </div>
-
-    <!-- Copyrights -->
-    <!-- <div class="bg-light py-4">
-      
-    </div> -->
   </footer>
 </div>
 </template>

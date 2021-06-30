@@ -13,14 +13,14 @@
             "
           >
             <img
-              src="../assets/CMLogoB.png"
+              src="../../assets/img/CMLogoB.png"
               class="img-fluid"
               alt="ChangeMaker Logo"
               data-aos="zoom-in"
             />
           </div>
           <div class="col-lg-6 pt-5 pt-lg-0 year-theme">
-            <!-- <img class="image" src="../assets/CMLogoB.png" alt=""><br> -->
+            <!-- <img class="image" src="../../assets/CMLogoB.png" alt=""><br> -->
             <p data-aos="fade-up" data-aos-delay="100">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
@@ -44,7 +44,7 @@
           </h2>
           <div class="mc-content">
             <div class="img-container">
-              <img class="img-responsive" src="../assets/ct/Rahesh.jpeg" />
+              <img class="img-responsive" src="../../assets/ct/Rahesh.jpeg" />
             </div>
           </div>
         </article>
@@ -80,7 +80,7 @@
           </h2>
           <div class="mc-content">
             <div class="img-container">
-              <img class="img-responsive" src="../assets/ct/Amit.jpg" />
+              <img class="img-responsive" src="../../assets/ct/Amit.jpg" />
             </div>
           </div>
         </article>
@@ -114,7 +114,7 @@
           </h2>
           <div class="mc-content">
             <div class="img-container">
-              <img class="img-responsive" src="../assets/ct/Adil.jpg" />
+              <img class="img-responsive" src="../../assets/ct/Adil.jpg" />
             </div>
           </div>
         </article>
@@ -144,8 +144,6 @@
         <h1 class="heading">Core Team<br /></h1>
       </div>
       <div class="row active-with-click">
-
-
         <div
         v-for="(member,k) in coreTeam" :key="k" 
         class="col-md-3 col-sm-5 col-xs-10">
@@ -159,7 +157,7 @@
             </h2>
             <div class="mc-content">
               <div class="img-container">
-                <img class="img-responsive" src="../assets/ct/Mithila.jpg"/>
+                <img class="img-responsive" :src="member.image" />
               </div>
             </div>
           </article>
@@ -180,7 +178,7 @@
   <div class="deputy-container" v-if="member['deputy']">
     <div class="team-member"
     v-for="(dep, j) in member['deputy']" :key="j">
-        <img class="team-photo" :src=dep.photo><br>
+        <img class="team-photo" :class="member.color" :src=dep.photo><br>
         <h3>{{dep.name}}</h3>
         <span>{{dep.designation}}</span>
       </div>
@@ -188,7 +186,7 @@
 
   <div class="director-container">
    <div class="team-member" v-for="(dir, i) in member['directors']" :key="i">
-      <img class="team-photo" :src=dir.photo><br>
+      <img class="team-photo" :class="member.color" :src=dir.photo><br>
       <h3>{{dir.name}}</h3>
       <span>{{dir.designation}}</span>
     </div>
@@ -196,411 +194,39 @@
 
 </div>
 </details>
-<!-- <details>
-   <summary><b>Team Finance</b></summary><br>
-   <div class="team-member">
-      <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div>
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div>
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-</details>
-<details>
-   <summary><b>Team Club Service</b></summary><br>
-   <div class="team-member">
-      <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div>
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div>
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-</details>
-<details>
-   <summary><b>Team Community Service</b></summary><br>
-   <div class="team-member">
-      <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div>
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div>
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-</details>
-<details>
-   <summary><b>Team Entrepreneurship Service</b></summary><br>
-   <div class="team-member">
-      <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div>
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div>
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-</details>
-<details>
-   <summary><b>Team International Service</b></summary><br>
-   <div class="team-member">
-      <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div>
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div>
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-</details>
-<details>
-   <summary><b>Team Sports</b></summary><br>
-   <div class="team-member">
-      <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div>
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div>
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-</details>
- <details>
-   <summary><b>Team Professional Development</b></summary><br>
-   <div class="team-member">
-      <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div>
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div>
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-</details>
-<details>
-   <summary><b>Team Admin & Events</b></summary><br>
-   <div class="team-member">
-      <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div>
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div>
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-</details>
-<details>
-   <summary><b>Team Digital Communications</b></summary><br>
-   <div class="team-member">
-      <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div>
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div>
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-</details>
-<details>
-   <summary><b>Team Corporate Communications</b></summary><br>
-   <div class="team-member">
-      <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div>
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div>
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-</details>
-<details>
-   <summary><b>Team Training, Revival & Sustenance</b></summary><br>
-   <div class="team-member">
-      <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div>
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div>
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-</details>
-<details>
-   <summary><b>Team Zones</b></summary><br>
-   <div class="team-member">
-      <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div>
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div>
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-    
-    <div class="team-member">
-    <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
-      <h3>Person's Name</h3>
-      <span>This section could be used to show a very short bio description for each member</span>
-    </div> 
-</details> -->
  </div>
 </div>
   </div>
 </template>
 
 <script>
+import Mithila from "../../assets/ct/Mithila.jpg"
+import Shanmukh from "../../assets/ct/Shanmukh.jpg"
+import Swapnil from "../../assets/ct/Swapnil.jpg"
+import Vijal from "../../assets/ct/Vijal.jpg"
+import Gauri from "../../assets/ct/Gauri.jpg"
+import ChinmayS from "../../assets/ct/ChinmayS.jpg"
+import Sushmita from "../../assets/ct/Sushmita.jpg"
+import Hardik from "../../assets/ct/Hardik.jpg"
+import Siddhi from "../../assets/ct/Siddhi.jpg"
+import Vaibhav from "../../assets/ct/Vaibhav.jpg"
+
 export default {
   name: "Team",
   data(){
     return{
+      Mithila,Shanmukh,Swapnil,Vijal,Gauri,ChinmayS,Sushmita,Hardik,Siddhi,Vaibhav,
       coreTeam:[
-        { name:"Rtr. Mithila Salvi", position:"District Secretry", image:"../assets/ct/Mithila.jpg", color:"Deep-Purple" },
-        { name:"Rtr. Shanmukhswami Gowda", position:"Deputy DRR & Corporate Communications Chair", image:"../assets/ct/Shanmukh.jpg", color:"Purple" },
-        { name:"Rtn. Rtr. Swapnil Kadu", position:"District Finance Chair", image:"../assets/ct/Swapnil.jpg", color:"Blue" },
-        { name:"Rtr. Vijal Kathrani", position:"District TRS Chair", image:"../assets/ct/Vijal.jpg", color:"Light-Blue" },
-        { name:"Rtr. Gauri Rane", position:"District Digital Communications Chair", image:"../assets/ct/Gauri.jpg", color:"Cyan" },
-        { name:"Rtr. Chinmay Sheth", position:"District Technology Development Chair", image:"../assets/ct/ChinmayS.jpg", color:"Teal" },
-        { name:"Rtr. Sushmita Valecha", position:"District Avenues 1 Chair", image:"../assets/ct/Sushmita.jpg", color:"Green" },
-        { name:"Rtn. Rtr. Hardik Patel", position:"District Avenues 2 Chair", image:"../assets/ct/Hardik.jpg", color:"Light-Green" },
-        { name:"Rtr. Siddhi Kubal", position:"District Administration Chair", image:"../assets/ct/Siddhi.jpg", color:"Lime" },
-        { name:"Rtn. Rtr. Vaibhav Vispute", position:"District Sergeant-At-Arms", image:"../assets/ct/Vaibhav.jpg", color:"Yellow" },
+        { name:"Rtr. Mithila Salvi", position:"District Secretry", image:Mithila, color:"Deep-Purple" },
+        { name:"Rtr. Shanmukhswami Gowda", position:"Deputy DRR & Corporate Communications Chair", image:Shanmukh, color:"Purple" },
+        { name:"Rtn. Rtr. Swapnil Kadu", position:"District Finance Chair", image:Swapnil, color:"Blue" },
+        { name:"Rtr. Vijal Kathrani", position:"District TRS Chair", image:Vijal, color:"Light-Blue" },
+        { name:"Rtr. Gauri Rane", position:"District Digital Communications Chair", image:Gauri, color:"Cyan" },
+        { name:"Rtr. Chinmay Sheth", position:"District Technology Development Chair", image:ChinmayS, color:"Teal" },
+        { name:"Rtr. Sushmita Valecha", position:"District Avenues 1 Chair", image:Sushmita, color:"Green" },
+        { name:"Rtn. Rtr. Hardik Patel", position:"District Avenues 2 Chair", image:Hardik, color:"Light-Green" },
+        { name:"Rtr. Siddhi Kubal", position:"District Administration Chair", image:Siddhi, color:"Lime" },
+        { name:"Rtn. Rtr. Vaibhav Vispute", position:"District Sergeant-At-Arms", image:Vaibhav, color:"Peach" },
       ],
       council:[
         {
@@ -627,6 +253,7 @@ export default {
               designation:"Jt Secretary"
             },
           ],
+          color:"Deep-Purple-border"
         },
         {
           avenue:"Team Finance",
@@ -652,6 +279,7 @@ export default {
               designation:"Director Finance"
             },
           ],
+          color:"Blue-border"
         },
         {
           avenue:"Team Club Service",
@@ -684,6 +312,7 @@ export default {
               designation:"Director Finance"
             },
           ],
+          color:"Green-border"
         },
         {
           avenue:"Team Community Service",
@@ -716,6 +345,7 @@ export default {
               designation:"Jt Community Service Director"
             },
           ],
+          color:"Green-border"
         },
         {
           avenue:"Team Entrepreneurship Development",
@@ -743,6 +373,7 @@ export default {
               designation:"Jt Entrepreneurship Development Director"
             },
           ],
+          color:"Green-border"
         },
         {
           avenue:"Team Sports",
@@ -770,6 +401,7 @@ export default {
               designation:"Jt Director Sports"
             },
           ],
+          color:"Light-Green-border"
         },
         {
           avenue:"Team International Service",
@@ -797,6 +429,7 @@ export default {
               designation:"Jt International Service Director"
             },
           ],
+          color:"Light-Green-border"
         },
         {
           avenue:"Team Professional Development",
@@ -824,6 +457,7 @@ export default {
               designation:"Jt Professional Development Director"
             },
           ],
+          color:"Light-Green-border"
         },
         {
           avenue:"Team Admin & Events",
@@ -866,6 +500,7 @@ export default {
               designation:"Jt Director Events"
             },
           ],
+          color:"Lime-border"
         },
         {
           avenue:"Team Digital Communications",
@@ -908,6 +543,7 @@ export default {
               designation:"Editor"
             },
           ],
+          color:"Cyan-border"
         },
         {
           avenue:"Team Photography",
@@ -940,6 +576,7 @@ export default {
               designation:"Assistant Director of Photography"
             },
           ],
+          color:"Cyan-border"
         },
         {
           avenue:"Team Marketing",
@@ -982,6 +619,7 @@ export default {
               designation:"Jt Director Marketing"
             },
           ],
+          color:"Purple-border"
         },
         {
           avenue:"Team Public Relations",
@@ -1024,6 +662,7 @@ export default {
               designation:"Jt Director Marketing"
             },
           ],
+          color:"Purple-border"
         },
         {
           avenue:"Team CSR",
@@ -1051,6 +690,7 @@ export default {
               designation:"Jt Director CSR"
             },
           ],
+          color:"Purple-border"
         },
         {
           avenue:"Team PIS",
@@ -1083,6 +723,7 @@ export default {
               designation:"Jt Director PIS"
             },
           ],
+          color:"Purple-border"
         },
         {
           avenue:"Team Training, Revival & Sustenance",
@@ -1103,6 +744,7 @@ export default {
               designation:"Director Training, Revival & Sustenance"
             },
           ],
+          color:"Light-Blue-border"
         },
       ],
     }
@@ -1110,6 +752,32 @@ export default {
 };
 </script>
 
+<style scoped>
+.Deep-Purple-border{
+  border-color: #673ab7 !important;
+}
+.Blue-border{
+border-color: #2196f3 !important;
+}
+.Green-border{
+border-color: #4caf50 !important;
+}
+.Light-Green-border{
+border-color: #8bc34a !important;
+}
+.Lime-border{
+border-color: #cddc39 !important;
+}
+.Cyan-border{
+border-color: #00bcd4 !important;
+}
+.Purple-border{
+border-color: #9c27b0 !important;
+}
+.Light-Blue-border{
+border-color: #03a9f4 !important;
+}
+</style>
 <style scoped>
 .council-container{
       display: flex;
@@ -1198,6 +866,7 @@ h1.team-h1 {
   display: block;
 }
 .team-photo {
+  border: 5px solid #eee;
   border-radius: 50%;
   text-align: center;
   margin: auto;
@@ -1259,6 +928,11 @@ h1 {
   font-weight: 600;
 }
 
+.active-with-click{
+  display: flex;
+  justify-content: center;
+}
+
 .items {
   display: flex;
   flex-direction: column;
@@ -1307,7 +981,7 @@ hr {
   width: 100%;
 }
 .body_inner_right {
-  padding-top: 25px;
+  /* padding-top: 25px; */
   display: flex;
   width: 55%;
   justify-content: flex-start;
@@ -1315,6 +989,7 @@ hr {
 }
 .heading {
   padding: 35px;
+  padding-top: 0;
   font-family: FairPlayDisplay;
   margin-left: 1rem;
   font-weight: 900;
@@ -2241,52 +1916,52 @@ hr {
 .material-card.Lime.mc-active .mc-btn-action {
   border-color: #f9fbe7;
 }
-.material-card.Yellow h2 {
-  background-color: #ffeb3b;
+.material-card.Peach h2 {
+  background-color: #f98484;
 }
-.material-card.Yellow h2:after {
-  border-top-color: #ffeb3b;
-  border-right-color: #ffeb3b;
+.material-card.Peach h2:after {
+  border-top-color: #f98484;
+  border-right-color: #f98484;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
-.material-card.Yellow h2:before {
+.material-card.Peach h2:before {
   border-top-color: transparent;
   border-right-color: #f57f17;
   border-bottom-color: #f57f17;
   border-left-color: transparent;
 }
-.material-card.Yellow.mc-active h2:before {
+.material-card.Peach.mc-active h2:before {
   border-top-color: transparent;
   border-right-color: #ffeb3b;
   border-bottom-color: #ffeb3b;
   border-left-color: transparent;
 }
-.material-card.Yellow.mc-active h2:after {
+.material-card.Peach.mc-active h2:after {
   border-top-color: #f57f17;
   border-right-color: #f57f17;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
-.material-card.Yellow .mc-btn-action {
+.material-card.Peach .mc-btn-action {
   background-color: #ffeb3b;
 }
-.material-card.Yellow .mc-btn-action:hover {
+.material-card.Peach .mc-btn-action:hover {
   background-color: #f57f17;
 }
-.material-card.Yellow .mc-footer h4 {
+.material-card.Peach .mc-footer h4 {
   color: #f57f17;
 }
-.material-card.Yellow .mc-footer a {
+.material-card.Peach .mc-footer a {
   background-color: #f57f17;
 }
-.material-card.Yellow.mc-active .mc-content {
+.material-card.Peach.mc-active .mc-content {
   background-color: #fffde7;
 }
-.material-card.Yellow.mc-active .mc-footer {
+.material-card.Peach.mc-active .mc-footer {
   background-color: #fff9c4;
 }
-.material-card.Yellow.mc-active .mc-btn-action {
+.material-card.Peach.mc-active .mc-btn-action {
   border-color: #fffde7;
 }
 .material-card.Amber h2 {
@@ -2601,7 +2276,7 @@ h3 {
 }
 
 .about {
-  padding: 55px 0;
+  padding: 35px 0;
 }
 
 .year-theme {

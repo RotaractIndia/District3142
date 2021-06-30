@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-  <div><img src="../assets/faq.png" class="image"></div>
+  <div><img src="../../assets/img/faq.png" class="image"></div>
   <div class="items"> 
   <h1>Frequently Asked Questions</h1>
 
