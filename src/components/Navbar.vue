@@ -1,45 +1,36 @@
 <template>
   <div class="navbar-component">
     <div class="navbar area">
-      <a href="#" class="logo"
-        ><img src="../assets/DistrictlogoB.png" alt=""
-      /></a>
+      <router-link to="home" class="logo"
+        ><img src="../assets/img/DistrictlogoB.png" alt=""
+      /></router-link>
       <ul class="menu">
         <li>
-          <a href="#" class="main-menu">Home</a>
-
-          <!-- <transition name="fade">
-            <ul v-if="listOne" @click="listOne = false">
-              <li><a href="#">Sub Menu Item</a></li>
-              <li><a href="#">Sub Menu Item</a></li>
-              <li><a href="#">Sub Menu Item</a></li>
-            </ul>
-          </transition> -->
+          <router-link class="main-menu" to="home">Home</router-link>
         </li>
 
         <li @mouseover="listTwo = true" @mouseleave="listTwo = false">
-          <a href="#" class="main-menu">About us</a>
-
+          <a class="main-menu" >About us</a>
           <transition name="fade">
             <ul v-if="listTwo" @click="listTwo = false" class="menu2">
-              <li class="sub-menu"><a href="#">Who we are</a></li>
-              <li class="sub-menu"><a href="#">Team 2021-22</a></li>
-              <li class="sub-menu"><a href="#">Zonal Bifurcation</a></li>
-              <li class="sub-menu"><a href="#">FAQ</a></li>
+              <li class="sub-menu"><router-link to="about">Who we are</router-link></li>
+              <li class="sub-menu"><router-link to="team">Team 2021-22</router-link></li>
+              <li class="sub-menu"><router-link to="zones">Zonal Bifurcation</router-link></li>
+              <li class="sub-menu"><router-link to="faq">FAQ</router-link></li>
             </ul>
           </transition>
         </li>
 
         <li @mouseover="listThree = true" @mouseleave="listThree = false">
-          <a href="#" class="main-menu">Our Initiatives</a>
+          <router-link to="" class="main-menu">Our Initiatives</router-link>
 
           <transition name="fade">
             <ul v-if="listThree" @click="listThree = false">
-              <li class="sub-menu"><a href="#">Community Service</a></li>
-              <li class="sub-menu"><a href="#">Club Service</a></li>
-              <li class="sub-menu"><a href="#">Career & Skills</a></li>
-              <li class="sub-menu"><a href="#">Going Global</a></li>
-              <li class="sub-menu"><a href="#">Sports</a></li>
+              <li class="sub-menu"><router-link to="/">Community Service</router-link></li>
+              <li class="sub-menu"><router-link to="/">Club Service</router-link></li>
+              <li class="sub-menu"><router-link to="/">Career & Skills</router-link></li>
+              <li class="sub-menu"><router-link to="/">Going Global</router-link></li>
+              <li class="sub-menu"><router-link to="/">Sports</router-link></li>
             </ul>
           </transition>
         </li>
@@ -49,81 +40,25 @@
 
           <transition name="fade">
             <ul v-if="listFour" @click="listFour = false">
-              <li class="sub-menu"><a href="#">Pranali</a></li>
-              <li class="sub-menu"><a href="#">Resources</a></li>
+              <li class="sub-menu"><a href="https://rotaract3142.org/desk" target="_blank">Pranali</a></li>
+              <li class="sub-menu"><a href="/" target="_blank">Resources</a></li>
+              <li class="sub-menu"><a href="https://rotaract3142.org/blog" target="_blank">Blog</a></li>
             </ul>
           </transition>
         </li>
 
         <li>
-          <a href="#" class="main-menu">Contact Us</a>
+          <router-link to="contact" class="main-menu">Contact Us</router-link>
         </li>
       </ul>
-
-      <!-- <nav>
-          <div class="menu-item"><a href="#">Home</a></div>
-          <div class="menu-item"><a href="#">About</a></div>
-          <Dropdown title="Services" :items="services" />
-          <div class="menu-item"><a href="#">Contact</a></div>
-        </nav> -->
-      <!-- <nav role="navigation" id="navigation" class="list">
-          <a href="#" class="item -link"><router-link to="/home">Home</router-link></a>
-          <a href="#" class="item -link"><router-link to="/about">About Us</router-link></a>
-          <a href="#" class="item -link">Our Initiative</a>
-          <a href="#" class="item -link">For Members</a>
-          <Dropdown title="For Members" :items="forMembers" />
-          <a href="#" class="item -link"><router-link to="/contact">Contact Us</router-link></a>
-          <a href="#" class="item -link"><router-link to="/faq">FAQ</router-link></a>
-        </nav>
-        
-        <button data-collapse data-target="#navigation" class="toggle">
-          
-          <span class="icon"></span>
-        </button>-->
     </div>
   </div>
-
-  <!-- <div class="navbar-component">
-
-      <div class="navbar area">
-
-        <a href="#" class="logo"><img src="../assets/DistrictlogoB.png" alt=""></a>
-
-        <nav role="navigation" id="navigation" class="list">
-          <a href="#" class="item -link">Home</a>
-          <a href="#" class="item -link">Products</a>
-          <a href="#" class="item -link">About Us</a>
-          <ul class="nav-dropdown">
-            <li>
-              <a href="#!">Web Design</a>
-            </li>
-            <li>
-              <a href="#!">Web Development</a>
-            </li>
-            <li>
-              <a href="#!">Graphic Design</a>
-            </li>
-          </ul>
-          <a href="#" class="item -link">Blog</a>
-          <a href="#" class="item -link">Contact us</a>
-        </nav>
-
-        <button data-collapse data-target="#navigation" class="toggle">
-          <span class="icon"></span>
-        </button>
-      </div>
-    </div> -->
 </template>
 
 <script>
-//import Dropdown from '../components/sections/Dropdown.vue';
 
 export default {
   name: "Navbar",
-
-  // components:{
-  //   Dropdown
-  // },
   methods: {
     openMenu() {
       let mainNav = document.getElementById("js-menu");
@@ -133,34 +68,9 @@ export default {
 
   data() {
     return {
-      // listOne:   false,
       listTwo:   false,
       listThree: false,
       listFour:  false,
-      services: [
-        {
-          title: "Web",
-          link: "#",
-        },
-        {
-          title: "Design",
-          link: "#",
-        },
-        {
-          title: "Videos",
-          link: "#",
-        },
-      ],
-      forMembers: [
-        {
-          title: "Resources",
-          link: "#",
-        },
-        {
-          title: "Pranali",
-          link: "#",
-        },
-      ],
     };
   },
 };
@@ -196,6 +106,10 @@ export default {
 .sub-menu a{
   padding: 15px;
 }
+
+.sub-menu a:hover{
+  color: #fcfcfc;
+}
 /* 
 .menu2{
   display: block;
@@ -207,7 +121,7 @@ export default {
 } */
 
 .menu li ul {
-  z-index: 999;
+  z-index: 99999;
   position: absolute;
   left: 0;
   top: 76px;

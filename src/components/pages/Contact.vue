@@ -13,7 +13,7 @@
         <div class="row">
 
           <div class="col-lg-6 ">
-            <img src="../assets/contact_Image.png" alt="" style="padding-top: 105px;">
+            <img src="../../assets/img/contact_Image.png" alt="" style="padding-top: 105px;">
           </div>
 
           <div class="col-lg-6" style="padding: 55px;">

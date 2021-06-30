@@ -93,7 +93,7 @@
             data-aos="zoom-in"
             data-aos-delay="150"
           >
-            <img src="../assets/Merch.png" class="img-fluid" alt="" />
+            <img src="../../assets/img/Merch.png" class="img-fluid" alt="" />
           </div>
           <div
             class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content_merch"
@@ -184,17 +184,17 @@
     <!-- Sponsors -->
     <SponsorCarousel></SponsorCarousel>
     <!-- Testimonials -->
-    <Testimonials></Testimonials>
+    <!-- <Testimonials></Testimonials> -->
 </div>
 </template>
 
 <script>
-import SponsorCarousel from '../components/sections/SponsorCarousel.vue';
-import Testimonials from './sections/Testimonials.vue';
+import SponsorCarousel from '../sections/SponsorCarousel.vue';
+// import Testimonials from './sections/Testimonials.vue';
 
 export default {
   name: "Home",
-  components:{SponsorCarousel, Testimonials},
+  components:{SponsorCarousel},
   mounted() {
     this.titleText();
   },
@@ -701,7 +701,7 @@ span {
 }
 
 #home {
-  background-image: url("../assets/HeaderImg.png");
+  background-image: url("../../assets/img/HeaderImg.png");
   background-size: cover;
   background-repeat: no-repeat;
   max-height: 500px;

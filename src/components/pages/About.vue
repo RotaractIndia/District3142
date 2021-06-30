@@ -13,7 +13,7 @@
             "
           >
             <img
-              src="../assets/Aboutus_1.png"
+              src="../../assets/img/Aboutus_1.png"
               class="img-fluid"
               alt=""
               data-aos="zoom-in"
@@ -341,7 +341,7 @@ export default {
   }
 }
 .about {
-  padding: 75px 0;
+  padding: 50px 0;
 }
 
 h1 {
@@ -365,5 +365,11 @@ a:hover {
   font-family: "Roboto";
   color: #000000 !important;
   font-size: 18px;
+}
+
+.about-img img{
+  height: 300px;
+  width: 400px;
+  object-fit: contain;
 }
 </style>

@@ -2,11 +2,11 @@
   <div class="demo-row">
     <div class="container" id="id-sponsors">
       <div class="text-center">
-        <h2 style="margin: 20px 0;" class="heading">Platinum Sponsors</h2>
+        <h2 style="margin: 20px 0;" class="heading">Our Partners</h2>
       </div>
       <div id="sponsor-carousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
-        <ol class="carousel-indicators">
+        <!-- <ol class="carousel-indicators">
           <li
             data-target="#carousel-example-generic"
             data-slide-to="0"
@@ -14,7 +14,7 @@
           ></li>
           <li data-target="#carousel-example-generic" data-slide-to="1"></li>
           <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-        </ol>
+        </ol> -->
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
@@ -22,42 +22,38 @@
               <div class="col-sm-3 col-xs-6">
                 <div class="sponsor-feature">
                   <img
-                    alt=""
-                    src="https://itagroup.hs.llnwd.net/o40/csg/pse-demo/channel-incentive/nucor-logo.svg"
-                    style="width: 200px"
+                    alt="hapkit"
+                    src="../../assets/partners/hapkit.jpeg"
                   />
                 </div>
               </div>
               <div class="col-sm-3 col-xs-6">
                 <div class="sponsor-feature">
                   <img
-                    alt=""
-                    src="https://itagroup.hs.llnwd.net/o40/csg/pse-demo/channel-incentive/logo-mil.png"
-                    style="width: 155px"
+                    alt="bamboo-india"
+                    src="../../assets/partners/BamboIndia.jpg"
                   />
                 </div>
               </div>
               <div class="col-sm-3 col-xs-6">
                 <div class="sponsor-feature">
                   <img
-                    alt=""
-                    src="https://itagroup.hs.llnwd.net/o40/csg/pse-demo/channel-incentive/logo-timberline.jpg"
-                    style="width: 200px"
+                    alt="BH-social"
+                    src="../../assets/partners/BHSocial.png"
                   />
                 </div>
               </div>
               <div class="col-sm-3 col-xs-6">
                 <div class="sponsor-feature">
                   <img
-                    alt=""
-                    src="https://itagroup.hs.llnwd.net/o40/csg/pse-demo/channel-incentive/logo-ppg.jpg"
-                    style="width: 200px"
+                    alt="wwf"
+                    src="../../assets/partners/wwf.png"
                   />
                 </div>
               </div>
             </div>
           </div>
-          <div class="item">
+          <!-- <div class="item">
             <div class="row">
               <div class="col-sm-3 col-xs-6">
                 <div class="sponsor-feature">
@@ -96,7 +92,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -119,7 +115,7 @@ export default {
     },
   },
   mounted() {
-    this.carousel();
+    // this.carousel();
   },
 };
 </script>
@@ -149,19 +145,24 @@ export default {
 .sponsor-feature {
   padding: 20px;
   border-radius: 5px;
-  min-height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 5px 0;
 }
+.sponsor-feature img{
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border: 1px solid #eee;
+}
 
-#id-sponsors .carousel {
-  margin-bottom: 20px;
-}
-#id-sponsors .item {
-  padding-bottom: 20px;
-}
+/* #id-sponsors .carousel { */
+  /* margin-bottom: 20px; */
+/* } */
+/* #id-sponsors .item { */
+  /* padding-bottom: 20px; */
+/* } */
 #id-sponsors .carousel-indicators {
   bottom: -25px;
 }
