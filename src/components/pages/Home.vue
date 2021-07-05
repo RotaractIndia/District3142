@@ -735,6 +735,9 @@ span {
 .read-more a{
   color:inherit;
   text-decoration:underline;
+
+}
+
 @media (max-width: 940px) {
   .container_blog {
     grid-template-columns: 1fr;
