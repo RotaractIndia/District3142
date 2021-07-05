@@ -18,7 +18,7 @@
             </h1>
             <br />
             <div class="mt-3">
-              <router-link to="contact" class="btn text-white mr-2">JOIN US</router-link>
+              <router-link to="contact" class="btn text-white mr-2 join-us">JOIN US</router-link>
             </div>
           </div>
         </div>
@@ -33,11 +33,14 @@
           catalyst for evolution. The thing which cannot be finished at once and
           is inevitable. AND therefore, we call ourselves THE CHANGEMAKERS.
         </p>
+        <p class="read-more">
+      <a href="/about">Read More</a>
+      </p>
       </div>
     </div>
     <!-- Card Layout -->
     <div class="container">
-      <h1 class="heading">Thrust Area</h1>
+      <h1 class="heading mt-5">Thrust Area</h1>
       <div class="thrust-area-container">
         <a class="card" href="#!">
           <div
@@ -104,7 +107,7 @@
               <i><b>Ekatra is all we do!</b></i> <br>
               Come Ekatra and flaunt the feeling of proud rotaraction with our cool merchandise.<br> Shop for Rotaract District 3142’s Official Merchandise Support is very important and special to us. 
             </p>
-            <a href="#" class="read-more"
+            <a href="#" class="read-more buy-now"
               >Buy now<i class="icofont-long-arrow-right"></i
             ></a>
           </div>
@@ -266,7 +269,7 @@ export default {
 
 /*Sponsors */
 .merch {
-  padding: 55px 0;
+  padding: 55px 0 0;
   background-color: rgb(238, 238, 238);
 }
 
@@ -316,13 +319,13 @@ export default {
   padding-bottom: 25px;
 }
 
-.merch .content_merch .read-more {
+.buy-now {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 10px;
+  padding: 10px 25px;
   border-radius: 5px;
   transition: 0.5s;
   color: #fff;
@@ -365,7 +368,7 @@ export default {
   text-align: center;
   width: 100%;
   padding: 2rem 6rem;
-  color: rgb(252, 252, 252);
+  color: #fcfcfc;
 }
 .about-text p:nth-child(1) {
   font-weight: bold;
@@ -408,7 +411,7 @@ a{
   margin-left: 1rem;
   font-weight: 900;
   font-size: 2.25rem;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 0.1ch;
   line-height: 1;
   padding-bottom: 0.5em;
@@ -721,6 +724,20 @@ span {
 .hero .container-fluid {
   z-index: 10;
 }
+
+.join-us {
+  padding: 10px 25px;
+}
+
+.read-more{
+  margin-bottom:0;
+}
+.read-more a{
+  color:inherit;
+  text-decoration:underline;
+
+}
+
 @media (max-width: 940px) {
   .container_blog {
     grid-template-columns: 1fr;
