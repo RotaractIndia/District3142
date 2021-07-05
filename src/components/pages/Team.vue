@@ -291,11 +291,6 @@ export default {
               photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
               designation:"Jt Club Service Director"
             },
-            {
-              name:"Rtr. Abhishek Pandey",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-              designation:"Director Finance"
-            },
           ],
           color:"Green-border"
         },
