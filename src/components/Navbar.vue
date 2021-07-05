@@ -39,7 +39,7 @@
           <a href="#" class="main-menu">For Members</a>
 
           <transition name="fade">
-            <ul v-if="listFour" @click="listFour = false">
+            <ul v-if="listFour" @click="listFour = false" class="menu2">
               <li class="sub-menu"><a href="https://rotaract3142.org/desk" target="_blank">Pranali</a></li>
               <li class="sub-menu"><a href="/" target="_blank">Resources</a></li>
               <li class="sub-menu"><a href="https://rotaract3142.org/blog" target="_blank">Blog</a></li>
@@ -89,7 +89,7 @@ export default {
 .menu a {
   display: block;
   padding: 25px;
-  color: darkgray;
+  color: #838383;
   text-decoration: none;
 }
 
@@ -98,20 +98,16 @@ export default {
   float: left;
   position: relative;
   background:transparent;
-  color: darkgray;
+  color: #838383;
   min-width: 150px;
 }
 
 .main-menu:hover {
-  color: #333;
+  color: #101113;
 }
 
-.sub-menu a{
-  padding: 15px;
-}
-
-.sub-menu a:hover{
-  color: #fcfcfc;
+.menu2{
+  font-size: 14px;
 }
 /* 
 .menu2{
@@ -133,12 +129,21 @@ export default {
 }
 
 .menu li ul li {
-  background: #333;
+  background: #FCFCFC;
   transition: background 0.2s;
 }
 
+/* 
 .menu li ul li:hover {
-  background: #444;
+  background: #101113;
+} */
+
+.sub-menu a{
+  padding: 10px;
+}
+
+.sub-menu a:hover{
+  color: #101113;
 }
 
 .fade-enter-active,

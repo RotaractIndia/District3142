@@ -2,7 +2,7 @@
   <div class="demo-row">
     <div class="container" id="id-sponsors">
       <div class="text-center">
-        <h2 class="heading">Our Partners</h2>
+        <h2 class="heading mt-5">Our Partners</h2>
       </div>
       <div id="sponsor-carousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -122,12 +122,15 @@ export default {
 
 <style scoped>
 .heading {
-  padding: 35px;
   font-family: FairPlayDisplay;
   width: 100%;
   font-weight: 900;
   font-size: 2.25rem;
-  text-transform: uppercase;
+  /* text-transform: uppercase; 
+  padding: 35px;
+  padding-bottom: 0.5em;
+  margin-left: 1rem;
+  */
   letter-spacing: 0.1ch;
   line-height: 1;
   padding-bottom: 0.5em;
