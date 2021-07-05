@@ -39,7 +39,17 @@ const routes = [
     path: '/zones',
     name: 'Zones',
     component: () => import('../components/pages/Zones.vue')
-  }
+  },
+  {
+    path: '/projects',
+    name: 'Projects',
+    component: () => import('../components/pages/Projects.vue')
+  },
+  {
+    path: '/aaraDemo',
+    name: 'aaraDemo',
+    component: () => import('../components/pages/aaraDemo.vue')
+  },
 ]
 
 const router = new VueRouter({

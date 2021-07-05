@@ -133,9 +133,10 @@ export default {
   */
   letter-spacing: 0.1ch;
   line-height: 1;
-  margin-bottom: 1rem;
+  padding-bottom: 0.5em;
   position: relative;
   text-align: center;
+  margin: 20px 0;
 }
 /*for Demo Only*/
 .demo-row {
@@ -158,6 +159,9 @@ export default {
   border: 1px solid #eee;
 }
 
+.sponsor-feature img:hover{
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
 /* #id-sponsors .carousel { */
   /* margin-bottom: 20px; */
 /* } */
@@ -167,4 +171,14 @@ export default {
 #id-sponsors .carousel-indicators {
   bottom: -25px;
 }
+@media screen and (max-width: 500px) {
+  .demo-row{
+    padding: 10px 0;
+  }
+  .heading{
+    padding: 10px;
+    margin:0;
+  }
+}
+
 </style>
