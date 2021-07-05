@@ -10,7 +10,7 @@
             
           </ul>
         </div>
-        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0" style="margin-left: 25px;">
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
           <h6 class="text-uppercase font-weight-bold mb-4"><b>About us</b></h6>
           <ul class="list-unstyled mb-0">
             <li class="mb-2"><router-link to="about" class="text-muted">Who we are</router-link></li>

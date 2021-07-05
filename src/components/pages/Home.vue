@@ -428,16 +428,7 @@ a{
   border: none !important;
   background-color: transparent !important;
 }
-@media screen and (max-width: 800px) {
-  .card {
-    width: calc(50% - 2rem);
-  }
-}
-@media screen and (max-width: 500px) {
-  .card {
-    width: 100%;
-  }
-}
+
 
 .thrust-area-container {
   display: grid;
@@ -657,12 +648,6 @@ body {
 .user-info small {
   color: #888785;
 }
-@media (max-width: 940px) {
-  .container_blog {
-    grid-template-columns: 1fr;
-    justify-items: center;
-  }
-}
 
 /*Blog */
 .banner_part .banner_video {
@@ -735,5 +720,80 @@ span {
 
 .hero .container-fluid {
   z-index: 10;
+}
+@media (max-width: 940px) {
+  .container_blog {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .card {
+    width: calc(50% - 2rem);
+  }
+}
+@media screen and (max-width: 500px) {
+  .card {
+    width: 88%;
+  }
+  .card .back{
+    padding: 1rem;
+  }
+  .thrust-area-container{
+    overflow-y: hidden;
+    overflow-x: scroll;
+    justify-content: initial;
+  }
+  .thrust-area-container .card{
+    margin:0;
+  }
+
+  .merch{
+    padding: 20px 0;
+  }
+  .merch .content_merch h3{
+    font-size: 28px;
+    padding: 10px 0 !important;
+  }
+  .merch .content_merch .read-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .text-white {
+    font-size:20px;
+  }
+  a.btn.text-white{
+    font-size: 16px;
+  }
+
+  #home{
+    max-height: 250px;
+    margin-left: -10rem;
+    padding-left: 8rem;
+    padding-bottom: 3rem;
+  }
+
+  .about-container{
+    width: 90%;
+  }
+  .about-text{
+    padding: 10px;
+    color: #fff;
+  }
+  .about-text h3{
+    font-size: 17px;
+  }
+  .about-text p{
+    font-size: 14px;
+  }
+  .heading{
+    font-size: 25px;
+    padding: 10px;
+    margin: 0;
+  }
 }
 </style>
