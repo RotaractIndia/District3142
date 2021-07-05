@@ -31,10 +31,11 @@
                             <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
                             <!-- Subject -->
                             <!-- <input type="select" name="subject" id="subject" required="required" class="form" placeholder="Subject" /> -->
-                            <select name="subject" id="subject" class="form" placeholder="What are you looking for?">
-                              <option value="1">1</option>
-                              <option value="2">2</option>
-                              <option value="3">3</option>
+                            <select name="subject" id="subject" class="form">
+                              <option value="What are you looking for?">What are you looking for?</option>
+                              <option value="I want to know more about your organisation">I want to know more about your organisation</option>
+                              <option value="I want to know more about a particular project">I want to know more about a particular project</option>
+                              <option value="Which Rotaract Clubs are around me and how do I join?">Which Rotaract Clubs are around me and how do I join?</option>
                             </select>
                         </div><!-- End Left Inputs -->
                         <!-- Right Inputs -->

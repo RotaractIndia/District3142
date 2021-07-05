@@ -22,9 +22,9 @@
         </li>
 
         <li @mouseover="listThree = true" @mouseleave="listThree = false">
-          <router-link to="" class="main-menu">Our Initiatives</router-link>
+          <router-link to="/projects" class="main-menu">Our Projects</router-link>
 
-          <transition name="fade">
+          <!-- <transition name="fade">
             <ul v-if="listThree" @click="listThree = false">
               <li class="sub-menu"><router-link to="/">Community Service</router-link></li>
               <li class="sub-menu"><router-link to="/">Club Service</router-link></li>
@@ -32,7 +32,7 @@
               <li class="sub-menu"><router-link to="/">Going Global</router-link></li>
               <li class="sub-menu"><router-link to="/">Sports</router-link></li>
             </ul>
-          </transition>
+          </transition> -->
         </li>
 
         <li @mouseover="listFour = true" @mouseleave="listFour = false">
@@ -51,6 +51,9 @@
           <router-link to="contact" class="main-menu">Contact Us</router-link>
         </li>
       </ul>
+
+      <!-- mobile navbar here -->
+      
     </div>
   </div>
 </template>

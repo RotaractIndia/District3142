@@ -22,12 +22,9 @@
           <div class="col-lg-6 pt-5 pt-lg-0 year-theme">
             <!-- <img class="image" src="../../assets/CMLogoB.png" alt=""><br> -->
             <p data-aos="fade-up" data-aos-delay="100">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
-              aute irure dolor in reprehenderit.Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Duis aute irure dolor in
-              reprehenderit. <br /><br />
+              The thing which mankind is most afraid of. The thing which is the catalyst for evolution. The thing which cannot be finished at once and is inevitable.
+AND therefore, we call ourselves THE CHANGEMAKERS. The theme for 2021-22 is CHANGEMAKERS. Become a part of this CHANGE MAKING family, join our hands in this journey and witness the CHANGE in your personality while having the intention to bring a CHANGE in the society.
+ <br /><br />
             </p>
           </div>
         </div>
@@ -50,23 +47,11 @@
         </article>
       </div>
       <div class="body_inner_right">
-        Ipsum is simply dummy text of the printing and typesetting industry.
-        Lorem Ipsum has been the industry's standard dummy text ever since the
-        1500s, when an unknown printer took a galley of type and scrambled it to
-        make a type specimen book. It has survived not only five centuries, but
-        also the leap into electronic typesetting, remaining essentially
-        unchanged. It was popularised in the 1960s with the release of Letraset
-        sheets containing Lorem Ipsum passages, and more recently with desktop
-        publishing software like Aldus PageMaker including versions of Lorem
-        Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        “The measure of intelligence is the ability to change” – Albert Einstein
+Rotaract District 3142 is a youth organization that focuses on providing a platform to help the next generation discover their leadership abilities, develop their personal skills, create their own network; all of this whilst making a substantial impact in the community. We are the voice of innovation, ambassadors of humanity, agents of service and the movers and shakers of society.<br>
+Over the past 54 years, we have been consistent in creating a legacy of responsible youth and have never hesitated to be ahead of our time. Our efforts in the field of education, women empowerment, environment conservation, mental health, water conservation and medical care are second to no other youth organization in the city. We have also encouraged cultural exchanges and professional conferences to broaden the minds of the members. Even during the pandemic, Rotaract District 3142 stepped up and was working alongside the government in all areas of service related to COVID-19
+As the District Rotaract Representative for the year 2021-2022, I can confirm that we will continue to render our support to society and keep grooming future leaders to become confident custodians of this great nation. 
+When the world around you is dark, it’s the best time to shine. It’s the year to become a ChangeMaker.
       </div>
     </div>
     <div class="body_wrapper">
@@ -647,19 +632,9 @@ export default {
               designation:"Jt Director PR"
             },
             {
-              name:"Rtr. Dhiraj Valecha",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-              designation:"Jt Director PR"
-            },
-            {
               name:"Rtr. Kajal Dusseja",
               photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
               designation:"Jt Director PR"
-            },
-            {
-              name:"Rtr. Rohan Solanki",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-              designation:"Jt Director Marketing"
             },
           ],
           color:"Purple-border"

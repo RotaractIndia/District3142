@@ -21,7 +21,7 @@
           </ul>
         </div>
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-          <h6 class="text-uppercase font-weight-bold mb-4"><b>Our Initiatives</b></h6>
+          <h6 class="text-uppercase font-weight-bold mb-4"><router-link to="projects" class="text-muted"><b>Our Projects</b></router-link></h6>
           <ul class="list-unstyled mb-0">
             <li class="mb-2"><a href="#" class="text-muted">Club Service</a></li>
             <li class="mb-2"><a href="#" class="text-muted">Community Service</a></li>
@@ -33,8 +33,9 @@
         <div class="col-lg-2 col-md-6 mb-lg-0">
           <h6 class="text-uppercase font-weight-bold mb-4"><b>For Members</b></h6>
           <ul class="list-unstyled mb-0">
+            <li class="mb-2"><a href="https://rotaract3142.org/desk" class="text-muted">Pranali</a></li>
             <li class="mb-2"><a href="#" class="text-muted">Resources</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Pranali</a></li>
+            <li class="mb-2"><a href="https://rotaract3142.org/blog" class="text-muted">Blog</a></li>
           </ul>
         </div>
         <div class="col-lg-2 col-md-3 mb-lg-6">
@@ -44,6 +45,7 @@
             <li class="mb-2"><a href="https://www.facebook.com/rotaract3142" target="_blank" class="text-muted">Facebook</a></li>
             <li class="mb-2"><a href="https://www.instagram.com/rotaract3142/" target="_blank" class="text-muted">Instagram</a></li>
             <li class="mb-2"><a href="https://www.linkedin.com/company/rotaract-district-3142/" target="_blank" class="text-muted">Linkedin</a></li>
+            <li class="mb-2"><a href="https://discord.gg/Ts5SBPqJzd" target="_blank" class="text-muted">Discord Channel</a></li>
             <!-- <li class="mb-2"><a href="#" target="_blank" class="text-muted">Mail</a></li> -->
           </ul>
         </div>
