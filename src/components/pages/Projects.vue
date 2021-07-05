@@ -1,49 +1,8 @@
 <template>
-  <div>
-    <section id="about" class="about">
+    <div>
+        <section id="about" class="about">
       <div class="container">
-        <div class="row justify-content-between">
-          <div
-            class="
-              col-lg-5
-              d-flex
-              align-items-center
-              justify-content-center
-              about-img
-            "
-          >
-            <img
-              src="../../assets/img/Aboutus_1.png"
-              class="img-fluid"
-              alt=""
-              data-aos="zoom-in"
-            />
-          </div>
-          <div class="col-lg-6 pt-5 pt-lg-0">
-            <h1 data-aos="fade-up">Who are we?</h1>
-            <br />
-            <p data-aos="fade-up" data-aos-delay="100">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
-              aute irure dolor in reprehenderit.Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Duis aute irure dolor in
-              reprehenderit.Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Duis aute irure dolor in reprehenderit.Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Duis aute irure dolor
-              in reprehenderit <br /><br />
-              <a href="#"><b>Read More About Rotary</b></a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Events -->
-    <section id="about" class="about">
-      <div class="container">
-        <h1 class="heading">Our Flagship Initiative</h1>
+        <h1 class="heading">Our Projects</h1>
         <div class="row justify-content-between">
           
           <div
@@ -63,96 +22,9 @@
             />
           </div>
           <div class="col-lg-6 pt-5 pt-lg-0">
-            <h1 data-aos="fade-up">Project Daptar 
-            </h1>
-            <br />
-            <p data-aos="fade-up" data-aos-delay="100">
-              If watching movies like <i>Taare Zameen Par, Hichki, Super 30, Udaan, Iqbal, Paathshala</i> give you goosebumps, we feel those goosebumps during every Daptar session. Daptar - the name resembles a school bag but the project focuses on teaching life skills that are quite often missing from a school bag. Under Daptar, we select ambassadors from the entire district who are interested and have the skill set required to teach students. The ambassadors are trained by professionals. From public speaking, effective communication, interpersonal skills to value for money, good touch bad touch, personal and environmental hygiene, the ambassadors are trained for every single thing under the sky that is necessary to survive in the real world. These ambassadors then visit the schools that have been taken under Rotaract District 3142 every week and impart these learnings to the students in form of activities and indirect learning methods. Daptar indeed is a bag full of emotions, you get to witness emotional hormones skyrocketing by the end of one academic year(Oh Gosh these tears).
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="about" class="about">
-      <div class="container">
-        <div class="row justify-content-between">
-          <div
-            class="
-              col-lg-5
-              d-flex
-              align-items-center
-              justify-content-center
-              about-img
-            "
-          >
-            <img
-              src="https://pbs.twimg.com/media/DftpEhIV4AAUu0e.jpg"
-              class="img-fluid"
-              alt=""
-              data-aos="zoom-in"
-            />
-          </div>
-          <div class="col-lg-6 pt-5 pt-lg-0">
-            <h1 data-aos="fade-up">Drop of Hope</h1>
-            <br />
-            <p data-aos="fade-up" data-aos-delay="100">
-              They say the start of anything has to be bang on the wall and we break the goddam wall by giving hope to people out there drop by drop. Drop of hope - a mega blood donation drive that happens across the entire district on the 1st of July. Why on 1st July? Why not anytime else? Well, we promote having a regular blood donation camp but July 1st is when the new Rotaract year starts and there’s no better deed than serving the community. Over the years, we’ve developed a brand of our own where donors along with the rotaractors eagerly wait for these camps to take place. This time we had Lokmat as our media partner and with the growing awareness campaigns across the globe, we anticipate collaborating with more brands in the years to come where we come together unanimously and promote the noble cause of donating blood.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="about" class="about">
-      <div class="container">
-        <div class="row justify-content-between">
-          <div
-            class="
-              col-lg-5
-              d-flex
-              align-items-center
-              justify-content-center
-              about-img
-            "
-          >
-            <img
-              src="https://rotaract3142.kanr.is/src/assets/images/next_the_conclave.png"
-              class="img-fluid"
-              alt=""
-              data-aos="zoom-in"
-            />
-          </div>
-          <div class="col-lg-6 pt-5 pt-lg-0">
-            <h1 data-aos="fade-up">Next: The Conclave</h1>
-            <br />
-            <p data-aos="fade-up" data-aos-delay="100">
-              On a random Wednesday evening, tired of the monotonous life you double click yet another post on social media, surrounded by the guilt of not working toward the short term goals you had set for yourself which will eventually push the timeline of your long term goal you come across the post of this person and BANG!!! The person was the speaker of a session you had attended a year ago organized by Rotaract District 3142. That person had a similar story like yours but the only thing that they had an edge over you were they kept asking themselves WHAT’S NEXT? They asked it when they had a fall, they asked it when they reached a milestone, they asked it when things went south and north and center and all across. And BANG… you get that little dose of motivation required enough to keep you going. That’s NEXT - The Conclave for you, a motivational session where speakers from different walks of life come together at a single platform, share their stories with the attendees and inspire them to achieve all their dreams. The initiative had great success where various celebrity speakers like Prajakta Koli, Abhi-Niyu, Akshay Laxman, Sunil Jadhav, and many more have inspired the audiences with their stories.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="about" class="about">
-      <div class="container">
-        <div class="row justify-content-between">
-          <div
-            class="
-              col-lg-5
-              d-flex
-              align-items-center
-              justify-content-center
-              about-img
-            "
-          >
-            <img
-              src="https://i.ytimg.com/vi/TMhFTC9xbww/hqdefault.jpg"
-              class="img-fluid"
-              alt=""
-              data-aos="zoom-in"
-            />
-          </div>
-          <div class="col-lg-6 pt-5 pt-lg-0">
-            <h1 data-aos="fade-up">Under 18 Summit</h1>
-            <br />
+            <h2>Project Daptar 960x640</h2>
+            <span>RC Thane Downtown</span>
+            <br /> <br>
             <p data-aos="fade-up" data-aos-delay="100">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
@@ -164,100 +36,21 @@
               aliqua. Duis aute irure dolor in reprehenderit.Lorem ipsum dolor
               sit amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua. Duis aute irure dolor
-              in reprehenderit
+              in reprehenderit    
             </p>
           </div>
         </div>
       </div>
     </section>
-    <section id="about" class="about">
-      <div class="container">
-        <div class="row justify-content-between">
-          <div
-            class="
-              col-lg-5
-              d-flex
-              align-items-center
-              justify-content-center
-              about-img
-            "
-          >
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1UODiwCNk32Jx68mzaGogWPnh2FdLS0FHir7TGr9eM1v42VPY1WavcBWJRg6R8hC_Fjs&usqp=CAU"
-              class="img-fluid"
-              alt=""
-              data-aos="zoom-in"
-            />
-          </div>
-          <div class="col-lg-6 pt-5 pt-lg-0">
-            <h1 data-aos="fade-up">Rotaract Entertainment Destination</h1>
-            <br />
-            <p data-aos="fade-up" data-aos-delay="100">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
-              aute irure dolor in reprehenderit.Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Duis aute irure dolor in
-              reprehenderit.Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Duis aute irure dolor in reprehenderit.Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Duis aute irure dolor
-              in reprehenderit
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="about" class="about">
-      <div class="container">
-        <div class="row justify-content-between">
-          <div
-            class="
-              col-lg-5
-              d-flex
-              align-items-center
-              justify-content-center
-              about-img
-            "
-          >
-            <img
-              src="https://rotaract3142.org/assets/rotaract3142/img/about_us.jpg"
-              class="img-fluid"
-              alt=""
-              data-aos="zoom-in"
-            />
-          </div>
-          <div class="col-lg-6 pt-5 pt-lg-0">
-            <h1 data-aos="fade-up">Rotaract Initiative towards Sporting Excellence</h1>
-            <br />
-            <p data-aos="fade-up" data-aos-delay="100">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
-              aute irure dolor in reprehenderit.Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Duis aute irure dolor in
-              reprehenderit.Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Duis aute irure dolor in reprehenderit.Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Duis aute irure dolor
-              in reprehenderit
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
+    </div>
 </template>
 
 <script>
 export default {
-  name: "About",
-};
+    name: "Projects",
+}
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .heading {
   font-family: FairPlayDisplay;

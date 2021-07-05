@@ -18,7 +18,7 @@
             </h1>
             <br />
             <div class="mt-3">
-              <a class="btn text-white mr-2" href="" role="button">Join us</a>
+              <router-link to="contact" class="btn text-white mr-2">JOIN US</router-link>
             </div>
           </div>
         </div>
@@ -112,7 +112,7 @@
       </div>
     </section>
     <!-- Blogs -->
-    <div class="container">
+    <!-- <div class="container">
       <h1 class="heading">Featured Stories</h1>
       <div class="container_blog">
         <div class="card_blog">
@@ -128,8 +128,7 @@
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Aspernatur tenetur distinctio neque?Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-              consequuntur sequi suscipit iure fuga ea!Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-              consequuntur sequi suscipit iure fuga ea! 
+              consequuntur sequi suscipit iure fuga ea!
             </p>
             <div class="user">
               <a href="#">Read More</a>
@@ -147,10 +146,8 @@
             <span class="tag tag-purple">Place</span>
             <h4>Hot Air Ballooning in Nepal - 1 Day</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-              dolor nihil saepe. Nobis nihil minus similique hic quas mollitia.
-              Error.Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-              consequuntur sequi suscipit iure fuga ea!Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Aspernatur tenetur distinctio neque?Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
               consequuntur sequi suscipit iure fuga ea!
             </p>
             <div class="user">
@@ -169,9 +166,8 @@
             <span class="tag tag-pink">Travel</span>
             <h4>New York City | Layout, People, Economy, Culture</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-              consequuntur sequi suscipit iure fuga ea!Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-              consequuntur sequi suscipit iure fuga ea!Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Aspernatur tenetur distinctio neque?Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
               consequuntur sequi suscipit iure fuga ea!
             </p>
             <div class="user">
@@ -180,7 +176,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Sponsors -->
     <SponsorCarousel></SponsorCarousel>
     <!-- Testimonials -->
@@ -400,6 +396,11 @@ body {
   background-color: #ecf0f9;
 }
 
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
 .heading {
   padding: 35px;
   font-family: FairPlayDisplay;
@@ -586,7 +587,7 @@ body {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
-  background-color: #fffafb;
+  background-color: #FFFAFB;
 }
 .card-header-blog img {
   padding: 10px;
@@ -598,7 +599,7 @@ body {
 .card-body-blog {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
   padding: 20px;
   min-height: 250px;
 }
