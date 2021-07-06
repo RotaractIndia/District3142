@@ -196,11 +196,140 @@ import Hardik from "../../assets/ct/Hardik.jpg"
 import Siddhi from "../../assets/ct/Siddhi.jpg"
 import Vaibhav from "../../assets/ct/Vaibhav.jpg"
 
+// COUNCIL
+// secretary
+import Ajinkya from "../../assets/council/Ajinkya.png";
+import Ruhika from "../../assets/council/Ruhika.png";
+import Projesh from "../../assets/council/Projesh.png";
+import SagarB from "../../assets/council/SagarB.png";
+
+// Finance
+import SahilA from "../../assets/council/SahilA.png";
+import Jitesh from "../../assets/council/Jitesh.png";
+import VijayK from "../../assets/council/VijayK.png";
+import Abhishek from "../../assets/council/Abhishek.png";
+
+//Deputy
+import Mahanand from "../../assets/council/Mahanand.png";
+import Preeti from "../../assets/council/Preeti.png";
+import Mayuresh from "../../assets/council/Mayuresh.png";
+import RaviS from "../../assets/council/RaviS.png";
+import RahulS from "../../assets/council/RahulS.png";
+
+//Club serv
+import Viren from "../../assets/council/Viren.png";
+import Jugnu from "../../assets/council/Jugnu.png";
+import Mayuri from "../../assets/council/Mayuri.png";
+
+//Commserv
+import Prem from "../../assets/council/Prem.png";
+import Mitesh from "../../assets/council/Mitesh.png";
+import Srusti from "../../assets/council/Srusti.png";
+
+//ED
+import Prasad from "../../assets/council/Prasad.png";
+import Natasha from "../../assets/council/Natasha.png";
+import Twinkle from "../../assets/council/Twinkle.png";
+
+//Sports Aditya g
+import Kunal from "../../assets/council/Kunal.png";
+// import Prasad from "../../assets/council/Prasad.png";
+import Ruchi from "../../assets/council/Ruchi.png";
+
+//ISD
+import Aishwarya from "../../assets/council/Aishwarya.png";
+import Needhi from "../../assets/council/Needhi.png";
+
+//PD
+import Reena from "../../assets/council/Reena.png";
+import Anvi from "../../assets/council/Anvi.png";
+
+//admin and events
+import Shraddha from "../../assets/council/Shraddha.png";
+import Noopur from "../../assets/council/Noopur.png";
+import Archit from "../../assets/council/Archit.png";
+import Tanmay from "../../assets/council/Tanmay.png";
+import Sumit from "../../assets/council/Sumit.png";
+import VijayM from "../../assets/council/VijayM.png";
+
+//digicom
+import Radhika from "../../assets/council/Radhika.png";
+import ChinmayP from "../../assets/council/ChinmayP.png";
+import SagarP from "../../assets/council/SagarP.png";
+import Jayesh from "../../assets/council/Jayesh.png";
+import KiranB from "../../assets/council/KiranB.png";
+
+//Photography
+import RahulY from "../../assets/council/RahulY.png";
+import Viraj from "../../assets/council/Viraj.png";
+import RahulC from "../../assets/council/RahulC.png";
+import Shubhang from "../../assets/council/Shubhang.png";
+
+//marketing
+import OmkarK from "../../assets/council/OmkarK.png";
+import Zenil from "../../assets/council/Zenil.png";
+import Rohan from "../../assets/council/Rohan.png";
+
+//PR
+import Arya from "../../assets/council/Arya.png";
+import Khushabu from "../../assets/council/Khusbhu.png";
+import Kajal from "../../assets/council/Kajal.png";
+
+//CSR
+import Saalim from "../../assets/council/Saalim.png";
+import Pratik from "../../assets/council/Pratik.png";
+
+//PIS
+import Sanjeevani from "../../assets/council/Sanjeevni.png";
+import Mihir from "../../assets/council/Mihir.png";
+import Shashant from "../../assets/council/Shashant.png";
+
+//trs
+import SagarM from "../../assets/council/SagarM.png";
+import Hrishikesh from "../../assets/council/Hrishikesh.png";
+import Shivam from "../../assets/council/Shivam.png";
+
 export default {
   name: "Team",
   data(){
     return{
+      // core
       Mithila,Shanmukh,Swapnil,Vijal,Gauri,ChinmayS,Sushmita,Hardik,Siddhi,Vaibhav,
+      // Council
+      // Secretary
+      Ruhika, Ajinkya,Projesh,SagarB,
+      // Finance
+      SahilA, Jitesh,VijayK,Abhishek,
+      //Deputy Ranjeet
+      Mahanand,Preeti,Mayuresh,RahulS,RaviS,
+      //Club serv
+      Viren,Jugnu,Mayuri,
+      //Commserv Mansi
+      Prem, Mitesh,Srusti,
+      //ED
+      Prasad,Natasha,Twinkle,
+      //Sports
+      Kunal,Ruchi,
+      //ISD Rushikesh
+      Aishwarya,Needhi,
+      //PD Vishal 
+      Reena,Anvi,
+      //Admin and events
+      Shraddha,Noopur,Archit,Tanmay,Sumit,VijayM,
+      //Digicom
+      Radhika,ChinmayP,SagarP,Jayesh,KiranB,
+      //photography
+      RahulY,Viraj,RahulC,Shubhang,
+      //marketing jinit, keerthana
+      OmkarK,Zenil,Rohan,
+      //PR
+      Arya,Khushabu,Kajal,
+      //CSR
+      Saalim,Pratik,
+      //PIS
+      Sanjeevani, Mihir, Shashant,
+      //trs
+      SagarM,Hrishikesh,Shivam,
       coreTeam:[
         { name:"Rtr. Mithila Salvi", position:"District Secretry", image:Mithila, color:"Deep-Purple" },
         { name:"Rtr. Shanmukhswami Gowda", position:"Deputy DRR & Corporate Communications Chair", image:Shanmukh, color:"Purple" },
@@ -219,22 +348,22 @@ export default {
           directors:[
             {
               name:"Rtr. Ajinkya Dhuri",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Ajinkya,
               designation:"Jt Secretary"
             },
             {
               name:"Rtr. Dr. Projesh Mukherjee",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Projesh,
               designation:"Jt Secretary"
             },
             {
               name:"Rtr. Ruhika Kalsekar",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Ruhika,
               designation:"Jt Secretary"
             },
             {
               name:"Rtr. Sagar Brijwani",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:SagarB,
               designation:"Jt Secretary"
             },
           ],
@@ -245,22 +374,22 @@ export default {
           directors:[
             {
               name:"Rtr. Sahil Agarwal",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:SahilA,
               designation:"Director Finance"
             },
             {
               name:"Rtr. Jitesh Bhatia ",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Jitesh,
               designation:"Director Finance"
             },
             {
               name:"Rtr. Vijay Kumawat",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:VijayK,
               designation:"Director Finance"
             },
             {
               name:"Rtr. Abhishek Pandey",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Abhishek,
               designation:"Director Finance"
             },
           ],
@@ -270,25 +399,25 @@ export default {
           avenue:"Team Club Service",
           deputy:[
             {
-              name:"Rtr.Mahanand Vishwakarma",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              name:"Rtr. Mahanand Vishwakarma",
+              photo:Mahanand,
               designation:"Deputy Avenues 1 Chair"
             },
           ],
           directors:[
             {
               name:"Rtr. Viren Lassi",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Viren,
               designation:"Club Service Director"
             },
             {
               name:"Rtr. Jugnu Borkar",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Jugnu,
               designation:"Jt Club Service Director"
             },
             {
               name:"Rtr Mayuri Sapkale",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Mayuri,
               designation:"Jt Club Service Director"
             },
           ],
@@ -299,24 +428,24 @@ export default {
           deputy:[
             {
               name:"Rtr.Mahanand Vishwakarma",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Mahanand,
               designation:"Deputy Avenues 1 Chair"
             },
           ],
           directors:[
             {
               name:"Rtr. Prem Nadar",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Prem,
               designation:"Community Service Director"
             },
             {
               name:"Rtr. Mitesh Jain",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Mitesh,
               designation:"Jt Community Service Director"
             },
             {
               name:"Rtr. Srushti Yashwante",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Srusti,
               designation:"Jt Community Service Director"
             },
             {
@@ -332,24 +461,24 @@ export default {
           deputy:[
             {
               name:"Rtr.Mahanand Vishwakarma",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Mahanand,
               designation:"Deputy Avenues 1 Chair"
             },
           ],
           directors:[
             {
               name:"Rtr. Prasad Yadav",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Prasad,
               designation:"Entrepreneurship Development Director"
             },
             {
               name:"Rtr. Natasha Jain",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Natasha,
               designation:"Jt Entrepreneurship Development Director"
             },
             {
               name:"Rtr. Twinkle Matta",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Twinkle,
               designation:"Jt Entrepreneurship Development Director"
             },
           ],
@@ -359,15 +488,15 @@ export default {
           avenue:"Team Sports",
           deputy:[
             {
-              name:"Rtr.Dr. Preeti Bhogle",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              name:"Rtr. Dr. Preeti Bhogle",
+              photo:Preeti,
               designation:"Deputy Avenues 2 Chair"
             },
           ],
           directors:[
             {
               name:"Rtr. Kunal Kataria",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Kunal,
               designation:"Director Sports"
             },
             {
@@ -377,7 +506,7 @@ export default {
             },
             {
               name:"Rtr. Rruchi Bhandari",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Ruchi,
               designation:"Jt Director Sports"
             },
           ],
@@ -388,19 +517,19 @@ export default {
           deputy:[
             {
               name:"Rtr.Dr. Preeti Bhogle",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Preeti,
               designation:"Deputy Avenues 2 Chair"
             },
           ],
           directors:[
             {
               name:"Rtr. Aishwarya Gupta ",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Aishwarya,
               designation:"International Service Director"
             },
             {
               name:"Rtr. Needhi Shukla",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Needhi,
               designation:"Jt International Service Director"
             },
             {
@@ -416,7 +545,7 @@ export default {
           deputy:[
             {
               name:"Rtr.Dr. Preeti Bhogle",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Preeti,
               designation:"Deputy Avenues 2 Chair"
             },
           ],
@@ -428,12 +557,12 @@ export default {
             },
             {
               name:"Rtr. Reena Mapari",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Reena,
               designation:"Jt Professional Development Director"
             },
             {
               name:"Rtr. Anvi Shetty",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Anvi,
               designation:"Jt Professional Development Director"
             },
           ],
@@ -443,7 +572,7 @@ export default {
           avenue:"Team Admin & Events",
           deputy:[
             {
-              name:"Rtr.Ranjeet Pandey",
+              name:"Rtr. Ranjeet Pandey",
               photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
               designation:"Deputy Events and Admin"
             },
@@ -451,32 +580,32 @@ export default {
           directors:[
             {
               name:"Rtr. Shraddha Purohit",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Shraddha,
               designation:"Director Admin"
             },
             {
               name:"Rtr. Noopur Rahane",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Noopur,
               designation:"Jt Director Admin"
             },
             {
               name:"Rtn. Rtr. Archit Patki",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Archit,
               designation:"Jt Director Admin"
             },
             {
               name:"Rtr. Tanmay Deshpande",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Tanmay,
               designation:"Director Events"
             },
             {
               name:"Rtr. Sumit Bhanage",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Sumit,
               designation:"Jt Director Events"
             },
             {
               name:"Rtr. Vijay Malkani",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:VijayM,
               designation:"Jt Director Events"
             },
           ],
@@ -487,39 +616,39 @@ export default {
           deputy:[
             {
               name:"Rtr. Mayuresh Jadhav",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Mayuresh,
               designation:"Deputy Digital Communications Chair"
             },
           ],
           directors:[
             {
               name:"Rtr. Radhika Jagtap",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Radhika,
               designation:"Social Media Director"
             },
             {
               name:"Rtr. Chinmay Pradhan",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:ChinmayP,
               designation:"Jt Social Media Director"
             },
             {
               name:"Rtr. Sagar Pandit",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:SagarP,
               designation:"Creative Director"
             },
             {
               name:"Rtr. Jayesh Zurunge",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Jayesh,
               designation:"Jt Creative Director"
             },
             {
               name:"Rtr. Kiran Barai",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:KiranB,
               designation:"Jt Creative Director"
             },
             {
               name:"Rtr. Jitesh Bhatia",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Jitesh,
               designation:"Editor"
             },
           ],
@@ -530,29 +659,29 @@ export default {
           deputy:[
             {
               name:"Rtr. Mayuresh Jadhav",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Mayuresh,
               designation:"Deputy Digital Communications Chair"
             },
           ],
           directors:[
             {
               name:"Rtr. Rahul Yadav",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:RahulY,
               designation:"Director of Photography"
             },
             {
               name:"Rtr. Viraj Sawant",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Viraj,
               designation:"Assistant Director of Photography"
             },
             {
               name:"Rtr. Rahul Chahande",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:RahulC,
               designation:"Assistant Professional Development Director"
             },
             {
               name:"Rtr. Shubhang Kashikar",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Shubhang,
               designation:"Assistant Director of Photography"
             },
           ],
@@ -563,12 +692,12 @@ export default {
           deputy:[
             {
               name:"Rtr. Rahul Shelar",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:RahulS,
               designation:"Deputy Corporate Communicataions Chair"
             },
             {
               name:"Rtr. Ravi Suthar",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:RaviS,
               designation:"Deputy Corporate Communicataions Chair"
             },
           ],
@@ -580,12 +709,12 @@ export default {
             },
             {
               name:"Rtr. Omkar Kadu",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:OmkarK,
               designation:"Jt Director Marketing"
             },
             {
               name:"Rtr. Zenil Shah",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Zenil,
               designation:"Jt Director Marketing"
             },
             {
@@ -595,7 +724,7 @@ export default {
             },
             {
               name:"Rtr. Rohan Solanki",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Rohan,
               designation:"Jt Director Marketing"
             },
           ],
@@ -606,29 +735,29 @@ export default {
           deputy:[
             {
               name:"Rtr. Rahul Shelar",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:RahulS,
               designation:"Deputy Corporate Communicataions Chair"
             },
             {
               name:"Rtr. Ravi Suthar",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:RaviS,
               designation:"Deputy Corporate Communicataions Chair"
             },
           ],
           directors:[
             {
               name:"Rtr. Arya Gawade",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Arya,
               designation:"Director PR"
             },
             {
               name:"Rtr. Khushabu Agarwal",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Khushabu,
               designation:"Jt Director PR"
             },
             {
               name:"Rtr. Kajal Dusseja",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Kajal,
               designation:"Jt Director PR"
             },
           ],
@@ -639,24 +768,24 @@ export default {
           deputy:[
             {
               name:"Rtr. Rahul Shelar",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:RahulS,
               designation:"Deputy Corporate Communicataions Chair"
             },
             {
               name:"Rtr. Ravi Suthar",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:RaviS,
               designation:"Deputy Corporate Communicataions Chair"
             },
           ],
           directors:[
             {
               name:"Rtr. Saalim Ali",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Saalim,
               designation:"Director CSR"
             },
             {
               name:"Rtr. Pratik Mate",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Pratik,
               designation:"Jt Director CSR"
             },
           ],
@@ -667,29 +796,29 @@ export default {
           deputy:[
             {
               name:"Rtr. Rahul Shelar",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:RahulS,
               designation:"Deputy Corporate Communicataions Chair"
             },
             {
               name:"Rtr. Ravi Suthar",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:RaviS,
               designation:"Deputy Corporate Communicataions Chair"
             },
           ],
           directors:[
             {
               name:"Rtr. Sanjeevani Bhagat",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Sanjeevani,
               designation:"Director PIS"
             },
             {
               name:"Rtr. Mihir Kocharekar",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Mihir,
               designation:"Jt Director PIS"
             },
             {
               name:"Rtr. Shashant Singh",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Shashant,
               designation:"Jt Director PIS"
             },
           ],
@@ -700,17 +829,17 @@ export default {
           directors:[
             {
               name:"Rtr. Sagar Mulchandani",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:SagarM,
               designation:"Director Training, Revival & Sustenance "
             },
             {
               name:"Rtr. Hrishikesh Sawant",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Hrishikesh,
               designation:"Director Training, Revival & Sustenance"
             },
             {
               name:"Rtr Shivam Yadav",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Shivam,
               designation:"Director Training, Revival & Sustenance"
             },
           ],
@@ -1196,7 +1325,6 @@ hr {
 .img-container {
   height: auto;
   width: 100%;
-  filter: grayscale(100%);
 }
 .material-card .img-container {
   overflow: hidden;
