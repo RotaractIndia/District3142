@@ -32,7 +32,6 @@
                             <!-- Subject -->
                             <!-- <input type="select" name="subject" id="subject" required="required" class="form" placeholder="Subject" /> -->
                             <select name="subject" id="subject" class="form">
-                              <option value="What are you looking for?">What are you looking for?</option>
                               <option value="I want to know more about your organisation">I want to know more about your organisation</option>
                               <option value="I want to know more about a particular project">I want to know more about a particular project</option>
                               <option value="Which Rotaract Clubs are around me and how do I join?">Which Rotaract Clubs are around me and how do I join?</option>
