@@ -233,670 +233,658 @@ import Hardik from "../../assets/ct/Hardik.jpg";
 import Siddhi from "../../assets/ct/Siddhi.jpg";
 import Vaibhav from "../../assets/ct/Vaibhav.jpg";
 
+// COUNCIL
+// secretary
+import Ajinkya from "../../assets/council/Ajinkya.png";
+import Ruhika from "../../assets/council/Ruhika.png";
+import Projesh from "../../assets/council/Projesh.png";
+import SagarB from "../../assets/council/SagarB.png";
+
+// Finance
+import SahilA from "../../assets/council/SahilA.png";
+import Jitesh from "../../assets/council/Jitesh.png";
+import VijayK from "../../assets/council/VijayK.png";
+import Abhishek from "../../assets/council/Abhishek.png";
+
+//Deputy
+import Mahanand from "../../assets/council/Mahanand.png";
+import Preeti from "../../assets/council/Preeti.png";
+import Mayuresh from "../../assets/council/Mayuresh.png";
+import RaviS from "../../assets/council/RaviS.png";
+import RahulS from "../../assets/council/RahulS.png";
+
+//Club serv
+import Viren from "../../assets/council/Viren.png";
+import Jugnu from "../../assets/council/Jugnu.png";
+import Mayuri from "../../assets/council/Mayuri.png";
+
+//Commserv
+import Prem from "../../assets/council/Prem.png";
+import Mitesh from "../../assets/council/Mitesh.png";
+import Srusti from "../../assets/council/Srusti.png";
+
+//ED
+import Prasad from "../../assets/council/Prasad.png";
+import Natasha from "../../assets/council/Natasha.png";
+import Twinkle from "../../assets/council/Twinkle.png";
+
+//Sports Aditya g
+import Kunal from "../../assets/council/Kunal.png";
+// import Prasad from "../../assets/council/Prasad.png";
+import Ruchi from "../../assets/council/Ruchi.png";
+
+//ISD
+import Aishwarya from "../../assets/council/Aishwarya.png";
+import Needhi from "../../assets/council/Needhi.png";
+
+//PD
+import Reena from "../../assets/council/Reena.png";
+import Anvi from "../../assets/council/Anvi.png";
+
+//admin and events
+import Shraddha from "../../assets/council/Shraddha.png";
+import Noopur from "../../assets/council/Noopur.png";
+import Archit from "../../assets/council/Archit.png";
+import Tanmay from "../../assets/council/Tanmay.png";
+import Sumit from "../../assets/council/Sumit.png";
+import VijayM from "../../assets/council/VijayM.png";
+
+//digicom
+import Radhika from "../../assets/council/Radhika.png";
+import ChinmayP from "../../assets/council/ChinmayP.png";
+import SagarP from "../../assets/council/SagarP.png";
+import Jayesh from "../../assets/council/Jayesh.png";
+import KiranB from "../../assets/council/KiranB.png";
+
+//Photography
+import RahulY from "../../assets/council/RahulY.png";
+import Viraj from "../../assets/council/Viraj.png";
+import RahulC from "../../assets/council/RahulC.png";
+import Shubhang from "../../assets/council/Shubhang.png";
+
+//marketing
+import OmkarK from "../../assets/council/OmkarK.png";
+import Zenil from "../../assets/council/Zenil.png";
+import Rohan from "../../assets/council/Rohan.png";
+
+//PR
+import Arya from "../../assets/council/Arya.png";
+import Khushabu from "../../assets/council/Khusbhu.png";
+import Kajal from "../../assets/council/Kajal.png";
+
+//CSR
+import Saalim from "../../assets/council/Saalim.png";
+import Pratik from "../../assets/council/Pratik.png";
+
+//PIS
+import Sanjeevani from "../../assets/council/Sanjeevni.png";
+import Mihir from "../../assets/council/Mihir.png";
+import Shashant from "../../assets/council/Shashant.png";
+
+//trs
+import SagarM from "../../assets/council/SagarM.png";
+import Hrishikesh from "../../assets/council/Hrishikesh.png";
+import Shivam from "../../assets/council/Shivam.png";
+
 export default {
-	name: "Team",
-	data() {
-		return {
-			Mithila,
-			Shanmukh,
-			Swapnil,
-			Vijal,
-			Gauri,
-			ChinmayS,
-			Sushmita,
-			Hardik,
-			Siddhi,
-			Vaibhav,
-			coreTeam: [
-				{
-					name: "Rtr. Mithila Salvi",
-					position: "District Secretry",
-					image: Mithila,
-					color: "Deep-Purple",
-				},
-				{
-					name: "Rtr. Shanmukhswami Gowda",
-					position: "Deputy DRR & Corporate Communications Chair",
-					image: Shanmukh,
-					color: "Purple",
-				},
-				{
-					name: "Rtn. Rtr. Swapnil Kadu",
-					position: "District Finance Chair",
-					image: Swapnil,
-					color: "Blue",
-				},
-				{
-					name: "Rtr. Vijal Kathrani",
-					position: "District TRS Chair",
-					image: Vijal,
-					color: "Light-Blue",
-				},
-				{
-					name: "Rtr. Gauri Rane",
-					position: "District Digital Communications Chair",
-					image: Gauri,
-					color: "Cyan",
-				},
-				{
-					name: "Rtr. Chinmay Sheth",
-					position: "District Technology Development Chair",
-					image: ChinmayS,
-					color: "Teal",
-				},
-				{
-					name: "Rtr. Sushmita Valecha",
-					position: "District Avenues 1 Chair",
-					image: Sushmita,
-					color: "Green",
-				},
-				{
-					name: "Rtn. Rtr. Hardik Patel",
-					position: "District Avenues 2 Chair",
-					image: Hardik,
-					color: "Light-Green",
-				},
-				{
-					name: "Rtr. Siddhi Kubal",
-					position: "District Administration Chair",
-					image: Siddhi,
-					color: "Lime",
-				},
-				{
-					name: "Rtn. Rtr. Vaibhav Vispute",
-					position: "District Sergeant-At-Arms",
-					image: Vaibhav,
-					color: "Peach",
-				},
-			],
-			council: [
-				{
-					avenue: "Team Secretariat",
-					directors: [
-						{
-							name: "Rtr. Ajinkya Dhuri",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Secretary",
-						},
-						{
-							name: "Rtr. Dr. Projesh Mukherjee",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Secretary",
-						},
-						{
-							name: "Rtr. Ruhika Kalsekar",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Secretary",
-						},
-						{
-							name: "Rtr. Sagar Brijwani",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Secretary",
-						},
-					],
-					color: "Deep-Purple-border",
-				},
-				{
-					avenue: "Team Finance",
-					directors: [
-						{
-							name: "Rtr. Sahil Agarwal",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Director Finance",
-						},
-						{
-							name: "Rtr. Jitesh Bhatia ",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Director Finance",
-						},
-						{
-							name: "Rtr. Vijay Kumawat",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Director Finance",
-						},
-						{
-							name: "Rtr. Abhishek Pandey",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Director Finance",
-						},
-					],
-					color: "Blue-border",
-				},
-				{
-					avenue: "Team Club Service",
-					deputy: [
-						{
-							name: "Rtr.Mahanand Vishwakarma",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Deputy Avenues 1 Chair",
-						},
-					],
-					directors: [
-						{
-							name: "Rtr. Viren Lassi",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Club Service Director",
-						},
-						{
-							name: "Rtr. Jugnu Borkar",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Club Service Director",
-						},
-						{
-							name: "Rtr Mayuri Sapkale",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Club Service Director",
-						},
-						{
-							name: "Rtr. Abhishek Pandey",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Director Finance",
-						},
-					],
-					color: "Green-border",
-				},
-				{
-					avenue: "Team Community Service",
-					deputy: [
-						{
-							name: "Rtr.Mahanand Vishwakarma",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Deputy Avenues 1 Chair",
-						},
-					],
-					directors: [
-						{
-							name: "Rtr. Prem Nadar",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Community Service Director",
-						},
-						{
-							name: "Rtr. Mitesh Jain",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Community Service Director",
-						},
-						{
-							name: "Rtr. Srushti Yashwante",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Community Service Director",
-						},
-						{
-							name: "Rtr. Mansi Kante",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Community Service Director",
-						},
-					],
-					color: "Green-border",
-				},
-				{
-					avenue: "Team Entrepreneurship Development",
-					deputy: [
-						{
-							name: "Rtr.Mahanand Vishwakarma",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Deputy Avenues 1 Chair",
-						},
-					],
-					directors: [
-						{
-							name: "Rtr. Prasad Yadav",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Entrepreneurship Development Director",
-						},
-						{
-							name: "Rtr. Natasha Jain",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Entrepreneurship Development Director",
-						},
-						{
-							name: "Rtr. Twinkle Matta",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Entrepreneurship Development Director",
-						},
-					],
-					color: "Green-border",
-				},
-				{
-					avenue: "Team Sports",
-					deputy: [
-						{
-							name: "Rtr.Dr. Preeti Bhogle",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Deputy Avenues 2 Chair",
-						},
-					],
-					directors: [
-						{
-							name: "Rtr. Kunal Kataria",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Director Sports",
-						},
-						{
-							name: "Rtr. Aditya Gharat",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Director Sports",
-						},
-						{
-							name: "Rtr. Rruchi Bhandari",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Director Sports",
-						},
-					],
-					color: "Light-Green-border",
-				},
-				{
-					avenue: "Team International Service",
-					deputy: [
-						{
-							name: "Rtr.Dr. Preeti Bhogle",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Deputy Avenues 2 Chair",
-						},
-					],
-					directors: [
-						{
-							name: "Rtr. Aishwarya Gupta ",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "International Service Director",
-						},
-						{
-							name: "Rtr. Needhi Shukla",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt International Service Director",
-						},
-						{
-							name: "Rtr. Rushikesh Bhadane",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt International Service Director",
-						},
-					],
-					color: "Light-Green-border",
-				},
-				{
-					avenue: "Team Professional Development",
-					deputy: [
-						{
-							name: "Rtr.Dr. Preeti Bhogle",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Deputy Avenues 2 Chair",
-						},
-					],
-					directors: [
-						{
-							name: "Rtr. Vishal Shah",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Professional Development Director",
-						},
-						{
-							name: "Rtr. Reena Mapari",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Professional Development Director",
-						},
-						{
-							name: "Rtr. Anvi Shetty",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Professional Development Director",
-						},
-					],
-					color: "Light-Green-border",
-				},
-				{
-					avenue: "Team Admin & Events",
-					deputy: [
-						{
-							name: "Rtr.Ranjeet Pandey",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Deputy Events and Admin",
-						},
-					],
-					directors: [
-						{
-							name: "Rtr. Shraddha Purohit",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Director Admin",
-						},
-						{
-							name: "Rtr. Noopur Rahane",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Director Admin",
-						},
-						{
-							name: "Rtn. Rtr. Archit Patki",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Director Admin",
-						},
-						{
-							name: "Rtr. Tanmay Deshpande",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Director Events",
-						},
-						{
-							name: "Rtr. Sumit Bhanage",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Director Events",
-						},
-						{
-							name: "Rtr. Vijay Malkani",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Director Events",
-						},
-					],
-					color: "Lime-border",
-				},
-				{
-					avenue: "Team Digital Communications",
-					deputy: [
-						{
-							name: "Rtr. Mayuresh Jadhav",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Deputy Digital Communications Chair",
-						},
-					],
-					directors: [
-						{
-							name: "Rtr. Radhika Jagtap",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Social Media Director",
-						},
-						{
-							name: "Rtr. Chinmay Pradhan",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Social Media Director",
-						},
-						{
-							name: "Rtr. Sagar Pandit",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Creative Director",
-						},
-						{
-							name: "Rtr. Jayesh Zurunge",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Creative Director",
-						},
-						{
-							name: "Rtr. Kiran Barai",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Creative Director",
-						},
-						{
-							name: "Rtr. Jitesh Bhatia",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Editor",
-						},
-					],
-					color: "Cyan-border",
-				},
-				{
-					avenue: "Team Photography",
-					deputy: [
-						{
-							name: "Rtr. Mayuresh Jadhav",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Deputy Digital Communications Chair",
-						},
-					],
-					directors: [
-						{
-							name: "Rtr. Rahul Yadav",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Director of Photography",
-						},
-						{
-							name: "Rtr. Viraj Sawant",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Assistant Director of Photography",
-						},
-						{
-							name: "Rtr. Rahul Chahande",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Assistant Professional Development Director",
-						},
-						{
-							name: "Rtr. Shubhang Kashikar",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Assistant Director of Photography",
-						},
-					],
-					color: "Cyan-border",
-				},
-				{
-					avenue: "Team Marketing",
-					deputy: [
-						{
-							name: "Rtr. Rahul Shelar",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Deputy Corporate Communicataions Chair",
-						},
-						{
-							name: "Rtr. Ravi Suthar",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Deputy Corporate Communicataions Chair",
-						},
-					],
-					directors: [
-						{
-							name: "Rtr. Jinit Patel",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Director Marketing",
-						},
-						{
-							name: "Rtr. Omkar Kadu",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Director Marketing",
-						},
-						{
-							name: "Rtr. Zenil Shah",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Director Marketing",
-						},
-						{
-							name: "Rtr. Keerthana Nambiar",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Director Marketing",
-						},
-						{
-							name: "Rtr. Rohan Solanki",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Director Marketing",
-						},
-					],
-					color: "Purple-border",
-				},
-				{
-					avenue: "Team Public Relations",
-					deputy: [
-						{
-							name: "Rtr. Rahul Shelar",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Deputy Corporate Communicataions Chair",
-						},
-						{
-							name: "Rtr. Ravi Suthar",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Deputy Corporate Communicataions Chair",
-						},
-					],
-					directors: [
-						{
-							name: "Rtr. Arya Gawade",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Director PR",
-						},
-						{
-							name: "Rtr. Khushabu Agarwal",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Director PR",
-						},
-						{
-							name: "Rtr. Kajal Dusseja",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Director PR",
-						},
-					],
-					color: "Purple-border",
-				},
-				{
-					avenue: "Team CSR",
-					deputy: [
-						{
-							name: "Rtr. Rahul Shelar",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Deputy Corporate Communicataions Chair",
-						},
-						{
-							name: "Rtr. Ravi Suthar",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Deputy Corporate Communicataions Chair",
-						},
-					],
-					directors: [
-						{
-							name: "Rtr. Saalim Ali",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Director CSR",
-						},
-						{
-							name: "Rtr. Pratik Mate",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Director CSR",
-						},
-					],
-					color: "Purple-border",
-				},
-				{
-					avenue: "Team PIS",
-					deputy: [
-						{
-							name: "Rtr. Rahul Shelar",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Deputy Corporate Communicataions Chair",
-						},
-						{
-							name: "Rtr. Ravi Suthar",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Deputy Corporate Communicataions Chair",
-						},
-					],
-					directors: [
-						{
-							name: "Rtr. Sanjeevani Bhagat",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Director PIS",
-						},
-						{
-							name: "Rtr. Mihir Kocharekar",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Director PIS",
-						},
-						{
-							name: "Rtr. Shashant Singh",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Jt Director PIS",
-						},
-					],
-					color: "Purple-border",
-				},
-				{
-					avenue: "Team Training, Revival & Sustenance",
-					directors: [
-						{
-							name: "Rtr. Sagar Mulchandani",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Director Training, Revival & Sustenance ",
-						},
-						{
-							name: "Rtr. Hrishikesh Sawant",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Director Training, Revival & Sustenance",
-						},
-						{
-							name: "Rtr Shivam Yadav",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
-							designation: "Director Training, Revival & Sustenance",
-						},
-					],
-					color: "Light-Blue-border",
-				},
-			],
-		};
-	},
+  name: "Team",
+  data(){
+    return{
+      // core
+      Mithila,Shanmukh,Swapnil,Vijal,Gauri,ChinmayS,Sushmita,Hardik,Siddhi,Vaibhav,
+      // Council
+      // Secretary
+      Ruhika, Ajinkya,Projesh,SagarB,
+      // Finance
+      SahilA, Jitesh,VijayK,Abhishek,
+      //Deputy Ranjeet
+      Mahanand,Preeti,Mayuresh,RahulS,RaviS,
+      //Club serv
+      Viren,Jugnu,Mayuri,
+      //Commserv Mansi
+      Prem, Mitesh,Srusti,
+      //ED
+      Prasad,Natasha,Twinkle,
+      //Sports
+      Kunal,Ruchi,
+      //ISD Rushikesh
+      Aishwarya,Needhi,
+      //PD Vishal 
+      Reena,Anvi,
+      //Admin and events
+      Shraddha,Noopur,Archit,Tanmay,Sumit,VijayM,
+      //Digicom
+      Radhika,ChinmayP,SagarP,Jayesh,KiranB,
+      //photography
+      RahulY,Viraj,RahulC,Shubhang,
+      //marketing jinit, keerthana
+      OmkarK,Zenil,Rohan,
+      //PR
+      Arya,Khushabu,Kajal,
+      //CSR
+      Saalim,Pratik,
+      //PIS
+      Sanjeevani, Mihir, Shashant,
+      //trs
+      SagarM,Hrishikesh,Shivam,
+      coreTeam:[
+        { name:"Rtr. Mithila Salvi", position:"District Secretry", image:Mithila, color:"Deep-Purple" },
+        { name:"Rtr. Shanmukhswami Gowda", position:"Deputy DRR & Corporate Communications Chair", image:Shanmukh, color:"Purple" },
+        { name:"Rtn. Rtr. Swapnil Kadu", position:"District Finance Chair", image:Swapnil, color:"Blue" },
+        { name:"Rtr. Vijal Kathrani", position:"District TRS Chair", image:Vijal, color:"Light-Blue" },
+        { name:"Rtr. Gauri Rane", position:"District Digital Communications Chair", image:Gauri, color:"Cyan" },
+        { name:"Rtr. Chinmay Sheth", position:"District Technology Development Chair", image:ChinmayS, color:"Teal" },
+        { name:"Rtr. Sushmita Valecha", position:"District Avenues 1 Chair", image:Sushmita, color:"Green" },
+        { name:"Rtn. Rtr. Hardik Patel", position:"District Avenues 2 Chair", image:Hardik, color:"Light-Green" },
+        { name:"Rtr. Siddhi Kubal", position:"District Administration Chair", image:Siddhi, color:"Lime" },
+        { name:"Rtn. Rtr. Vaibhav Vispute", position:"District Sergeant-At-Arms", image:Vaibhav, color:"Peach" },
+      ],
+      council:[
+        {
+          avenue:"Team Secretariat",
+          directors:[
+            {
+              name:"Rtr. Ajinkya Dhuri",
+              photo:Ajinkya,
+              designation:"Jt Secretary"
+            },
+            {
+              name:"Rtr. Dr. Projesh Mukherjee",
+              photo:Projesh,
+              designation:"Jt Secretary"
+            },
+            {
+              name:"Rtr. Ruhika Kalsekar",
+              photo:Ruhika,
+              designation:"Jt Secretary"
+            },
+            {
+              name:"Rtr. Sagar Brijwani",
+              photo:SagarB,
+              designation:"Jt Secretary"
+            },
+          ],
+          color:"Deep-Purple-border"
+        },
+        {
+          avenue:"Team Finance",
+          directors:[
+            {
+              name:"Rtr. Sahil Agarwal",
+              photo:SahilA,
+              designation:"Director Finance"
+            },
+            {
+              name:"Rtr. Jitesh Bhatia ",
+              photo:Jitesh,
+              designation:"Director Finance"
+            },
+            {
+              name:"Rtr. Vijay Kumawat",
+              photo:VijayK,
+              designation:"Director Finance"
+            },
+            {
+              name:"Rtr. Abhishek Pandey",
+              photo:Abhishek,
+              designation:"Director Finance"
+            },
+          ],
+          color:"Blue-border"
+        },
+        {
+          avenue:"Team Club Service",
+          deputy:[
+            {
+              name:"Rtr. Mahanand Vishwakarma",
+              photo:Mahanand,
+              designation:"Deputy Avenues 1 Chair"
+            },
+          ],
+          directors:[
+            {
+              name:"Rtr. Viren Lassi",
+              photo:Viren,
+              designation:"Club Service Director"
+            },
+            {
+              name:"Rtr. Jugnu Borkar",
+              photo:Jugnu,
+              designation:"Jt Club Service Director"
+            },
+            {
+              name:"Rtr Mayuri Sapkale",
+              photo:Mayuri,
+              designation:"Jt Club Service Director"
+            },
+          ],
+          color:"Green-border"
+        },
+        {
+          avenue:"Team Community Service",
+          deputy:[
+            {
+              name:"Rtr.Mahanand Vishwakarma",
+              photo:Mahanand,
+              designation:"Deputy Avenues 1 Chair"
+            },
+          ],
+          directors:[
+            {
+              name:"Rtr. Prem Nadar",
+              photo:Prem,
+              designation:"Community Service Director"
+            },
+            {
+              name:"Rtr. Mitesh Jain",
+              photo:Mitesh,
+              designation:"Jt Community Service Director"
+            },
+            {
+              name:"Rtr. Srushti Yashwante",
+              photo:Srusti,
+              designation:"Jt Community Service Director"
+            },
+            {
+              name:"Rtr. Mansi Kante",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Community Service Director"
+            },
+          ],
+          color:"Green-border"
+        },
+        {
+          avenue:"Team Entrepreneurship Development",
+          deputy:[
+            {
+              name:"Rtr.Mahanand Vishwakarma",
+              photo:Mahanand,
+              designation:"Deputy Avenues 1 Chair"
+            },
+          ],
+          directors:[
+            {
+              name:"Rtr. Prasad Yadav",
+              photo:Prasad,
+              designation:"Entrepreneurship Development Director"
+            },
+            {
+              name:"Rtr. Natasha Jain",
+              photo:Natasha,
+              designation:"Jt Entrepreneurship Development Director"
+            },
+            {
+              name:"Rtr. Twinkle Matta",
+              photo:Twinkle,
+              designation:"Jt Entrepreneurship Development Director"
+            },
+          ],
+          color:"Green-border"
+        },
+        {
+          avenue:"Team Sports",
+          deputy:[
+            {
+              name:"Rtr. Dr. Preeti Bhogle",
+              photo:Preeti,
+              designation:"Deputy Avenues 2 Chair"
+            },
+          ],
+          directors:[
+            {
+              name:"Rtr. Kunal Kataria",
+              photo:Kunal,
+              designation:"Director Sports"
+            },
+            {
+              name:"Rtr. Aditya Gharat",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Director Sports"
+            },
+            {
+              name:"Rtr. Rruchi Bhandari",
+              photo:Ruchi,
+              designation:"Jt Director Sports"
+            },
+          ],
+          color:"Light-Green-border"
+        },
+        {
+          avenue:"Team International Service",
+          deputy:[
+            {
+              name:"Rtr.Dr. Preeti Bhogle",
+              photo:Preeti,
+              designation:"Deputy Avenues 2 Chair"
+            },
+          ],
+          directors:[
+            {
+              name:"Rtr. Aishwarya Gupta ",
+              photo:Aishwarya,
+              designation:"International Service Director"
+            },
+            {
+              name:"Rtr. Needhi Shukla",
+              photo:Needhi,
+              designation:"Jt International Service Director"
+            },
+            {
+              name:"Rtr. Rushikesh Bhadane",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt International Service Director"
+            },
+          ],
+          color:"Light-Green-border"
+        },
+        {
+          avenue:"Team Professional Development",
+          deputy:[
+            {
+              name:"Rtr.Dr. Preeti Bhogle",
+              photo:Preeti,
+              designation:"Deputy Avenues 2 Chair"
+            },
+          ],
+          directors:[
+            {
+              name:"Rtr. Vishal Shah",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Professional Development Director"
+            },
+            {
+              name:"Rtr. Reena Mapari",
+              photo:Reena,
+              designation:"Jt Professional Development Director"
+            },
+            {
+              name:"Rtr. Anvi Shetty",
+              photo:Anvi,
+              designation:"Jt Professional Development Director"
+            },
+          ],
+          color:"Light-Green-border"
+        },
+        {
+          avenue:"Team Admin & Events",
+          deputy:[
+            {
+              name:"Rtr. Ranjeet Pandey",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Deputy Events and Admin"
+            },
+          ],
+          directors:[
+            {
+              name:"Rtr. Shraddha Purohit",
+              photo:Shraddha,
+              designation:"Director Admin"
+            },
+            {
+              name:"Rtr. Noopur Rahane",
+              photo:Noopur,
+              designation:"Jt Director Admin"
+            },
+            {
+              name:"Rtn. Rtr. Archit Patki",
+              photo:Archit,
+              designation:"Jt Director Admin"
+            },
+            {
+              name:"Rtr. Tanmay Deshpande",
+              photo:Tanmay,
+              designation:"Director Events"
+            },
+            {
+              name:"Rtr. Sumit Bhanage",
+              photo:Sumit,
+              designation:"Jt Director Events"
+            },
+            {
+              name:"Rtr. Vijay Malkani",
+              photo:VijayM,
+              designation:"Jt Director Events"
+            },
+          ],
+          color:"Lime-border"
+        },
+        {
+          avenue:"Team Digital Communications",
+          deputy:[
+            {
+              name:"Rtr. Mayuresh Jadhav",
+              photo:Mayuresh,
+              designation:"Deputy Digital Communications Chair"
+            },
+          ],
+          directors:[
+            {
+              name:"Rtr. Radhika Jagtap",
+              photo:Radhika,
+              designation:"Social Media Director"
+            },
+            {
+              name:"Rtr. Chinmay Pradhan",
+              photo:ChinmayP,
+              designation:"Jt Social Media Director"
+            },
+            {
+              name:"Rtr. Sagar Pandit",
+              photo:SagarP,
+              designation:"Creative Director"
+            },
+            {
+              name:"Rtr. Jayesh Zurunge",
+              photo:Jayesh,
+              designation:"Jt Creative Director"
+            },
+            {
+              name:"Rtr. Kiran Barai",
+              photo:KiranB,
+              designation:"Jt Creative Director"
+            },
+            {
+              name:"Rtr. Jitesh Bhatia",
+              photo:Jitesh,
+              designation:"Editor"
+            },
+          ],
+          color:"Cyan-border"
+        },
+        {
+          avenue:"Team Photography",
+          deputy:[
+            {
+              name:"Rtr. Mayuresh Jadhav",
+              photo:Mayuresh,
+              designation:"Deputy Digital Communications Chair"
+            },
+          ],
+          directors:[
+            {
+              name:"Rtr. Rahul Yadav",
+              photo:RahulY,
+              designation:"Director of Photography"
+            },
+            {
+              name:"Rtr. Viraj Sawant",
+              photo:Viraj,
+              designation:"Assistant Director of Photography"
+            },
+            {
+              name:"Rtr. Rahul Chahande",
+              photo:RahulC,
+              designation:"Assistant Professional Development Director"
+            },
+            {
+              name:"Rtr. Shubhang Kashikar",
+              photo:Shubhang,
+              designation:"Assistant Director of Photography"
+            },
+          ],
+          color:"Cyan-border"
+        },
+        {
+          avenue:"Team Marketing",
+          deputy:[
+            {
+              name:"Rtr. Rahul Shelar",
+              photo:RahulS,
+              designation:"Deputy Corporate Communicataions Chair"
+            },
+            {
+              name:"Rtr. Ravi Suthar",
+              photo:RaviS,
+              designation:"Deputy Corporate Communicataions Chair"
+            },
+          ],
+          directors:[
+            {
+              name:"Rtr. Jinit Patel",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Director Marketing"
+            },
+            {
+              name:"Rtr. Omkar Kadu",
+              photo:OmkarK,
+              designation:"Jt Director Marketing"
+            },
+            {
+              name:"Rtr. Zenil Shah",
+              photo:Zenil,
+              designation:"Jt Director Marketing"
+            },
+            {
+              name:"Rtr. Keerthana Nambiar",
+              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              designation:"Jt Director Marketing"
+            },
+            {
+              name:"Rtr. Rohan Solanki",
+              photo:Rohan,
+              designation:"Jt Director Marketing"
+            },
+          ],
+          color:"Purple-border"
+        },
+        {
+          avenue:"Team Public Relations",
+          deputy:[
+            {
+              name:"Rtr. Rahul Shelar",
+              photo:RahulS,
+              designation:"Deputy Corporate Communicataions Chair"
+            },
+            {
+              name:"Rtr. Ravi Suthar",
+              photo:RaviS,
+              designation:"Deputy Corporate Communicataions Chair"
+            },
+          ],
+          directors:[
+            {
+              name:"Rtr. Arya Gawade",
+              photo:Arya,
+              designation:"Director PR"
+            },
+            {
+              name:"Rtr. Khushabu Agarwal",
+              photo:Khushabu,
+              designation:"Jt Director PR"
+            },
+            {
+              name:"Rtr. Kajal Dusseja",
+              photo:Kajal,
+              designation:"Jt Director PR"
+            },
+          ],
+          color:"Purple-border"
+        },
+        {
+          avenue:"Team CSR",
+          deputy:[
+            {
+              name:"Rtr. Rahul Shelar",
+              photo:RahulS,
+              designation:"Deputy Corporate Communicataions Chair"
+            },
+            {
+              name:"Rtr. Ravi Suthar",
+              photo:RaviS,
+              designation:"Deputy Corporate Communicataions Chair"
+            },
+          ],
+          directors:[
+            {
+              name:"Rtr. Saalim Ali",
+              photo:Saalim,
+              designation:"Director CSR"
+            },
+            {
+              name:"Rtr. Pratik Mate",
+              photo:Pratik,
+              designation:"Jt Director CSR"
+            },
+          ],
+          color:"Purple-border"
+        },
+        {
+          avenue:"Team PIS",
+          deputy:[
+            {
+              name:"Rtr. Rahul Shelar",
+              photo:RahulS,
+              designation:"Deputy Corporate Communicataions Chair"
+            },
+            {
+              name:"Rtr. Ravi Suthar",
+              photo:RaviS,
+              designation:"Deputy Corporate Communicataions Chair"
+            },
+          ],
+          directors:[
+            {
+              name:"Rtr. Sanjeevani Bhagat",
+              photo:Sanjeevani,
+              designation:"Director PIS"
+            },
+            {
+              name:"Rtr. Mihir Kocharekar",
+              photo:Mihir,
+              designation:"Jt Director PIS"
+            },
+            {
+              name:"Rtr. Shashant Singh",
+              photo:Shashant,
+              designation:"Jt Director PIS"
+            },
+          ],
+          color:"Purple-border"
+        },
+        {
+          avenue:"Team Training, Revival & Sustenance",
+          directors:[
+            {
+              name:"Rtr. Sagar Mulchandani",
+              photo:SagarM,
+              designation:"Director Training, Revival & Sustenance "
+            },
+            {
+              name:"Rtr. Hrishikesh Sawant",
+              photo:Hrishikesh,
+              designation:"Director Training, Revival & Sustenance"
+            },
+            {
+              name:"Rtr Shivam Yadav",
+              photo:Shivam,
+              designation:"Director Training, Revival & Sustenance"
+            },
+          ],
+          color:"Light-Blue-border"
+        },
+      ],
+    }
+  }
 };
 </script>
 
@@ -1431,9 +1419,14 @@ a:hover {
 	transition: all 0.9s;
 }
 .img-container {
+<<<<<<< HEAD
 	height: auto;
 	width: 100%;
 	filter: grayscale(100%);
+=======
+  height: auto;
+  width: 100%;
+>>>>>>> 36d96bb9bbfb854287695517afdedf66209f6bca
 }
 .material-card .img-container {
 	overflow: hidden;

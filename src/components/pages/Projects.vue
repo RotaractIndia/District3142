@@ -5,7 +5,7 @@
         <h1 class="heading">Our Projects</h1>
         <div class="row justify-content-between">
           
-          <div
+          <!-- <div
             class="
               col-lg-5
               d-flex
@@ -15,28 +15,18 @@
             "
           >
             <img
-              src="data:image/png;base64,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"
+              src=""
               class="img-fluid"
               alt=""
               data-aos="zoom-in"
-            />
-          </div>
-          <div class="col-lg-6 pt-5 pt-lg-0">
-            <h2>Project Daptar 960x640</h2>
-            <span>RC Thane Downtown</span>
+            /> 
+          </div> -->
+          <div class="col-lg-6 pt-5 pt-lg-0" v-for="(project, k) in projects" :key="k">
+            <h2>{{project.proj}}</h2>
+            <span><i>{{project.club}}</i></span>
             <br /> <br>
             <p data-aos="fade-up" data-aos-delay="100">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
-              aute irure dolor in reprehenderit.Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Duis aute irure dolor in
-              reprehenderit.Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Duis aute irure dolor in reprehenderit.Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Duis aute irure dolor
-              in reprehenderit    
+                {{project.content}}
             </p>
           </div>
         </div>
@@ -48,22 +38,73 @@
 <script>
 export default {
     name: "Projects",
+    data(){
+      return{
+        projects:[
+          {
+            proj:"Cure Cab",
+            club:"Rotaract Club of Ulhasnagar Sapna Garden",
+            content:"As the name suggests a cab that cures disease. So the club decided to conduct a basic health checkup of villagers in the interiors of Badlapur. They did a survey beforehand to understand what all medical facilities the people had and what was required. The localites didn't have proper medicines that are required regularly and many people had health problems that were undiscovered until this project. The club visited 3 villages and conducted health check ups of 220 villagers with the help of Doctors. They also donated some chocolate and biscuits to the children. In all it was a great initiative to create awareness regarding the importance of health.",
+          },
+          {
+            proj:"Phone a Friend",
+            club:"Rotaract Club of Navi Mumbai Smart City",
+            content:"RC Smart City contacted Mr. Sushil Dhanavade, a life coach, and got him on board for this initiative. A preliminary mental health survey questionnaire was circulated to gauge the mental health status of the target audience and to see if people are comfortable talking about their mental health. The surveys garnered over 98 responses from potential participants, about 70% of which were willing to talk about their mental issues. The form for booking appointments was circulated regularly to get noticed by people in need of such sessions. Appointment confirmation messages were sent to the people two days prior to their appointments. A total of 2 sessions per day were conducted for 30 days, of around 60 minutes duration per session via Zoom Meetings App. A total of 60 participants attended and every participant was grateful and satisfied after their sessions. ",
+          },
+          {
+            proj:"Rangeela - Canvas for a Cause",
+            club:"Rotaract Club of Thane North End",
+            content:"Sometimes all you need to do is let your creative fuel outburst and witness yourself creating a thing that the entire community loves to see. Under this initiative we witnessed over 150 people coming together, including children from TMC schools, to paint a wall chosen by RCTNE. Artists, students, friends, and family alike came down to paint the sections of the wall, all under the theme “Climate Change.” The intent of this project was mainly to brand RCTNE as the creme de la creme of the Rotaract District 3142. We also wished to spread awareness about climate change through art and individuality. Seeing the wall with its vibrant colors and strong messages was a great feeling because we knew we made it count! ",
+          },
+          {
+            proj:"Sports Extravaganza",
+            club:"Rotaract Club of Thane Downtown",
+            content:"This was the 7th year of this opulent event, conducted to cherish and promote sports in the Thane District every year. For Rotaract Club of Thane Downtown, Sports Extravaganza has been a flagship project since the inception year 2014-2015. The main aim of the project is to encourage sporting talent in and around Thane and also to raise funds for ‘Jaipur Foot Donation’. This is a 2-3days event, where over 11-12 types of sporting events like - Cricket, Football, Volleyball, Gymnastics, Powerlifting, Chess, TableTennis, Swimming, etc. are conducted in and around Thane. A footfall of over 3000+ people is witnessed during that span.",
+          },
+          {
+            proj:"USGKart",
+            club:"Rotaract Club of Ulhasnagar Sapna Garden",
+            content:"This initiative was a start up founded by RC Ulhasnagar Sapna Garden. It was basically an E-commerce social media platform where the club used to sell customized products and earn the profits from the same. This platform had various products ranging from customised mugs, diaries, gift sets, frames, hoodies, t-shirts and many more. All the profits collected by selling these products were then used towards underprivileged children. It was indeed one of the most successful initiatives under ED where customized products were sold at subsidized rates. ",
+          },
+          {
+            proj:"Saksham",
+            club:"Rotaract Club of Birla College",
+            content:"Saksham Reloaded was a mega HRD Project divided into 3 phases. Right from brainstorming on ideas, avenue understanding, and picking out the right candidate. This project had it all. This initiative was divided into 3 phases. In Phase 1, applicants were divided into a team of 5 and each team had to pitch a project idea, work on the groundwork and manage the overall execution of that project. In all total 19 teams had applied and 8 shortlisted projects were executed thereby giving the GBMs an opportunity to take charge of things. In Phase 2, orientation was conducted of all the GBMs and new members, where they were taught about all the avenues, their roles, and responsibilities. In Phase 3, the new members had applied for a core position for the upcoming year and they went through a rigorous screening process, right from group discussion, aptitude test, real-time understanding, Rotaract knowledge to drilling in the interview by an experienced panel. Saksham itself is a brilliant HRD concept thereby bringing the best out of your members and sustain the legacy.",
+          },
+          {
+            proj:"Work (IT) from Home",
+            club:"Rotaract Club of Thane North End",
+            content:"The aim of the project was to involve members to showcase their talents from home and provide tutorials to viewers; a fun and creative way to educate and encourage people to learn new skills. Sometimes, we don’t know people around us possess such a unique skill but many times we don’t know about our own hidden skills and its very important to keep trying new things. Under this project, we had asked all the participants to send a video showcasing their talent and give a quick tutorial for the audience to learn a new skill each day. The members came up with amazing videos showcasing their talents with a diverse mix of tutorials. The team put together 52 acts in honor of Council 52. The club members also contributed by making one video together - 52 of us singing “I want it that way” by Backstreet Boys to involve everyone from the club. This project was special because when everybody was low thinking they would be unable to enjoy the Rotaract spirit because of the pandemic, RCTNE chose to truly make it count.",
+          },
+          {
+            proj:"Poetica",
+            club:"Rotaract Club of Navi Mumbai Smart City",
+            content:"Poetry is a beautiful art and there are only a few gifted with the ability to write them. This project was an initiative for providing budding poets from all over India with a platform to showcase their talent. The three-day event was successfully conducted without any technical hindrances. This event was the first-ever digital open mic conducted on a pan-India level. The event was attended by 5000+ people on Facebook and by 500 + people on Zoom. The project received entries of 80 participants from all over India. Each of their entries was sent to the judge and the top 21 were selected for the main event.  Renowned celebrity poet Mr. Rakesh Tiwari was brought on board for judging the poems of the Top 21 finalists. Renowned Marathi actresses Mrunmayi Deshpande, Madhurani Prabhulkar, and poetess Neha Joshi were the chief guests for the 3 days of the event. One celebrity for each day. Actor and model, Navneet Singh was the host for the event. The famous actress Zareen Khan reposted a post of RC Smart City on Instagram. All in this project provided a great platform to budding poets and the club enhanced its PR all around with flawless execution and great collaborations.",
+          },
+        ]
+      }
+    }
 }
 </script>
 
 <style scoped>
 .heading {
   font-family: FairPlayDisplay;
+  width: 100%;
   margin-left: 1rem;
   font-weight: 900;
   font-size: 2.25rem;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 0.1ch;
   line-height: 1;
   padding-bottom: 2em;
   margin-bottom: 1rem;
   position: relative;
   text-align: center;
+}
+
+h2{
+  font-family: FairPlayDisplay;
 }
 .card {
   padding: 125px;

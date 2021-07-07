@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="mob-message">
-      For best user experience view this link on a desktop/laptop
+      For best user experience view this link on a desktop/laptop.
     </div>
     <div class="parentbody">
       <div class="district-logo">
