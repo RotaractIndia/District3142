@@ -1,8 +1,8 @@
 <template>
   <div class="container">
-  <div><img src="../../assets/img/faq.png" class="image"></div>
+  <div><img src="../../assets/img/faq.png" class="image faq-image"></div>
   <div class="items"> 
-  <h1>Frequently Asked Questions</h1>
+  <h1 class="heading">Frequently Asked Questions</h1>
 
   <details v-for="(question, k) in questions" :key="k">
    <summary>{{question.q}}</summary>
@@ -107,13 +107,33 @@ summary {
 	border-top: 2px solid rgba(51, 51, 51, 0.39);
 }
 
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
 	.container {
 		display: flex;
 		flex-direction: column;
 	}
 	.image {
 		display: none;
+	}
+} */
+@media (min-width: 768px) and (max-width: 1024px) {
+.faq-image{
+   width: 300px;
+   padding-top: 70px;
+   padding-right: 25px;
+}
+}
+@media screen and (max-width: 425px) {
+.image {
+		display: none;
+	}
+   .container{
+      padding:25px;
+   }
+   .heading {
+		margin: 0;
+		padding: 0;
+		font-size: 1.5rem;
 	}
 }
 </style>

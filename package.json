@@ -16,10 +16,11 @@
     "bootstrap": "^5.0.0",
     "core-js": "^3.6.5",
     "jquery": "^3.6.0",
+    "node-sass": "4.14.1",
     "popper.js": "^1.16.1",
     "sass-loader": "^10.1.1",
-    "node-sass": "4.14.1",
     "vue": "^2.6.11",
+    "vue-navigation-bar": "^4.1.0",
     "vue-router": "^3.2.0"
   },
   "devDependencies": {

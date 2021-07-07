@@ -1,74 +1,111 @@
 <template>
-<div>
-  <section id="contact" class="contact section-bg">
-      <div class="container" data-aos="fade-up">
+	<div>
+		<section id="contact" class="contact section-bg">
+			<div class="container" data-aos="fade-up">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 contact-image">
+						<img
+							src="../../assets/img/contact_Image.png"
+							alt=""
+						/>
+					</div>
 
-        <div class="row">
-          <div class="col-lg-6">
-            
-          </div>
+					<div class="col-lg-6 col-md-6" >
+						<div class="inner contact">
+							<!-- Form Area -->
+							<div class="contact-form">
+								<h2 class="heading">Contact Us</h2>
+								<br />
+								<!-- Form -->
+								<form id="contact-us" method="post" action="#">
+									<!-- Left Inputs -->
+									<div
+										class="col-xs-6 wow animated slideInLeft"
+										data-wow-delay=".5s"
+									>
+										<!-- Name -->
+										<input
+											type="text"
+											name="name"
+											id="name"
+											required="required"
+											class="form"
+											placeholder="Name"
+										/>
+										<!-- Email -->
+										<input
+											type="email"
+											name="mail"
+											id="mail"
+											required="required"
+											class="form"
+											placeholder="Email"
+										/>
+										<!-- Subject -->
+										<!-- <input type="select" name="subject" id="subject" required="required" class="form" placeholder="Subject" /> -->
+										<select name="subject" id="subject" class="form">
+											<option
+												value="I want to know more about your organisation"
+												>I want to know more about your organisation</option
+											>
+											<option
+												value="I want to know more about a particular project"
+												>I want to know more about a particular project</option
+											>
+											<option
+												value="Which Rotaract Clubs are around me and how do I join?"
+												>Which Rotaract Clubs are around me and how do I
+												join?</option
+											>
+										</select>
+									</div>
+									<!-- End Left Inputs -->
+									<!-- Right Inputs -->
+									<div
+										class="col-xs-6 wow animated slideInRight"
+										data-wow-delay=".5s"
+									>
+										<!-- Message -->
+										<textarea
+											name="message"
+											id="message"
+											class="form textarea"
+											placeholder="Message"
+										></textarea>
+									</div>
+									<!-- End Right Inputs -->
+									<!-- Bottom Submit -->
+									<div class="relative fullwidth col-xs-12">
+										<!-- Send Button -->
+										<button
+											type="submit"
+											id="submit"
+											name="submit"
+											class="form-btn semibold"
+										>
+											Send Message
+										</button>
+									</div>
+									<!-- End Bottom Submit -->
+									<!-- Clear -->
+									<div class="clear"></div>
+								</form>
 
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-6 ">
-            <img src="../../assets/img/contact_Image.png" alt="" style="padding-top: 105px;">
-          </div>
-
-          <div class="col-lg-6" style="padding: 55px;">
-            <div class="inner contact">
-                <!-- Form Area -->
-                <div class="contact-form">
-                  <h2 class="heading">Contact Us</h2><br>
-                    <!-- Form -->
-                    <form id="contact-us" method="post" action="#">
-                        <!-- Left Inputs -->
-                        <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
-                            <!-- Name -->
-                            <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
-                            <!-- Email -->
-                            <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
-                            <!-- Subject -->
-                            <!-- <input type="select" name="subject" id="subject" required="required" class="form" placeholder="Subject" /> -->
-                            <select name="subject" id="subject" class="form">
-                              <option value="What are you looking for?">What are you looking for?</option>
-                              <option value="I want to know more about your organisation">I want to know more about your organisation</option>
-                              <option value="I want to know more about a particular project">I want to know more about a particular project</option>
-                              <option value="Which Rotaract Clubs are around me and how do I join?">Which Rotaract Clubs are around me and how do I join?</option>
-                            </select>
-                        </div><!-- End Left Inputs -->
-                        <!-- Right Inputs -->
-                        <div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
-                            <!-- Message -->
-                            <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
-                        </div><!-- End Right Inputs -->
-                        <!-- Bottom Submit -->
-                        <div class="relative fullwidth col-xs-12">
-                            <!-- Send Button -->
-                            <button type="submit" id="submit" name="submit" class="form-btn semibold">Send Message</button> 
-                        </div><!-- End Bottom Submit -->
-                        <!-- Clear -->
-                        <div class="clear"></div>
-                    </form>
-
-                    <!-- Your Mail Message -->
-                    <div class="mail-message-area">
-                        <!-- Message -->
-                        <div class="alert gray-bg mail-message not-visible-message">
-                            <strong>Thank You !</strong> Your email has been delivered.
-                        </div>
-                    </div>
-
-                </div><!-- End Contact Form Area -->
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-   <!-- <section class="contact-page-section">
+								<!-- Your Mail Message -->
+								<div class="mail-message-area">
+									<!-- Message -->
+									<div class="alert gray-bg mail-message not-visible-message">
+										<strong>Thank You !</strong> Your email has been delivered.
+									</div>
+								</div>
+							</div>
+							<!-- End Contact Form Area -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- <section class="contact-page-section">
       <div class="container">
           <div class="sec-title">
               <div class="title">Contact Us</div>
@@ -151,289 +188,290 @@
             </div>
         </div>
     </section> -->
-</div>
+	</div>
 </template>
 
 <script>
 export default {
-    name:'Contact'
-}
+	name: "Contact",
+};
 </script>
 
 <style scoped>
 .heading {
-  padding: 15px;
-  font-family: FairPlayDisplay;
-  margin-left: 1rem;
-  font-weight: 900;
-  font-size: 2.25rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1ch;
-  line-height: 1;
-  padding-bottom: 0.5em;
-  margin-bottom: 1rem;
-  position: relative;
-  text-align: center;
+	padding: 15px;
+	font-family: FairPlayDisplay;
+	margin-left: 1rem;
+	font-weight: 900;
+	font-size: 2.25rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1ch;
+	line-height: 1;
+	padding-bottom: 0.5em;
+	margin-bottom: 1rem;
+	position: relative;
+	text-align: center;
 }
- #contact{
-    padding:10px 0 10px;
-  }
+#contact {
+	padding: 10px 0 10px;
+}
 
-  .contact-text{
-    margin:45px auto;
-  }
+.contact-text {
+	margin: 45px auto;
+}
 
-  .mail-message-area{
-    width:100%;
-    padding:0 15px;
-  }
+.mail-message-area {
+	width: 100%;
+	padding: 0 15px;
+}
 
-  .mail-message{
-    width: 100%;
-    background:rgba(255,255,255, 0.8) !important;
-    -webkit-transition: all 0.7s;
-    -moz-transition: all 0.7s;
-    transition: all 0.7s;
-    margin:0 auto;
-    border-radius: 0;
-  }
+.mail-message {
+	width: 100%;
+	background: rgba(255, 255, 255, 0.8) !important;
+	-webkit-transition: all 0.7s;
+	-moz-transition: all 0.7s;
+	transition: all 0.7s;
+	margin: 0 auto;
+	border-radius: 0;
+}
 
-  .not-visible-message{
-    height:0px;
-    opacity: 0;
-  }
+.not-visible-message {
+	height: 0px;
+	opacity: 0;
+}
 
-  .visible-message{
-    height:auto;
-    opacity: 1;
-    margin:25px auto 0;
-  }
+.visible-message {
+	height: auto;
+	opacity: 1;
+	margin: 25px auto 0;
+}
 
 /* Input Styles */
 
-  .form{
-    width: 100%;
-    padding: 15px;
-    background:#f8f8f8;
-    border:1px solid rgba(0, 0, 0, 0.075);
-    margin-bottom:25px;
-    color:#727272 !important;
-    font-size:13px;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    transition: all 0.4s;
-    border-radius: 15px;
-  }
-  
-  .form:hover{
-    border:1px solid #d1d1d1;
-  }
+.form {
+	width: 100%;
+	padding: 15px;
+	background: #f8f8f8;
+	border: 1px solid rgba(0, 0, 0, 0.075);
+	margin-bottom: 25px;
+	color: #727272 !important;
+	font-size: 13px;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+	border-radius: 15px;
+}
 
-  .form:focus{
-    color: white;
-    outline: none;
-    border:1px solid #d1d1d1;
-  }
+.form:hover {
+	border: 1px solid #d1d1d1;
+}
 
-  .textarea{
-    height: 150px;
-    max-height: 200px;
-    max-width: 100%;
-  }
-  
+.form:focus {
+	color: white;
+	outline: none;
+	border: 1px solid #d1d1d1;
+}
+
+.textarea {
+	height: 150px;
+	max-height: 200px;
+	max-width: 100%;
+}
+
 /* Generic Button Styles */
 
-  .button{
-    padding:8px 12px;
-    
-    display: block;
-    width:120px;
-    margin:10px 0 0px 0;
-    border-radius:3px;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-    text-align:center;
-    font-size:0.8em;
-    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-  }
+.button {
+	padding: 8px 12px;
 
-  .button:hover{
-    
-    color:white;
-  }
+	display: block;
+	width: 120px;
+	margin: 10px 0 0px 0;
+	border-radius: 3px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	text-align: center;
+	font-size: 0.8em;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+	color: white;
+}
 
 /* Send Button Styles */
 
-  .form-btn{
-    width:180px;
-    display: block;
-    height: auto;
-    border-radius: 5px;
-    padding:15px;
-    color:#fff;
-    background-color: #116ece;
-    border:none;
-    outline: none;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-    margin:auto;
-    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-    float: right;
-  }
+.form-btn {
+	width: 180px;
+	display: block;
+	height: auto;
+	border-radius: 5px;
+	padding: 15px;
+	color: #fff;
+	background-color: #116ece;
+	border: none;
+	outline: none;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	margin: auto;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+	float: right;
+}
 
-  /* .form-btn:hover{
+/* .form-btn:hover{
     background: linear-gradient(120deg, #0080ff, #027fff, #116ece, #004080);
     color: white;
     border:none;
   } */
 
-  .form-btn:active{
-    opacity: 0.9;
-  }
-center{
-  margin-top:330px;
+.form-btn:active {
+	opacity: 0.9;
+}
+center {
+	margin-top: 330px;
 }
 input {
-    position: relative;
-    z-index: 9999;
+	position: relative;
+	z-index: 9999;
 }
 .contact .info-box {
-  color: #444444;
-  text-align: center;
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-  padding: 20px 0 30px 0;
-  background: #fff;
+	color: #444444;
+	text-align: center;
+	box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+	padding: 20px 0 30px 0;
+	background: #fff;
 }
 
 .contact .info-box i {
-  font-size: 32px;
-  color: #5846f9;
-  border-radius: 50%;
-  padding: 8px;
+	font-size: 32px;
+	color: #5846f9;
+	border-radius: 50%;
+	padding: 8px;
 }
 
 .contact .info-box h3 {
-  font-size: 20px;
-  color: #2c4964;
-  font-weight: 700;
-  margin: 10px 0;
+	font-size: 20px;
+	color: #2c4964;
+	font-weight: 700;
+	margin: 10px 0;
 }
 
 .contact .info-box p {
-  padding: 0;
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
+	padding: 0;
+	line-height: 24px;
+	font-size: 14px;
+	margin-bottom: 0;
 }
 
 .contact .php-email-form {
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-  padding: 30px;
-  background: #fff;
+	box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+	padding: 30px;
+	background: #fff;
 }
 
 .contact .php-email-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
+	display: none;
+	color: red;
+	margin: 0 0 15px 0;
+	font-weight: 400;
+	font-size: 13px;
 }
 
 .contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
+	display: none;
+	color: #fff;
+	background: #ed3c0d;
+	text-align: left;
+	padding: 15px;
+	font-weight: 600;
 }
 
 .contact .php-email-form .error-message br + br {
-  margin-top: 25px;
+	margin-top: 25px;
 }
 
 .contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #888888;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
+	display: none;
+	color: #fff;
+	background: #888888;
+	text-align: center;
+	padding: 15px;
+	font-weight: 600;
 }
 
 .contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
+	display: none;
+	background: #fff;
+	text-align: center;
+	padding: 15px;
 }
 
 .contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
+	content: "";
+	display: inline-block;
+	border-radius: 50%;
+	width: 24px;
+	height: 24px;
+	margin: 0 10px -6px 0;
+	border-top-color: #eee;
+	-webkit-animation: animate-loading 1s linear infinite;
+	animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
-  border-radius: 5px;
-  box-shadow: none;
-  font-size: 14px;
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+	border-radius: 5px;
+	box-shadow: none;
+	font-size: 14px;
 }
 
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #5846f9;
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
+	border-color: #5846f9;
 }
 
 .contact .php-email-form input {
-  padding: 20px 15px;
+	padding: 20px 15px;
 }
 
 .contact .php-email-form textarea {
-  padding: 12px 15px;
+	padding: 12px 15px;
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #5846f9;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 5px;
+	background: #5846f9;
+	border: 0;
+	padding: 10px 24px;
+	color: #fff;
+	transition: 0.4s;
+	border-radius: 5px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #7b27d8;
+	background: #7b27d8;
 }
 
 @-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
 }
 
 @keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
 }
 
 /* .list {
@@ -683,4 +721,15 @@ ul {
   color: #222;
 } */
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contact-image img{
+    width: 100%;
+    padding-top: 105px;
+  }
+}
+@media screen and (max-width: 425px) {
+	.contact-image{
+		display: none;
+	}
+}
 </style>

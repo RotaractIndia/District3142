@@ -24,7 +24,7 @@
         <li @mouseover="listThree = true" @mouseleave="listThree = false">
           <router-link to="/projects" class="main-menu">Our Projects</router-link>
 
-          <!-- <transition name="fade">
+          <transition name="fade">
             <ul v-if="listThree" @click="listThree = false">
               <li class="sub-menu"><router-link to="/">Community Service</router-link></li>
               <li class="sub-menu"><router-link to="/">Club Service</router-link></li>
@@ -32,7 +32,7 @@
               <li class="sub-menu"><router-link to="/">Going Global</router-link></li>
               <li class="sub-menu"><router-link to="/">Sports</router-link></li>
             </ul>
-          </transition> -->
+          </transition>
         </li>
 
         <li @mouseover="listFour = true" @mouseleave="listFour = false">
@@ -59,23 +59,15 @@
 </template>
 
 <script>
-
 export default {
   name: "Navbar",
-  methods: {
-    openMenu() {
-      let mainNav = document.getElementById("js-menu");
-      mainNav.classList.toggle("active");
-    },
-  },
-
   data() {
     return {
       listTwo:   false,
       listThree: false,
       listFour:  false,
-    };
-  },
+    }
+  }
 };
 </script>
 
