@@ -31,7 +31,7 @@ export default {
 		return {
 			navbarOptions: {
 				elementId: "main-navbar",
-				// isUsingVueRouter: true,
+				isUsingVueRouter: true,
 				mobileBreakpoint: 992,
 				brandImagePath: "/home",
 				brandImage: require("./assets/img/DistrictlogoB.png"),
@@ -92,7 +92,7 @@ export default {
 							{
 								type: "link",
 								text: "Pranali",
-								path: "https://rotaract3142.org/desk",
+								path: "/pranali",
 							},
 							{
 								type: "link",
@@ -102,7 +102,7 @@ export default {
 							{
 								type: "link",
 								text: "Blog",
-								path: "https://rotaract3142.org/blog",
+								path: "/blog",
 							},
 						],
 					},
