@@ -46,9 +46,9 @@ const routes = [
     component: () => import('../components/pages/Projects.vue')
   },
   {
-    path: '/aaraDemo',
-    name: 'aaraDemo',
-    component: () => import('../components/pages/aaraDemo.vue')
+    path: '/aara',
+    name: 'AARA',
+    component: () => import('../components/pages/AARA.vue')
   },
   {
     path: "/pranali",

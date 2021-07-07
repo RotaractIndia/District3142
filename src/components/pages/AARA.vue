@@ -195,7 +195,7 @@ export default {
 	.parentbody {
 		width: 100vw;
 		height: 100vh;
-		background: transparent;
+		background: rgb(199, 112, 112);
 		background-size: cover;
 		background-position: 50% 20%;
 		background-repeat: no-repeat;
