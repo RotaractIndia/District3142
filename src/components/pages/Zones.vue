@@ -340,6 +340,7 @@ h1.team-h1 {
 	display: block;
 }
 .team-photo {
+	border: 5px solid #eee;
 	border-radius: 50%;
 	text-align: center;
 	margin: auto;
@@ -493,16 +494,17 @@ hr {
 		transform: rotate(359deg);
 	}
 }
+
 </style>
 <style scoped>
 @media (min-width: 768px) and (max-width: 1024px) {
-  .zrr-container{
-    display: flex;
-    justify-content: space-evenly;
-  }
-  .team-member{
-    margin-left: 0;
-  }
+	.zrr-container {
+		display: flex;
+		justify-content: space-evenly;
+	}
+	.team-member {
+		margin-left: 0;
+	}
 }
 @media screen and (max-width: 425px) {
 	.heading {
@@ -518,7 +520,7 @@ hr {
 	}
 	li {
 		font-size: 14px;
-    align-items: center;
+		align-items: center;
 	}
 	.platinum-badge {
 		margin: 0 !important;

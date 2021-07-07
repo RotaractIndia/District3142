@@ -104,6 +104,11 @@ export default {
 								text: "Blog",
 								path: "/blog",
 							},
+							{
+								type: "link",
+								text: "AARA",
+								path: "/aara",
+							}
 						],
 					},
 					{
