@@ -728,5 +728,8 @@ ul {
   }
 }
 @media screen and (max-width: 425px) {
+	.contact-image{
+		display: none;
+	}
 }
 </style>
