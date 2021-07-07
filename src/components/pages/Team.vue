@@ -1419,14 +1419,8 @@ a:hover {
 	transition: all 0.9s;
 }
 .img-container {
-<<<<<<< HEAD
-	height: auto;
-	width: 100%;
-	filter: grayscale(100%);
-=======
   height: auto;
   width: 100%;
->>>>>>> 36d96bb9bbfb854287695517afdedf66209f6bca
 }
 .material-card .img-container {
 	overflow: hidden;
