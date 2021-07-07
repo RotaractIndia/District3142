@@ -282,7 +282,6 @@ export default {
 
 .button {
 	padding: 8px 12px;
-
 	display: block;
 	width: 120px;
 	margin: 10px 0 0px 0;
@@ -304,7 +303,7 @@ export default {
 /* Send Button Styles */
 
 .form-btn {
-	width: 180px;
+	/* width: 180px; */
 	display: block;
 	height: auto;
 	border-radius: 5px;
@@ -337,7 +336,7 @@ center {
 }
 input {
 	position: relative;
-	z-index: 9999;
+	z-index: 99;
 }
 .contact .info-box {
 	color: #444444;

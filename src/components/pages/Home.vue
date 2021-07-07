@@ -744,9 +744,18 @@ span {
     justify-items: center;
   }
 }
+
 @media screen and (max-width: 800px) {
   .card {
-    width: calc(50% - 2rem);
+    width: 100%;
+  }
+  .thrust-area-container{
+    overflow-y: hidden;
+    overflow-x: scroll;
+    justify-content: initial;
+  }
+  .thrust-area-container .card{
+    margin:0;
   }
 }
 @media screen and (max-width: 500px) {

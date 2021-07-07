@@ -19,7 +19,7 @@
         <div class="carousel-inner" role="listbox">
           <div class="item active">
             <div class="row">
-              <div class="col-sm-3 col-xs-6">
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
                 <div class="sponsor-feature">
                   <img
                     alt="hapkit"
@@ -27,7 +27,7 @@
                   />
                 </div>
               </div>
-              <div class="col-sm-3 col-xs-6">
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
                 <div class="sponsor-feature">
                   <img
                     alt="bamboo-india"
@@ -35,7 +35,7 @@
                   />
                 </div>
               </div>
-              <div class="col-sm-3 col-xs-6">
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
                 <div class="sponsor-feature">
                   <img
                     alt="BH-social"
@@ -43,7 +43,7 @@
                   />
                 </div>
               </div>
-              <div class="col-sm-3 col-xs-6">
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
                 <div class="sponsor-feature">
                   <img
                     alt="wwf"
