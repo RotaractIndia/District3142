@@ -744,7 +744,6 @@ span {
     justify-items: center;
   }
 }
-
 @media screen and (max-width: 800px) {
   .card {
     width: calc(50% - 2rem);
