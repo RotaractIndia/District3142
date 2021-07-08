@@ -375,11 +375,11 @@ h1 h2 h3 h4 h5 h6 {
 	margin-left: 5px;
 }
 .vnb-button {
-	background: #007aff;
+	background: #d91b5c;
 }
 .vnb-button:hover {
 	color: #fff;
-	background: #0062cc;
+	background: #d91b5c;
 	text-decoration: none;
 }
 
@@ -450,7 +450,7 @@ h1 h2 h3 h4 h5 h6 {
 	color: #333;
 	text-decoration: none;
 	background: #f3f3f3;
-	border-left: 2px solid #007aff;
+	border-left: 2px solid #d91b5c;
 	cursor: pointer;
 }
 .vnb__sub-menu-options__option__link__icon svg {
