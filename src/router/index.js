@@ -63,6 +63,13 @@ const routes = [
         beforeEnter: () => {
             window.location.href = 'https://rotaract3142.org/blog';
         }
+  },
+  {
+    path: "/toolkit",
+        name: "Toolkit",
+        beforeEnter: () => {
+            window.location.href = 'https://drive.google.com/drive/u/0/folders/12bKwZnIHu8OkJK3RV9vUmwhLPFn-d-l2';
+        }
   }
 ]
 
