@@ -29,9 +29,7 @@
       <div class="about-text">
         <h3>About Us</h3>
         <p>
-          The thing which mankind is most afraid of. The thing which is the
-          catalyst for evolution. The thing which cannot be finished at once and
-          is inevitable. AND therefore, we call ourselves THE CHANGEMAKERS.
+          The theme for 2021-22 is CHANGEMAKERS. Become a part of this CHANGE MAKING family, come together with us in this journey and witness the CHANGE in your personality while having the intention to bring a CHANGE in the society.
         </p>
         <p class="read-more">
       <a href="/about">Read More</a>
@@ -104,8 +102,8 @@
           >
             <h3>Official Merchandise of Rotaract 3142</h3>
             <p class="font-italic">
-              <i><b>Ekatra is all we do!</b></i> <br>
-              Come Ekatra and flaunt the feeling of proud rotaraction with our cool merchandise.<br> Shop for Rotaract District 3142’s Official Merchandise Support is very important and special to us. 
+              <i><b>Ekatra in all we do!</b></i> <br>
+              Come Ekatra and flaunt the feeling of proud rotaraction with our cool merchandise.<br> Shop for Rotaract District 3142’s Official Merchandise. Your support is very important and special to us. 
             </p>
             <a href="#" class="read-more buy-now"
               >Buy now<i class="icofont-long-arrow-right"></i

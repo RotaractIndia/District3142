@@ -61,7 +61,7 @@ export default {
 							},
 							{
 								type: "link",
-								text: "Team 2020-21",
+								text: "Team 2021-22",
 								// subText: "Know our team...!!",
 								path: "/team",
 								arrowColor: "#659CC8",
@@ -82,7 +82,7 @@ export default {
 					},
 					{
 						type: "link",
-						text: "Our Projects",
+						text: "Club Projects",
 						path: "/projects",
 					},
 					{
@@ -129,7 +129,7 @@ export default {
 
 body {
 	font-family: "Roboto", sans-serif !important;
-	background-image: url("https://github.com/Chinmay2911/RID3142/blob/main/src/assets/body-bg.png?raw=true");
+	background-image: url("https://github.com/Chinmay2911/User-Details-System-Task/blob/main/body-bg.png?raw=true");
 }
 h1 h2 h3 h4 h5 h6 {
 	font-family: "Playfair Display", sans-serif !important;
