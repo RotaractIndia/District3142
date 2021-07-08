@@ -105,7 +105,7 @@
               <i><b>Ekatra in all we do!</b></i> <br>
               Come Ekatra and flaunt the feeling of proud rotaraction with our cool merchandise.<br> Shop for Rotaract District 3142’s Official Merchandise. Your support is very important and special to us. 
             </p>
-            <a href="#" class="read-more buy-now"
+            <a href="https://rotaractstartupmall.com/index.php/shop/" class="read-more buy-now"
               >Buy now<i class="icofont-long-arrow-right"></i
             ></a>
           </div>
