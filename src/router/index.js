@@ -54,7 +54,7 @@ const routes = [
     path: "/pranali",
         name: "Pranali",
         beforeEnter: () => {
-            window.location.href = 'https://rotaract3142.org/desk';
+            window.location.href = 'https://rotaract3142.org/login';
         }
   },
   {
