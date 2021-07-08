@@ -724,7 +724,7 @@ export default {
             {
               name:"Rtr. Rahul Chahande",
               photo:RahulC,
-              designation:"Assistant Professional Development Director"
+              designation:"Assistant Director of Photography"
             },
             {
               name:"Rtr. Shubhang Kashikar",
