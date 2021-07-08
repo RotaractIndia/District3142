@@ -8,9 +8,8 @@
 						style="border-right: 1px solid grey; padding-right: 45px;"
 					>
 						<img src="../assets/img/DistrictlogoB.png" alt="" width="200" />
-						<p>
-							<i>Come what may we’ll see it through, Ekatra in all we do</i>
-						</p>
+						<p class="spacing"><i>Come what may we’ll see it through,</i></p>
+						<p class="spacing"><i>Ekatra in all we do</i></p>
 						<ul class="list-inline mt-4"></ul>
 					</div>
 					<div class="col-lg-2 col-md-2 mb-4 mb-lg-0">
@@ -39,7 +38,7 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-lg-2 col-md-2 mb-4 mb-lg-0">
+					<!-- <div class="col-lg-2 col-md-2 mb-4 mb-lg-0">
 						<h6 class="text-uppercase font-weight-bold mb-4">
 							<router-link to="projects" class="text-muted"
 								><b>Our Projects</b></router-link
@@ -60,7 +59,7 @@
 							</li>
 							<li class="mb-2"><a href="#" class="text-muted">Sports</a></li>
 						</ul>
-					</div>
+					</div> -->
 					<div class="col-lg-2 col-md-2 mb-lg-0">
 						<h6 class="text-uppercase font-weight-bold mb-4">
 							<b>For Members</b>
@@ -131,7 +130,7 @@
 				<hr />
 				<div class="container text-center">
 					<p class="text-muted mb-0 py-2">
-						© 2021 Rotaract District 3142 All rights reserved.
+						© 2021 Rotaract District 3142. All rights reserved.
 					</p>
 				</div>
 			</div>
@@ -146,6 +145,9 @@ export default {
 </script>
 
 <style scoped>
+.spacing{
+	margin: 1px;
+}
 hr {
 	color: #585858;
 }

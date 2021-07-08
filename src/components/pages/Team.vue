@@ -22,13 +22,9 @@
 					<div class="col-lg-6 pt-5 pt-lg-0 year-theme">
 						<!-- <img class="image" src="../../assets/CMLogoB.png" alt=""><br> -->
 						<p data-aos="fade-up" data-aos-delay="100">
-							The thing which mankind is most afraid of. The thing which is the
-							catalyst for evolution. The thing which cannot be finished at once
-							and is inevitable. AND therefore, we call ourselves THE
-							CHANGEMAKERS. The theme for 2021-22 is CHANGEMAKERS. Become a part
-							of this CHANGE MAKING family, join our hands in this journey and
-							witness the CHANGE in your personality while having the intention
-							to bring a CHANGE in the society.
+							Change is the catalyst for evolution. It  is a process and is inevitable.
+Having pie (3.142) as one such constant resonated with us has been a grace for us so far. With CHANGE, another universal constant abiding by our side, the ROTARACT DISTRICT 3142 army has become stronger than ever.
+Therefore, we call ourselves THE CHANGEMAKERS.
 							<br /><br />
 						</p>
 					</div>
@@ -52,7 +48,8 @@
 				</article>
 			</div>
 			<div class="body_inner_right">
-				“The measure of intelligence is the ability to change” – Albert Einstein
+				<div>
+				<i>“The measure of intelligence is the ability to change” – Albert Einstein</i><br>
 				Rotaract District 3142 is a youth organization that focuses on providing
 				a platform to help the next generation discover their leadership
 				abilities, develop their personal skills, create their own network; all
@@ -67,11 +64,12 @@
 				encouraged cultural exchanges and professional conferences to broaden
 				the minds of the members. Even during the pandemic, Rotaract District
 				3142 stepped up and was working alongside the government in all areas of
-				service related to COVID-19 As the District Rotaract Representative for
+				service related to COVID-19, as the District Rotaract Representative for
 				the year 2021-2022, I can confirm that we will continue to render our
 				support to society and keep grooming future leaders to become confident
 				custodians of this great nation. When the world around you is dark, it’s
 				the best time to shine. It’s the year to become a ChangeMaker.
+				</div>
 			</div>
 		</div>
 		<div class="body_wrapper">
@@ -252,6 +250,7 @@ import Preeti from "../../assets/council/Preeti.png";
 import Mayuresh from "../../assets/council/Mayuresh.png";
 import RaviS from "../../assets/council/RaviS.png";
 import RahulS from "../../assets/council/RahulS.png";
+import Ranjeet from "../../assets/council/Ranjeet.png";
 
 //Club serv
 import Viren from "../../assets/council/Viren.png";
@@ -262,24 +261,27 @@ import Mayuri from "../../assets/council/Mayuri.png";
 import Prem from "../../assets/council/Prem.png";
 import Mitesh from "../../assets/council/Mitesh.png";
 import Srusti from "../../assets/council/Srusti.png";
+import Mansi from "../../assets/council/MansiK.png";
 
 //ED
 import Prasad from "../../assets/council/Prasad.png";
 import Natasha from "../../assets/council/Natasha.png";
 import Twinkle from "../../assets/council/Twinkle.png";
 
-//Sports Aditya g
+//Sports
 import Kunal from "../../assets/council/Kunal.png";
-// import Prasad from "../../assets/council/Prasad.png";
+import Aditya from "../../assets/council/AdityaG.png";
 import Ruchi from "../../assets/council/Ruchi.png";
 
 //ISD
 import Aishwarya from "../../assets/council/Aishwarya.png";
 import Needhi from "../../assets/council/Needhi.png";
+import Rushikesh from "../../assets/council/RushikeshB.png";
 
 //PD
 import Reena from "../../assets/council/Reena.png";
 import Anvi from "../../assets/council/Anvi.png";
+import VishalS from "../../assets/council/VishalS.png";
 
 //admin and events
 import Shraddha from "../../assets/council/Shraddha.png";
@@ -295,6 +297,7 @@ import ChinmayP from "../../assets/council/ChinmayP.png";
 import SagarP from "../../assets/council/SagarP.png";
 import Jayesh from "../../assets/council/Jayesh.png";
 import KiranB from "../../assets/council/KiranB.png";
+import Siddhant from "../../assets/council/Siddhant.png";
 
 //Photography
 import RahulY from "../../assets/council/RahulY.png";
@@ -306,6 +309,8 @@ import Shubhang from "../../assets/council/Shubhang.png";
 import OmkarK from "../../assets/council/OmkarK.png";
 import Zenil from "../../assets/council/Zenil.png";
 import Rohan from "../../assets/council/Rohan.png";
+import Keerthana from "../../assets/council/Keerthana.png";
+import Jinit from "../../assets/council/Jinit.png";
 
 //PR
 import Arya from "../../assets/council/Arya.png";
@@ -337,28 +342,28 @@ export default {
       Ruhika, Ajinkya,Projesh,SagarB,
       // Finance
       SahilA, Jitesh,VijayK,Abhishek,
-      //Deputy Ranjeet
-      Mahanand,Preeti,Mayuresh,RahulS,RaviS,
+      //Deputy 
+      Mahanand,Preeti,Mayuresh,RahulS,RaviS,Ranjeet,
       //Club serv
       Viren,Jugnu,Mayuri,
-      //Commserv Mansi
-      Prem, Mitesh,Srusti,
+      //Commserv 
+      Prem, Mitesh,Srusti,Mansi,
       //ED
       Prasad,Natasha,Twinkle,
       //Sports
-      Kunal,Ruchi,
-      //ISD Rushikesh
-      Aishwarya,Needhi,
-      //PD Vishal 
-      Reena,Anvi,
+      Kunal,Ruchi,Aditya,
+      //ISD
+      Aishwarya,Needhi,Rushikesh,
+      //PD  
+      Reena,Anvi,VishalS,
       //Admin and events
       Shraddha,Noopur,Archit,Tanmay,Sumit,VijayM,
       //Digicom
-      Radhika,ChinmayP,SagarP,Jayesh,KiranB,
+      Radhika,ChinmayP,SagarP,Jayesh,KiranB,Siddhant,
       //photography
       RahulY,Viraj,RahulC,Shubhang,
-      //marketing jinit, keerthana
-      OmkarK,Zenil,Rohan,
+      //marketing
+      OmkarK,Zenil,Rohan,Keerthana,Jinit,
       //PR
       Arya,Khushabu,Kajal,
       //CSR
@@ -371,7 +376,7 @@ export default {
         { name:"Rtr. Mithila Salvi", position:"District Secretry", image:Mithila, color:"Deep-Purple" },
         { name:"Rtr. Shanmukhswami Gowda", position:"Deputy DRR & Corporate Communications Chair", image:Shanmukh, color:"Purple" },
         { name:"Rtn. Rtr. Swapnil Kadu", position:"District Finance Chair", image:Swapnil, color:"Blue" },
-        { name:"Rtr. Vijal Kathrani", position:"District TRS Chair", image:Vijal, color:"Light-Blue" },
+        { name:"Rtr. Vijal Kathrani", position:"District Training, Revival & Sustenance Chair", image:Vijal, color:"Light-Blue" },
         { name:"Rtr. Gauri Rane", position:"District Digital Communications Chair", image:Gauri, color:"Cyan" },
         { name:"Rtr. Chinmay Sheth", position:"District Technology Development Chair", image:ChinmayS, color:"Teal" },
         { name:"Rtr. Sushmita Valecha", position:"District Avenues 1 Chair", image:Sushmita, color:"Green" },
@@ -487,7 +492,7 @@ export default {
             },
             {
               name:"Rtr. Mansi Kante",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Mansi,
               designation:"Jt Community Service Director"
             },
           ],
@@ -497,7 +502,7 @@ export default {
           avenue:"Team Entrepreneurship Development",
           deputy:[
             {
-              name:"Rtr.Mahanand Vishwakarma",
+              name:"Rtr. Mahanand Vishwakarma",
               photo:Mahanand,
               designation:"Deputy Avenues 1 Chair"
             },
@@ -538,7 +543,7 @@ export default {
             },
             {
               name:"Rtr. Aditya Gharat",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Aditya,
               designation:"Jt Director Sports"
             },
             {
@@ -571,7 +576,7 @@ export default {
             },
             {
               name:"Rtr. Rushikesh Bhadane",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Rushikesh,
               designation:"Jt International Service Director"
             },
           ],
@@ -589,7 +594,7 @@ export default {
           directors:[
             {
               name:"Rtr. Vishal Shah",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:VishalS,
               designation:"Professional Development Director"
             },
             {
@@ -610,7 +615,7 @@ export default {
           deputy:[
             {
               name:"Rtr. Ranjeet Pandey",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Ranjeet,
               designation:"Deputy Events and Admin"
             },
           ],
@@ -688,6 +693,11 @@ export default {
               photo:Jitesh,
               designation:"Editor"
             },
+			{
+              name:"Rtr. Siddhant Patel",
+              photo:Siddhant,
+              designation:"Editor"
+            },
           ],
           color:"Cyan-border"
         },
@@ -741,7 +751,7 @@ export default {
           directors:[
             {
               name:"Rtr. Jinit Patel",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Jinit,
               designation:"Director Marketing"
             },
             {
@@ -756,7 +766,7 @@ export default {
             },
             {
               name:"Rtr. Keerthana Nambiar",
-              photo:"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+              photo:Keerthana,
               designation:"Jt Director Marketing"
             },
             {

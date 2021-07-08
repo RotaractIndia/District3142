@@ -84,7 +84,7 @@
 							the students in form of activities and indirect learning methods.
 							Daptar indeed is a bag full of emotions, you get to witness
 							emotional hormones skyrocketing by the end of one academic year(Oh
-							Gosh these tears).
+							Gosh those tears').
 						</p>
 					</div>
 				</div>
@@ -162,7 +162,7 @@
 							person was the speaker of a session you had attended a year ago
 							organized by Rotaract District 3142. That person had a similar
 							story like yours but the only thing that they had an edge over you
-							were they kept asking themselves WHAT’S NEXT? They asked it when
+							were they kept asking themselves "WHAT’S NEXT?" They asked it when
 							they had a fall, they asked it when they reached a milestone, they
 							asked it when things went south and north and center and all
 							across. And BANG… you get that little dose of motivation required
@@ -201,17 +201,7 @@
 						<h1 data-aos="fade-up">Under 18 Summit</h1>
 						<br />
 						<p data-aos="fade-up" data-aos-delay="100">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
-							aute irure dolor in reprehenderit.Lorem ipsum dolor sit amet,
-							consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua. Duis aute irure dolor in
-							reprehenderit.Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-							aliqua. Duis aute irure dolor in reprehenderit.Lorem ipsum dolor
-							sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-							incididunt ut labore et dolore magna aliqua. Duis aute irure dolor
-							in reprehenderit
+							Joan Collins famously quoted that Age is just a number. Under 18 Summit is a platform for young minds under the age of 18, to present their talent and inspire people. It provides teens with the opportunity to share their story
 						</p>
 					</div>
 				</div>
@@ -240,17 +230,12 @@
 						<h1 data-aos="fade-up">Rotaract Entertainment Destination</h1>
 						<br />
 						<p data-aos="fade-up" data-aos-delay="100">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
-							aute irure dolor in reprehenderit.Lorem ipsum dolor sit amet,
-							consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua. Duis aute irure dolor in
-							reprehenderit.Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-							aliqua. Duis aute irure dolor in reprehenderit.Lorem ipsum dolor
-							sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-							incididunt ut labore et dolore magna aliqua. Duis aute irure dolor
-							in reprehenderit
+							Do you ever feel this wave of extreme creative energy and feel lost in terms of where to channel it?<br>
+Voila! Here is the place for you to invest it.<br>
+Rotaract Entertainment Destination, which is popularly known as RED is one such place where you would find entertainment and talent in abundance. It’s a reason for our rotaractors to unite, to expand their creative thinking, to compete, to learn and to provide the impetus to carry on with their rotaraction. RED is a 2 days long cultural extravaganza, which conducts events that cater to art forms like Literary, Fine and Performing. The scale at which the event is conducted is colossal, with a footfall of more than 1200 people. We have had personalities like Shraddha Musale , Mayur Sakhare, Hritu Zee, Mihika Sansare and Sushmita Singh associate with RED as our dignified judges in the past. Brands like Motul, YES Foundation, Saraswat Bank, Brupp- The Craft Beer Café and Future Tayari have enjoyed deliverables during the previous years at RED.
+RED! RED! IT’S ALL ABOUT RED!<br>
+ RED is an emotion for Rotaract District 3142 and we take extreme pride in taking it up a notch every passing year.
+
 						</p>
 					</div>
 				</div>
@@ -297,9 +282,40 @@
 				</div>
 			</div>
 		</section>
+		<section id="about" class="about">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div
+						class="
+              col-lg-4
+              d-flex
+              align-items-center
+              justify-content-center
+              about-img
+            "
+					>
+						<img
+							src="https://rotaract3142.org/assets/rotaract3142/img/about_us.jpg"
+							class="img-fluid"
+							alt=""
+							data-aos="zoom-in"
+						/>
+					</div>
+					<div class="col-lg-7 pt-5 pt-lg-0 content">
+						<h1 data-aos="fade-up">
+							Explore 3142
+						</h1>
+						<br />
+						<p data-aos="fade-up" data-aos-delay="100">
+							Main udna chahta hoon, daudna chahta hoon, girna bhi chahta hoon … bas , rukna nahi chahta. <br>
+Explore is a project by Rotaract District 3142 that gives you the opportunity to explore the world, explore various cultures around the globe, explore YOU and break through everything that limits your potential. It’s a youth exchange programme, where the team mates get to travel to different places under the programme, they are hosted by the host clubs from the respective district they travel to. The participants get to learn about different cultures, lifestyle, taste some delicious food and satisfy their love for wanderlust. It’s a great opportunity for members to network and make friends in different parts of the world.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
 	</div>
-</template>
-
+</template> 
 <script>
 export default {
 	name: "About",

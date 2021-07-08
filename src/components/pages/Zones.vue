@@ -31,23 +31,33 @@
 </template>
 
 <script>
+import SnehaW from "../../assets/council/Snehaw.png";
+import Kingshuk from "../../assets/council/Kingshuk.png";
+import Himanshu from "../../assets/council/Himanshu.png";
+import Pranod from "../../assets/council/Pranod.png";
+import Devashish from "../../assets/council/Dev.png";
+import Amri from "../../assets/council/Amri.png";
+import AishwaryaW from "../../assets/council/AishwaryaW.png";
+import Hetvi from "../../assets/council/Hetvi.png";
+
+
 export default {
 	name: "Zones",
 	data() {
 		return {
+			SnehaW,Kingshuk,Himanshu,Pranod,Devashish,Amri,AishwaryaW,Hetvi,
+
 			zones: [
 				{
 					zone: "Zone 1",
 					zrr: [
 						{
 							name: "Rtr. Sneha Wayare",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+							photo:SnehaW,
 						},
 						{
 							name: "Rtr. Kingshuk Mazumder",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+							photo:Kingshuk,
 						},
 					],
 					clubs: [
@@ -63,7 +73,7 @@ export default {
 						},
 						{
 							name: "Rotaract Club of Smart City Navi Mumbai",
-							isPlatinum: false,
+							isPlatinum: true,
 						},
 						{
 							name: "Rotaract Club of Navi Mumbai Hillside",
@@ -74,9 +84,9 @@ export default {
 							name: "Rotaract Club of Navi Mumbai Industrial Area",
 							isPlatinum: true,
 						},
-						{ name: "Rotaract Club of New Bombay", isPlatinum: false },
+						{ name: "Rotaract Club of New Bombay", isPlatinum: true },
 						{ name: "Rotaract Club of Lekarz", isPlatinum: false },
-						{ name: "Rotaract Club of New Bombay Seaside", isPlatinum: false },
+						{ name: "Rotaract Club of New Bombay Seaside", isPlatinum: true },
 						{
 							name: "Rotaract Club of Navi Mumbai Industrial Area",
 							isPlatinum: false,
@@ -112,19 +122,17 @@ export default {
 					zrr: [
 						{
 							name: "Rtr. Himanshu Dapurkar",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+							photo:Himanshu,
 						},
 						{
 							name: "Rtr. Pranod Kalsekar",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+							photo:Pranod,
 						},
 					],
 					clubs: [
-						{ name: "Rotaract Club of Hiranandani Estate", isPlatinum: true },
+						{ name: "Rotaract Club of Hiranandani Estate", isPlatinum: false },
 						{ name: "Rotaract Club of Thane Central", isPlatinum: false },
-						{ name: "Rotaract Club of Thane Downtown", isPlatinum: false },
+						{ name: "Rotaract Club of Thane Downtown", isPlatinum: true },
 						{ name: "Rotaract Club of Thane East", isPlatinum: false },
 						{
 							name: "Rotaract Club of Anand Vishwa Gurukul",
@@ -137,12 +145,12 @@ export default {
 							isPlatinum: false,
 						},
 						{ name: "Rotaract Club of Thane North", isPlatinum: false },
-						{ name: "Rotaract Club of Thane North End", isPlatinum: false },
+						{ name: "Rotaract Club of Thane North End", isPlatinum: true },
 						{ name: "Rotaract Club of Thane TownWing", isPlatinum: false },
 						{ name: "Rotaract Club of Thane Hills", isPlatinum: false },
 						{ name: "Rotaract Club of Thane Horizon", isPlatinum: false },
 						{ name: "Rotaract Club of Singhania School", isPlatinum: false },
-						{ name: "Rotaract Club of Thane Premium", isPlatinum: false },
+						{ name: "Rotaract Club of Thane Premium", isPlatinum: true },
 						{ name: "Rotaract Club of Thane Creekside", isPlatinum: false },
 						{ name: "Rotaract Club of Thane Mid Town", isPlatinum: false },
 						{ name: "Rotaract Club of Thane Lake City", isPlatinum: false },
@@ -160,22 +168,20 @@ export default {
 					zone: "Zone 3",
 					zrr: [
 						{
-							name: "Rtr. Rtr. Devashish Mande",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+							name: "Rtr. Devashish Mande",
+							photo:Devashish,
 						},
 						{
 							name: "Rtr. Amri Neve",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+							photo:Amri,
 						},
 					],
 					clubs: [
 						{ name: "Rotaract Club of Birla", isPlatinum: true },
-						{ name: "Rotaract Club of Dombivli", isPlatinum: false },
-						{ name: "Rotaract Club of Dombivli East", isPlatinum: false },
-						{ name: "Rotaract Club of Dombivli Suncity", isPlatinum: false },
-						{ name: "Rotaract Club of Kalyan Central", isPlatinum: false },
+						{ name: "Rotaract Club of Dombivli", isPlatinum: true },
+						{ name: "Rotaract Club of Dombivli East", isPlatinum: true },
+						{ name: "Rotaract Club of Dombivli Suncity", isPlatinum: true },
+						{ name: "Rotaract Club of Kalyan Central", isPlatinum: true },
 						{ name: "Rotaract Club of Kalyan Riverside", isPlatinum: false },
 						{ name: "Rotaract Club of Kalyan Diamonds", isPlatinum: false },
 						{ name: "Rotaract Club of Kalyan West", isPlatinum: false },
@@ -195,14 +201,12 @@ export default {
 					zone: "Zone 4",
 					zrr: [
 						{
-							name: "Rtr. Rtr. Aishwarya Warke",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+							name: "Rtr. Aishwarya Warke",
+							photo:AishwaryaW,
 						},
 						{
 							name: "Rtr. Hetvi Dedhia",
-							photo:
-								"http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120",
+							photo:Hetvi,
 						},
 					],
 					clubs: [
@@ -221,10 +225,10 @@ export default {
 						{ name: "Rotaract Club of MIM college", isPlatinum: false },
 						{
 							name: "Rotaract Club of Ulhasnagar Sapna Garden",
-							isPlatinum: false,
+							isPlatinum: true,
 						},
 						{
-							name: "Rotaract Club of Chandibai Himatlal Mansukhani College",
+							name: "Rotaract Club of Chandibai Himatmal Mansukhani College",
 							isPlatinum: false,
 						},
 						{
@@ -311,6 +315,22 @@ h1.team-h1 {
 	gap: 1rem;
 	text-align: left;
 	padding: 8px;
+}
+
+.Black-border[data-v-e38b2810] {
+    border-color: #000000 !important;
+}
+
+.Blue-border[data-v-e38b2810] {
+    border-color: #029aff !important;
+}
+
+.Green-border[data-v-e38b2810] {
+    border-color: #02eb3c !important;
+}
+
+.Yellow-border[data-v-e38b2810] {
+    border-color: #e0e404 !important;
 }
 
 .team-member:last-child {
