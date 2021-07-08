@@ -21,34 +21,42 @@
             <div class="row">
               <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
                 <div class="sponsor-feature">
+                   <a href="https://hapkit-sanitary-inspection.business.site/" target="_blank">
                   <img
                     alt="hapkit"
                     src="../../assets/partners/hapkit.jpeg"
                   />
+                   </a>
                 </div>
               </div>
               <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
                 <div class="sponsor-feature">
+                  <a href="https://www.bambooindia.com/" target="_blank">
                   <img
                     alt="bamboo-india"
                     src="../../assets/partners/BamboIndia.jpg"
                   />
+                  </a>
                 </div>
               </div>
               <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
                 <div class="sponsor-feature">
+                  <a href="https://www.instagram.com/betterhumanco/" target="_blank">
                   <img
                     alt="BH-social"
                     src="../../assets/partners/BHSocial.png"
                   />
+                  </a>
                 </div>
               </div>
               <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
                 <div class="sponsor-feature">
+                   <a href="https://www.wwfindia.org/" target="_blank">
                   <img
                     alt="wwf"
                     src="../../assets/partners/wwf.png"
                   />
+                   </a>
                 </div>
               </div>
             </div>

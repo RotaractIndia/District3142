@@ -103,7 +103,7 @@
             "
 					>
 						<img
-							src="https://pbs.twimg.com/media/DftpEhIV4AAUu0e.jpg"
+							src="../../assets/img/DropOfHope.jpeg"
 							class="img-fluid"
 							alt=""
 							data-aos="zoom-in"
@@ -144,7 +144,7 @@
             "
 					>
 						<img
-							src="https://rotaract3142.kanr.is/src/assets/images/next_the_conclave.png"
+							src="../../assets/img/next-the-conclave.png"
 							class="img-fluid"
 							alt=""
 							data-aos="zoom-in"
@@ -191,7 +191,7 @@
             "
 					>
 						<img
-							src="https://i.ytimg.com/vi/TMhFTC9xbww/hqdefault.jpg"
+							src="../../assets/img/Under18.jpeg"
 							class="img-fluid"
 							alt=""
 							data-aos="zoom-in"
@@ -220,7 +220,7 @@
             "
 					>
 						<img
-							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1UODiwCNk32Jx68mzaGogWPnh2FdLS0FHir7TGr9eM1v42VPY1WavcBWJRg6R8hC_Fjs&usqp=CAU"
+							src="../../assets/img/REDLOGO_final.png"
 							class="img-fluid"
 							alt=""
 							data-aos="zoom-in"
@@ -254,7 +254,7 @@ RED! RED! IT’S ALL ABOUT RED!<br>
             "
 					>
 						<img
-							src="https://rotaract3142.org/assets/rotaract3142/img/about_us.jpg"
+							src="../../assets/img/rise-logo.png"
 							class="img-fluid"
 							alt=""
 							data-aos="zoom-in"
@@ -384,6 +384,7 @@ a:hover {
 }
 
 .about-img img {
+	/* border: 1px solid #ccc; */
 	height: 300px;
 	width: 400px;
 	object-fit: contain;

@@ -91,23 +91,23 @@ export default {
 						subMenuOptions: [
 							{
 								type: "link",
+								text: "AARA",
+								path: "/aara",
+							},
+							{
+								type: "link",
 								text: "Pranali",
 								path: "/pranali",
 							},
 							{
 								type: "link",
 								text: "Resources",
-								path: "/#",
+								path: "/toolkit",
 							},
 							{
 								type: "link",
 								text: "Blog",
 								path: "/blog",
-							},
-							{
-								type: "link",
-								text: "AARA",
-								path: "/aara",
 							}
 						],
 					},
