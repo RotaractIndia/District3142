@@ -66,7 +66,7 @@
 						</h6>
 						<ul class="list-unstyled mb-0">
 							<li class="mb-2">
-								<a href="https://rotaract3142.org/desk" class="text-muted"
+								<a href="https://rotaract3142.org/login" class="text-muted"
 									>Pranali</a
 								>
 							</li>
