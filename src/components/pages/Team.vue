@@ -89,23 +89,17 @@ Therefore, we call ourselves THE CHANGEMAKERS.
 				</article>
 			</div>
 			<div class="body_inner_right">
-				Lorem Ipsum is simply dummy text of the printing and typesetting
-				industry. Lorem Ipsum has been the industry's standard dummy text ever
-				since the 1500s, when an unknown printer took a galley of type and
-				scrambled it to make a type specimen book. It has survived not only five
-				centuries, but also the leap into electronic typesetting, remaining
-				essentially unchanged. It was popularised in the 1960s with the release
-				of Letraset sheets containing Lorem Ipsum passages, and more recently
-				with desktop publishing software like Aldus PageMaker including versions
-				of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and
-				typesetting industry. Lorem Ipsum has been the industry's standard dummy
-				text ever since the 1500s, when an unknown printer took a galley of type
-				and scrambled it to make a type specimen book. It has survived not only
-				five centuries, but also the leap into electronic typesetting, remaining
-				essentially unchanged. It was popularised in the 1960s with the release
-				of Letraset sheets containing Lorem Ipsum passages, and more recently
-				with desktop publishing software like Aldus PageMaker including versions
-				of Lorem Ipsum.
+				Every year, a new leader steps in with a fresh vision and I did the same too. I was all set, built the trust amongst my people that I certainly will be a Game Changing DRR. I did everything I could and planned by my year. But, then, sometimes things are not in our control. But, even in these challenging times as Pandemic, we served the community by extending our support by conducting projects like HOPE, we were in position to help the people who were in need, either in medical or non medical emergencies.
+
+We successfully conducted professional development initiatives such as NEXT - The Conclave and for the first time we were able to conduct Panel discussions. 
+
+We facilitated Digital sports sessions like fitness and self defence sessions and then we also facilitated basketball workshop. 
+
+When we look at cultural exchanges, we also conducted Explore as our International Service Initiative, this year. 
+
+We also made good amount of efforts to boost our social media engagements this year. Then, we also presented our Rotaractors with a literary platform this year for the very first time, Slice of Life, wherein they penned down emotional experiences (fictional and non-fictional) from their journeys.
+
+This is the best thing about Rotaract that it gives you exposure in maximum possible avenues and it does open up endless opportunities for everyone; we took up the leadership and as it is transpired, we all have been able to gain plethora of skills, which have always helped us become better humans in our Rotaract, personal  and professional life and this is how it Rotaract leaves a significant mark in our lives.
 			</div>
 		</div>
 		<div class="body_wrapper">
@@ -1128,7 +1122,7 @@ hr {
 	width: 100%;
 }
 .body_inner_right {
-	/* padding-top: 25px; */
+	padding-top: 25px;
 	display: flex;
 	/* width: 55%; */
 	justify-content: flex-start;
