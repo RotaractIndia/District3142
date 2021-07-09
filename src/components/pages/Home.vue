@@ -683,8 +683,8 @@ btn:hover{
   background: linear-gradient(120deg, #0080ff, #027fff, #116ece, #004080);
 }
 span {
-  background-color: #90e657;
-  color: #333;
+  background-color: #e32c6d;
+  color: #fff;
 }
 
 #home {
