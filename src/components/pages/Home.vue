@@ -32,7 +32,7 @@
           The theme for 2021-22 is CHANGEMAKERS. Become a part of this CHANGE MAKING family, come together with us in this journey and witness the CHANGE in your personality while having the intention to bring a CHANGE in the society.
         </p>
         <p class="read-more">
-      <a href="/about">Read More</a>
+          <router-link to="/about">Read More</router-link>
       </p>
       </div>
     </div>
