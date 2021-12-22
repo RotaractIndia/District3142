@@ -50,7 +50,7 @@
 				class="mainScreen"
 				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 				allowfullscreen=""
-				src="https://www.youtube.com/embed/?autoplay=1&loop=1&rel=0&showinfo=0"
+				src="https://www.youtube.com/embed/v=56P0BtsKFDM?autoplay=1&loop=1&rel=0&showinfo=0"
 				frameborder="0"
 			></iframe>
 			<!-- <div class="chatBox">
@@ -59,8 +59,8 @@
 					class="chatBoxFrame"
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen=""
-					data-src="https://www.youtube.com/embed/XfJWUDYAyks?autoplay=1&loop=1&rel=0&showinfo=0"
-					src="https://www.youtube.com/live_chat?v=XfJWUDYAyks&amp;embed_domain=rotaract3142.org"
+					data-src="https://www.youtube.com/embed/v=56P0BtsKFDM?autoplay=1&loop=1&rel=0&showinfo=0"
+					src="https://www.youtube.com/live_chat?v=JuwYJrcb2qw&amp;embed_domain=rotaract3142.org"
 					frameborder="0"
 				></iframe>
 			</div> -->

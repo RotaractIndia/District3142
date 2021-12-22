@@ -91,8 +91,8 @@ export default {
 						subMenuOptions: [
 							{
 								type: "link",
-								text: "AARA",
-								path: "/aara",
+								text: "Rotopreneur",
+								path: "/rotopreneur",
 							},
 							{
 								type: "link",
