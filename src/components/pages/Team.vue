@@ -35,7 +35,7 @@
       </div>
     </section>
     <!-- Drr Words -->
-    <h1 class="heading">DRR Words</h1>
+    <h1 class="heading"> DRR Words </h1>
     <div class="body_wrapper">
       <div class="body_inner_left_holder">
         <article class="material-card Red">
