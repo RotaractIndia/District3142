@@ -5,20 +5,20 @@
 		</div>
 		<div class="parentbody">
 			<div class="district-logo">
-				<img src="/assets/rotaract3142/img/assembly/rid3142.png" />
+				<img src="../../assets/img/DistrictlogoW.png" />
 			</div>
 			<div class="assembly-logo">
-				<img src="/assets/rotaract3142/img/assembly/main-logo.png" />
+				<img src="../../assets/img/aaraWoBg.png" />
 			</div>
-			<div class="aara-heist-logo">
-				<img src="/assets/rotaract3142/img/assembly/aara-heist-logo.png" />
+			<div class="aara-logo">
+				<img src="../../assets/img/aaraWoBg.png" />
 			</div>
 			<!-- <div class="button-4 chat-live">
 				<div class="eff-4"></div>
 				<a href="#"> Live Chat! </a>
 			</div> -->
-			<div class="wingImage wingImage-left"></div>
-			<div class="marquee marquee-left active-class">
+			<div class="wingImage wingImage-left active-class"></div>
+			<div class="marquee marquee-left">
 				<div class="marquee-scroll">
 					<h2>Rotary Platinum Host Club</h2>
 					<p>Rotary Club of Dombivli Suncity</p>
@@ -53,7 +53,7 @@
 				src="https://www.youtube.com/embed/v=56P0BtsKFDM?autoplay=1&loop=1&rel=0&showinfo=0"
 				frameborder="0"
 			></iframe>
-			<div class="chatBox">
+			<!-- <div class="chatBox">
 				<i class="fa fa-times close" aria-hidden="true"></i
 				><iframe
 					class="chatBoxFrame"
@@ -63,8 +63,8 @@
 					src="https://www.youtube.com/live_chat?v=JuwYJrcb2qw&amp;embed_domain=rotaract3142.org"
 					frameborder="0"
 				></iframe>
-			</div>
-			<div class="marquee marquee-right active-class">
+			</div> -->
+			<div class="marquee marquee-right">
 				<div class="marquee-scroll">
 					<h2>Rotary Platinum Host Club</h2>
 					<p>Rotary Club of Dombivli Suncity</p>
@@ -92,58 +92,52 @@
 					<p>Ambarnath</p>
 				</div>
 			</div>
-			<div class="wingImage wingImage-right"></div>
+			<div class="wingImage wingImage-right active-class"></div>
 			<div class="sponsors-main-body">
-				<div class="sponsor-heading">Sponsors for Assembly and AARA 2020</div>
+				<div class="sponsor-heading">Sponsors for Assembly and AARA 2021</div>
 				<div class="outer">
 					<div class="inner">
 						<label>Back</label>
 					</div>
 				</div>
-				<div class="sponsor-subheading">Rotary Partner :</div>
+				<div class="sponsor-subheading">Powered By :</div>
 				<div class="sponsor-body sponsor-body-1">
 					<div class="sponsor-block sponsor-block-16">
-						<div>Rotary Club of Thane North End</div>
+						<div>Space Valet</div>
 					</div>
 				</div>
 				<div class="sponsor-subheading">Other Partners :</div>
 				<div class="sponsor-body sponsor-body-2">
 					<div class="sponsor-block sponsor-block-1">
-						<div>Event Partner : Amit and Vaibhav</div>
+						<div>Event Partner : Aaiba Events</div>
 					</div>
 					<div class="sponsor-block sponsor-block-2">
-						<div>Video Partner : Sahil and Annsh</div>
+						<div>Hydrating Partner : Rotaract Club Of Ambernath East</div>
 					</div>
 					<div class="sponsor-block sponsor-block-3">
-						<div>Website Partner : BDA Bhavesh Joshi</div>
+						<div>Gifting Partner : Gift Green India</div>
 					</div>
 					<div class="sponsor-block sponsor-block-4">
-						<div>Voucher Partner : Sumit Jain</div>
+						<div>Award Partner : Nikhil Art</div>
 					</div>
 					<div class="sponsor-block sponsor-block-5">
-						<div>Studio Partner</div>
+						<div>Creatives Partner : ShirtEgg</div>
 					</div>
 				</div>
-				<div class="sponsor-subheading">Other Sponsors :</div>
+				<div class="sponsor-subheading">Year Long Sponsors :</div>
 				<div class="sponsor-body sponsor-body-3">
 					<div class="sponsor-block sponsor-block-6">
-						<div>Stockart</div>
+						<div>Hapkit</div>
 					</div>
 					<div class="sponsor-block sponsor-block-7">
-						<div>Anantam</div>
+						<div>Bamboo India</div>
 					</div>
 					<div class="sponsor-block sponsor-block-8">
-						<div>Gurudev Farsan</div>
+						<div>Better Human Co</div>
 					</div>
-					<div class="sponsor-block sponsor-block-10">
-						<div>Lalit Gold</div>
+					<div class="sponsor-block sponsor-block-9">
+						<div>WWF</div>
 					</div>
-					<!-- <div class="sponsor-block sponsor-block-15"></div>
-			<div class="sponsor-block sponsor-block-9"></div>
-			<div class="sponsor-block sponsor-block-11"></div>
-			<div class="sponsor-block sponsor-block-12"></div>
-			<div class="sponsor-block sponsor-block-13"></div>
-			<div class="sponsor-block sponsor-block-14"></div> -->
 				</div>
 			</div>
 			<div class="sponsor-container">
@@ -156,7 +150,7 @@
 		<div class="video--event-bg"></div>
 		<video autoplay muted loop id="myVideo">
 			<source
-				src="/assets/rotaract3142/img/assembly/assembly-event.mp4"
+				src="../../assets/img/aarabg.mp4"
 				type="video/mp4"
 			/>
 		</video>
@@ -187,8 +181,8 @@ export default {
 				$(".sponsors-main-body").removeClass("show-them");
 				$(".sponsor-container").removeClass("show-them");
 			});
-			setInterval(this.changeWings, 60000);
 		});
+		setInterval(this.changeWings, 6000);
 	},
 	methods: {
 		changeWings() {
@@ -211,7 +205,7 @@ export default {
 .parentbody {
 	width: 100vw;
 	height: 100vh;
-	background: rgb(199, 112, 112);
+	background: tra;
 	background-size: cover;
 	background-position: 50% 20%;
 	background-repeat: no-repeat;
@@ -237,7 +231,7 @@ export default {
 	bottom: 0;
 	min-width: 100%;
 	min-height: 100%;
-	background-image: url(/assets/rotaract3142/img/assembly/event-bg-main.png);
+	background-image: url(../../assets/img/event-bg-main.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
@@ -313,32 +307,32 @@ export default {
 
 .district-logo {
 	position: absolute;
-	top: 50px;
+	top: 100px;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
 
 .district-logo img {
-	width: 180px;
+	width: 250px;
 }
 
 .assembly-logo {
 	position: absolute;
 	bottom: 20px;
-	left: 0px;
+	left: 20px;
 }
 
 .assembly-logo img {
 	width: 180px;
 }
 
-.aara-heist-logo {
+.aara-logo {
 	position: absolute;
-	bottom: -40px;
+	bottom: 20px;
 	right: 30px;
 }
 
-.aara-heist-logo img {
+.aara-logo img {
 	width: 170px;
 }
 
@@ -402,8 +396,8 @@ div {
 	box-sizing: border-box;
 	width: 220px;
 	position: absolute;
-	height: 300px;
-	top: calc(50vh - 155px);
+	height: 400px;
+	top: calc(50vh - 210px);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: 50% 50%;
@@ -422,7 +416,7 @@ div {
 }
 
 .wingImage-right {
-	background-image: url(/assets/rotaract3142/img/assembly/amit-wing-bg.png);
+	background-image: url(../../assets/img/amit.jpg);
 }
 
 .wingImage-left,
@@ -431,7 +425,7 @@ div {
 }
 
 .wingImage-left {
-	background-image: url(/assets/rotaract3142/img/assembly/niki-wing-bg.png);
+	background-image: url(../../assets/img/rahesh.jpg);
 }
 
 /* this is the tray moving around your container */
@@ -756,83 +750,6 @@ div {
 	font-size: 11px;
 }
 
-.sponsor-block-1 {
-	background-image: url(/assets/rotaract3142/img/assembly/sponsor-logos/aaiba.png);
-	background-size: 120px;
-}
-
-.sponsor-block-2 {
-	background-image: url(/assets/rotaract3142/img/assembly/sponsor-logos/animatedly.png);
-	background-size: 170px;
-}
-
-.sponsor-block-3 {
-	background-image: url(/assets/rotaract3142/img/assembly/sponsor-logos/scrapenext.png);
-}
-
-.sponsor-block-4 {
-	background-image: url(/assets/rotaract3142/img/assembly/sponsor-logos/trision-new.png);
-	background-size: 160px;
-}
-
-.sponsor-block-5 {
-	background-image: url(/assets/rotaract3142/img/assembly/sponsor-logos/pixelworld.jpg);
-	background-size: 90px;
-}
-
-.sponsor-block-6 {
-	background-image: url(/assets/rotaract3142/img/assembly/sponsor-logos/stoxkart.jpeg);
-	background-size: 150px;
-}
-
-.sponsor-block-7 {
-	background-image: url(/assets/rotaract3142/img/assembly/sponsor-logos/anantam.png);
-	background-size: 180px;
-}
-
-.sponsor-block-8 {
-	background-image: url(/assets/rotaract3142/img/assembly/sponsor-logos/gurudev-farsan.jpg);
-	background-size: 160px;
-}
-
-.sponsor-block-9 {
-	background-image: url(/assets/rotaract3142/img/assembly/sponsor-logos/rcd.png);
-	background-size: 175px;
-}
-
-.sponsor-block-10 {
-	background-image: url(/assets/rotaract3142/img/assembly/sponsor-logos/rckalyanriverside.jpg);
-	background-size: 160px;
-}
-
-.sponsor-block-11 {
-	background-image: url(/assets/rotaract3142/img/assembly/sponsor-logos/rcnbs.png);
-	background-size: 195px;
-}
-
-.sponsor-block-12 {
-	background-image: url(/assets/rotaract3142/img/assembly/sponsor-logos/rcsaraswati.png);
-	background-size: 105px;
-}
-
-.sponsor-block-13 {
-	background-image: url(/assets/rotaract3142/img/assembly/sponsor-logos/rcsiesn.png);
-	background-size: 85px;
-}
-
-.sponsor-block-14 {
-	background-image: url(/assets/rotaract3142/img/assembly/sponsor-logos/rcsmartcity.png);
-	background-size: 150px;
-}
-
-.sponsor-block-15 {
-	background-image: url(/assets/rotaract3142/img/assembly/sponsor-logos/rctne-new.png);
-	background-size: 180px;
-}
-
-.sponsor-block-16 {
-	background-image: url(/assets/rotaract3142/img/assembly/sponsor-logos/rotarytne.jpg);
-}
 
 .mob-message {
 	position: fixed;
@@ -1003,5 +920,109 @@ div {
 	.sponsors-main-body {
 		padding: 0 10px;
 	}
+}
+
+@media screen and (max-width: 425px) {
+	.assembly-logo {
+		display: none;
+	}
+	.aara-logo{
+		bottom: 125px;
+		right: unset;
+		left: 120px;
+	}
+	.wingImage{
+		display: none;
+	}
+	.district-logo{
+		top: 80px;
+	}
+	.mainScreen{
+		top: 300px;
+	}
+	.marquee-left{
+		top: 135px;
+	}
+}
+
+.sponsor-block-1 {
+	background-image: url(../../assets/img/aaiba.jpg);
+	background-size: 120px;
+}
+
+.sponsor-block-2{
+	background-image: url(../../assets/img/RCAE.png);
+}
+
+.sponsor-block-3 {
+	background-image: url(../../assets/img/giftGreen.jpg);
+}
+
+.sponsor-block-4 {
+	background-image: url(../../assets/img/nikhilArt.jpg);
+	background-size: 160px;
+}
+
+.sponsor-block-5 {
+	background-image: url(../../assets/img/shirtegg.png);
+	background-size: 160px;
+}
+
+.sponsor-block-6 {
+	background-image: url(../../assets/partners/hapkit.jpeg);
+	height: 150px;
+	width: 150px;
+}
+
+.sponsor-block-7 {
+	background-image: url(../../assets/partners/BamboIndia.jpg);
+	height: 150px;
+	width: 150px;
+}
+
+.sponsor-block-8 {
+	background-image: url(../../assets/partners/BHSocial.png);
+	height: 150px;
+	width: 150px;
+}
+
+.sponsor-block-9 {
+	background-image: url(../../assets/partners/wwf.png);
+	height: 150px;
+	width: 150px;
+}
+
+/* .sponsor-block-10 {
+	background-image: url(/assets/rotaract3142/img/assembly/sponsor-logos/rckalyanriverside.jpg);
+	background-size: 160px;
+}
+
+.sponsor-block-11 {
+	background-image: url(/assets/rotaract3142/img/assembly/sponsor-logos/rcnbs.png);
+	background-size: 195px;
+}
+
+.sponsor-block-12 {
+	background-image: url(/assets/rotaract3142/img/assembly/sponsor-logos/rcsaraswati.png);
+	background-size: 105px;
+}
+
+.sponsor-block-13 {
+	background-image: url(/assets/rotaract3142/img/assembly/sponsor-logos/rcsiesn.png);
+	background-size: 85px;
+}
+
+.sponsor-block-14 {
+	background-image: url(/assets/rotaract3142/img/assembly/sponsor-logos/rcsmartcity.png);
+	background-size: 150px;
+}
+
+.sponsor-block-15 {
+	background-image: url(/assets/rotaract3142/img/assembly/sponsor-logos/rctne-new.png);
+	background-size: 180px;
+} */
+
+.sponsor-block-16 {
+	background-image: url(../../assets/img/spaceValent.png);
 }
 </style>

@@ -32,7 +32,7 @@
           The theme for 2021-22 is CHANGEMAKERS. Become a part of this CHANGE MAKING family, come together with us in this journey and witness the CHANGE in your personality while having the intention to bring a CHANGE in the society.
         </p>
         <p class="read-more">
-      <a href="/about">Read More</a>
+          <router-link to="about">Read More</router-link>
       </p>
       </div>
     </div>
@@ -683,8 +683,8 @@ btn:hover{
   background: linear-gradient(120deg, #0080ff, #027fff, #116ece, #004080);
 }
 span {
-  background-color: #ea4e73;
-  color: rgb(252, 252, 252);
+  background-color: #e32c6d;
+  color: #fff;
 }
 
 #home {
