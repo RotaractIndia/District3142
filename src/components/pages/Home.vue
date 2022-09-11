@@ -13,12 +13,12 @@
               <span
                 class="txt-rotate"
                 data-period="2000"
-                data-rotate='[ "Change.", "ChangeMaker."]'
+                data-rotate='[ "Change."]'
               ></span>
             </h1>
             <br />
             <div class="mt-3">
-              <router-link to="contact" class="btn text-white mr-2 join-us">JOIN US</router-link>
+              <a href="https://rotaract3142.org/contact" class="btn text-white mr-2 join-us">JOIN US</a>
             </div>
           </div>
         </div>
@@ -29,7 +29,7 @@
       <div class="about-text">
         <h3>About Us</h3>
         <p>
-          The theme for 2021-22 is CHANGEMAKERS. Become a part of this CHANGE MAKING family, come together with us in this journey and witness the CHANGE in your personality while having the intention to bring a CHANGE in the society.
+          The theme for 2022-23 is VAMOS. Become a part of the rotaract family, come together with us in this journey and witness the CHANGE in your personality while having the intention to bring a CHANGE in the society.
         </p>
         <p class="read-more">
           <router-link to="about">Read More</router-link>
@@ -86,7 +86,7 @@
       </div>
     </div>
     <!-- merch -->
-    <section id="merch" class="merch">
+<!--    <section id="merch" class="merch">
       <div class="container">
         <div class="row">
           <div
@@ -103,7 +103,7 @@
             <h3>Official Merchandise of Rotaract 3142</h3>
             <p class="font-italic">
               <i><b>Ekatra in all we do!</b></i> <br>
-              Come Ekatra and flaunt the feeling of proud rotaraction with our cool merchandise.<br> Shop for Rotaract District 3142’s Official Merchandise. Your support is very important and special to us. 
+              Come Ekatra and flaunt the feeling of proud rotaraction with our cool merchandise.<br> Shop for Rotaract District 3142’s Official Merchandise. Your support is very important and special to us.
             </p>
             <a href="https://rotaractstartupmall.com/index.php/shop/" class="read-more buy-now"
               >Buy now<i class="icofont-long-arrow-right"></i
@@ -111,7 +111,7 @@
           </div>
         </div>
       </div>
-    </section>
+</section>-->
     <!-- Blogs -->
     <!-- <div class="container">
       <h1 class="heading">Featured Stories</h1>
@@ -179,7 +179,7 @@
       </div>
     </div> -->
     <!-- Sponsors -->
-    <SponsorCarousel></SponsorCarousel>
+    <SponsorCarousel class="merch"></SponsorCarousel>
     <!-- Testimonials -->
     <!-- <Testimonials></Testimonials> -->
 </div>

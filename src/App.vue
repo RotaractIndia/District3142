@@ -80,20 +80,20 @@ export default {
 							},
 						],
 					},
-					{
-						type: "link",
-						text: "Club Projects",
-						path: "/projects",
-					},
+					// {
+					// 	type: "link",
+					// 	text: "Club Projects",
+					// 	path: "/projects",
+					// },
 					{
 						type: "link",
 						text: "For Members",
 						subMenuOptions: [
-							{
-								type: "link",
-								text: "Rotopreneur",
-								path: "/rotopreneur",
-							},
+							// {
+							// 	type: "link",
+							// 	text: "Rotopreneur",
+							// 	path: "/rotopreneur",
+							// },
 							{
 								type: "link",
 								text: "Pranali",
@@ -114,7 +114,7 @@ export default {
 					{
 						type: "link",
 						text: "Contact Us",
-						path: "/contact",
+						path: "/contact"
 					},
 				],
 			},

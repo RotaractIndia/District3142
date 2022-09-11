@@ -55,6 +55,7 @@
                   <img
                     alt="wwf"
                     src="../../assets/partners/wwf.png"
+                    style="background: #fff;"
                   />
                    </a>
                 </div>

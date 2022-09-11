@@ -23,7 +23,9 @@ const routes = [
   {
     path: '/contact',
     name: 'Contact',
-    component: () => import('../components/pages/Contact.vue')
+    beforeEnter: () => {
+      window.location.href = 'https://rotaract3142.org/contact';
+    }
   },
   {
     path: '/faq',
