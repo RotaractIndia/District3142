@@ -7,7 +7,7 @@
 						class="col-lg-3 col-md-4 mb-4 mb-lg-0"
 						style="border-right: 1px solid grey; padding-right: 45px;"
 					>
-						<img src="../assets/img/DistrictlogoB.png" alt="" width="200" />
+						<img src="../assets/img/DistrictlogoB.png" alt="" width="200" style="margin: 10px 0;"/>
 						<p class="spacing"><i>Come what may we’ll see it through,</i></p>
 						<p class="spacing"><i>Ekatra in all we do</i></p>
 						<ul class="list-inline mt-4"></ul>
