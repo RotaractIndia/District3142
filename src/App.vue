@@ -80,20 +80,20 @@ export default {
 							},
 						],
 					},
-					{
-						type: "link",
-						text: "Club Projects",
-						path: "/projects",
-					},
+					// {
+					// 	type: "link",
+					// 	text: "Club Projects",
+					// 	path: "/projects",
+					// },
 					{
 						type: "link",
 						text: "For Members",
 						subMenuOptions: [
-							{
-								type: "link",
-								text: "Rotopreneur",
-								path: "/rotopreneur",
-							},
+							// {
+							// 	type: "link",
+							// 	text: "Rotopreneur",
+							// 	path: "/rotopreneur",
+							// },
 							{
 								type: "link",
 								text: "Pranali",
@@ -114,7 +114,7 @@ export default {
 					{
 						type: "link",
 						text: "Contact Us",
-						path: "/contact",
+						path: "/contact"
 					},
 				],
 			},
@@ -341,8 +341,9 @@ h1 h2 h3 h4 h5 h6 {
 	color: #8c8c8c;
 }
 .vnb-image {
-	max-width: 100%;
+	max-width: 80%;
 	height: auto;
+    margin: 10px 0;
 }
 
 /*# sourceMappingURL=Popup.vue.map */

@@ -23,7 +23,9 @@ const routes = [
   {
     path: '/contact',
     name: 'Contact',
-    component: () => import('../components/pages/Contact.vue')
+    beforeEnter: () => {
+      window.location.href = 'https://rotaract3142.org/contact';
+    }
   },
   {
     path: '/faq',
@@ -68,7 +70,7 @@ const routes = [
     path: "/toolkit",
         name: "Toolkit",
         beforeEnter: () => {
-            window.location.href = 'https://drive.google.com/drive/u/0/folders/12bKwZnIHu8OkJK3RV9vUmwhLPFn-d-l2';
+            window.location.href = 'https://drive.google.com/drive/folders/1_Mp9eL5eUCekvruDuI2WwEmq59yFRzpC';
         }
   }
 ]
