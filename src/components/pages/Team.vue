@@ -52,30 +52,22 @@
             </div>
             <div class="body_inner_right">
                 <div>
-                    <i
-                    >“The measure of intelligence is the ability to change” – Albert
-                        Einstein</i
-                    ><br/>
-                    Rotaract District 3142 is a youth organization that focuses on
-                    providing a platform to help the next generation discover their
-                    leadership abilities, develop their personal skills, create their own
-                    network; all of this whilst making a substantial impact in the
-                    community. We are the voice of innovation, ambassadors of humanity,
-                    agents of service and the movers and shakers of society.<br/>
-                    Over the past 54 years, we have been consistent in creating a legacy
-                    of responsible youth and have never hesitated to be ahead of our time.
-                    Our efforts in the field of education, women empowerment, environment
-                    conservation, mental health, water conservation and medical care are
-                    second to no other youth organization in the city. We have also
-                    encouraged cultural exchanges and professional conferences to broaden
-                    the minds of the members. Even during the pandemic, Rotaract District
-                    3142 stepped up and was working alongside the government in all areas
-                    of service related to COVID-19, as the District Rotaract
-                    Representative for the year 2021-2022, I can confirm that we will
-                    continue to render our support to society and keep grooming future
-                    leaders to become confident custodians of this great nation. When the
-                    world around you is dark, it’s the best time to shine. It’s the year
-                    to become a ChangeMaker.
+                    With the motto of "Self-development through fellowship and service," it
+                    should be our prime focus to promote an environment that enables
+                    individuals to do just that. To achieve this, sustainability of
+                    experienced, well-trained members is imperative to help newer members
+                    understand the power of Rotaract. In the coming years, our true
+                    Rotaraction is going to be challenged; however, we should overcome this
+                    by realising the importance of the organisation and the impact of our
+                    work - on our lives as well as others'. My personal gain through
+                    Rotaract has been immense career advancement, which is why I wish that
+                    every Rotaractor benefits from the movement not only on the personal
+                    front but in the professional aspect as well. It is only wise to grab
+                    every opportunity provided to hone our skills by coming onto the working
+                    face of the movement. We need to encourage our members to work on ground
+                    and witness the change that it brings about in an individual while
+                    making a change in the world. After all, as much as we give to Rotaract,
+                    we are bound to get back in multitude.
                 </div>
             </div>
         </div>
@@ -95,31 +87,28 @@
                     </div>
                 </article>
             </div>
-            <div class="body_inner_right">
-                Every year, a new leader steps in with a fresh vision and I did the same
-                too. I was all set, built the trust amongst my people that I certainly
-                will be a Game Changing DRR. I did everything I could and planned by my
-                year. But, then, sometimes things are not in our control. But, even in
-                these challenging times as Pandemic, we served the community by
-                extending our support by conducting projects like HOPE, we were in
-                position to help the people who were in need, either in medical or non
-                medical emergencies. We successfully conducted professional development
-                initiatives such as NEXT - The Conclave and for the first time we were
-                able to conduct Panel discussions. We facilitated Digital sports
-                sessions like fitness and self defence sessions and then we also
-                facilitated basketball workshop. When we look at cultural exchanges, we
-                also conducted Explore as our International Service Initiative, this
-                year. We also made good amount of efforts to boost our social media
-                engagements this year. Then, we also presented our Rotaractors with a
-                literary platform this year for the very first time, Slice of Life,
-                wherein they penned down emotional experiences (fictional and
-                non-fictional) from their journeys. This is the best thing about
-                Rotaract that it gives you exposure in maximum possible avenues and it
-                does open up endless opportunities for everyone; we took up the
-                leadership and as it is transpired, we all have been able to gain
-                plethora of skills, which have always helped us become better humans in
-                our Rotaract, personal and professional life and this is how it Rotaract
-                leaves a significant mark in our lives.
+            <div class="body_inner_right" style="display: block">
+                <i>“The measure of intelligence is the ability to change” – Albert
+                    Einstein</i>
+                <br>
+                Rotaract District 3142 is a youth organization that focuses on
+                providing a platform to help the next generation discover their
+                leadership abilities, develop their personal skills, create their own
+                network; all of this whilst making a substantial impact in the
+                community. We are the voice of innovation, ambassadors of humanity,
+                agents of service and the movers and shakers of society.<br/>
+                Over the past 54 years, we have been consistent in creating a legacy
+                of responsible youth and have never hesitated to be ahead of our time.
+                Our efforts in the field of education, women empowerment, environment
+                conservation, mental health, water conservation and medical care are
+                second to no other youth organization in the city. We have also
+                encouraged cultural exchanges and professional conferences to broaden
+                the minds of the members. Even during the pandemic, Rotaract District
+                3142 stepped up and was working alongside the government in all areas
+                of service related to COVID-19, as the Immediate Past District Rotaract
+                Representative, I can confirm that we will continue to render our support to society and keep grooming future
+                leaders to become confident custodians of this great nation. When the
+                world around you is dark, it’s the best time to shine.
             </div>
         </div>
         <div class="body_wrapper">
@@ -251,100 +240,74 @@ import Vishal from "../../assets/ct/Vishal.jpeg";
 
 // COUNCIL
 // secretary
-import Ajinkya from "../../assets/council/Ajinkya.png";
-import Projesh from "../../assets/council/Projesh.png";
-import SagarB from "../../assets/council/SagarB.png";
+import HetviD from "../../assets/council/HetviD.png";
+import SwetaG from "../../assets/council/SwetaG.png";
+import VaishnaviJ from "../../assets/council/VaishnaviJ.png";
 
 // Finance
-import SahilA from "../../assets/council/SahilA.png";
-import VijayK from "../../assets/council/VijayK.png";
-import Abhishek from "../../assets/council/Abhishek.png";
+import VirenL from "../../assets/council/VirenL.png";
+import HarshadaJ from "../../assets/council/HarshadaJ.png";
+import HiteshS from "../../assets/council/HiteshS.png";
+import PratikS from "../../assets/council/PratikS.png";
 
 //Deputy
-import Mahanand from "../../assets/council/Mahanand.png";
-import Mayuresh from "../../assets/council/Mayuresh.png";
-import RaviS from "../../assets/council/RaviS.png";
-import RahulS from "../../assets/council/RahulS.png";
-//import Ranjeet from "../../assets/council/Ranjeet.png";
+
 
 //Club serv
-import Viren from "../../assets/council/Viren.png";
-import Jugnu from "../../assets/council/Jugnu.png";
-import Mayuri from "../../assets/council/Mayuri.png";
+import OmkarKadu from "../../assets/council/OmkarKadu.png";
+import NoopurR from "../../assets/council/NoopurR.png";
+import SrushtiY from "../../assets/council/SrushtiY.png";
+import GurshishM from "../../assets/council/GurshishM.png";
 
 //Commserv
-import Prem from "../../assets/council/Prem.png";
-import Mitesh from "../../assets/council/Mitesh.png";
-import Srusti from "../../assets/council/Srusti.png";
-import Mansi from "../../assets/council/MansiK.png";
+// import  from "../../assets/council/";
+import SiddharthD from "../../assets/council/SiddharthD.png";
+import AmitP from "../../assets/council/AmitP.png";
+import ManasiP from "../../assets/council/ManasiP.png";
+import SwakeetP from "../../assets/council/SwakeetP.png";
 
 //ED
-
-import Natasha from "../../assets/council/Natasha.png";
-import Twinkle from "../../assets/council/Twinkle.png";
+import KajalD from "../../assets/council/KajalD.png";
+import MinalG from "../../assets/council/MinalG.png";
+import AfreenS from "../../assets/council/AfreenS.png";
+import SoniaS from "../../assets/council/SoniaS.png";
 
 //Sports
-import Kunal from "../../assets/council/Kunal.png";
-import Aditya from "../../assets/council/AdityaG.png";
-import Ruchi from "../../assets/council/Ruchi.png";
+import AniketP from "../../assets/council/AniketP.png";
+import TanmayP from "../../assets/council/TanmayP.png";
+import SahilS from "../../assets/council/SahilS.png";
 
 //ISD
-import Aishwarya from "../../assets/council/Aishwarya.png";
-import Needhi from "../../assets/council/Needhi.png";
-import Rushikesh from "../../assets/council/RushikeshB.png";
+import RadhakrishnanK from "../../assets/council/RadhakrishnanK.png";
+import NeedhiS from "../../assets/council/NeedhiS.png";
+import KarthikP from "../../assets/council/KarthikP.png";
+import VishalN from "../../assets/council/VishalN.png";
+
 
 //PD
-import Reena from "../../assets/council/Reena.png";
-import Anvi from "../../assets/council/Anvi.png";
-import VishalS from "../../assets/council/VishalS.png";
+import PremN from "../../assets/council/PremN.png";
+import SiddhantP from "../../assets/council/SiddhantP.png";
+import KshitijC from "../../assets/council/KshitijC.png";
+import SheetalP from "../../assets/council/SheetalP.png";
 
 //admin and events
-import Shraddha from "../../assets/council/Shraddha.png";
-import Noopur from "../../assets/council/Noopur.png";
-import Archit from "../../assets/council/Archit.png";
-//import Tanmay from "../../assets/council/Tanmay.png";
-import Sumit from "../../assets/council/Sumit.png";
-import VijayM from "../../assets/council/VijayM.png";
+
 
 //digicom
-//import Radhika from "../../assets/council/Radhika.png";
-import ChinmayP from "../../assets/council/ChinmayP.png";
-import SagarP from "../../assets/council/SagarP.png";
-import Jayesh from "../../assets/council/Jayesh.png";
-import KiranB from "../../assets/council/KiranB.png";
-import Siddhant from "../../assets/council/Siddhant.png";
+
 
 //Photography
-//import RahulY from "../../assets/council/RahulY.png";
-import Viraj from "../../assets/council/Viraj.png";
-import RahulC from "../../assets/council/RahulC.png";
-import Shubhang from "../../assets/council/Shubhang.png";
+
 
 //marketing
-import OmkarK from "../../assets/council/OmkarK.png";
-import Zenil from "../../assets/council/Zenil.png";
-import Rohan from "../../assets/council/Rohan.png";
-import Keerthana from "../../assets/council/Keerthana.png";
-import Jinit from "../../assets/council/Jinit.png";
 
 //PR
-import Arya from "../../assets/council/Arya.png";
-import Khushabu from "../../assets/council/Khusbhu.png";
-import Kajal from "../../assets/council/Kajal.png";
 
 //CSR
-import Saalim from "../../assets/council/Saalim.png";
-import Pratik from "../../assets/council/Pratik.png";
 
 //PIS
-import Sanjeevani from "../../assets/council/Sanjeevni.png";
-import Mihir from "../../assets/council/Mihir.png";
-import Shashant from "../../assets/council/Shashant.png";
 
 //trs
-import SagarM from "../../assets/council/SagarM.png";
-import Hrishikesh from "../../assets/council/Hrishikesh.png";
-import Shivam from "../../assets/council/Shivam.png";
 
 export default {
     name: "Team",
@@ -354,39 +317,48 @@ export default {
             Amri, Bhargav, ChinmayS, Hardik, Jitesh, Nisha, Pranod, Prasad, Preeti, Rishab, Ruhika, Vishal,
             // Council
             // Secretary
-            Ajinkya, Projesh, SagarB,
+            HetviD, SwetaG, VaishnaviJ,
+
             // Finance
-            SahilA, VijayK, Abhishek,
+            VirenL, HiteshS, PratikS, HarshadaJ,
+
             //Deputy
-            Mahanand, Mayuresh, RahulS, RaviS,
+
+
             //Club serv
-            Viren, Jugnu, Mayuri,
+            OmkarKadu, NoopurR, SrushtiY, GurshishM,
+
             //Commserv
-            Prem, Mitesh, Srusti, Mansi,
+            SiddharthD, AmitP, ManasiP, SwakeetP,
+
             //ED
-            Natasha, Twinkle,
+            KajalD, MinalG, AfreenS, SoniaS,
+
             //Sports
-            Kunal, Ruchi, Aditya,
+            AniketP, TanmayP, SahilS,
+
             //ISD
-            Aishwarya, Needhi, Rushikesh,
+            RadhakrishnanK,NeedhiS, KarthikP, VishalN,
+
             //PD
-            Reena, Anvi, VishalS,
+            PremN, SiddhantP, KshitijC, SheetalP,
+
             //Admin and events
-            Shraddha, Noopur, Archit, Sumit, VijayM,
+
             //Digicom
-            ChinmayP, SagarP, Jayesh, KiranB, Siddhant,
+
             //photography
-            Viraj, RahulC, Shubhang,
+
             //marketing
-            OmkarK, Zenil, Rohan, Keerthana, Jinit,
+
             //PR
-            Arya, Khushabu, Kajal,
+
             //CSR
-            Saalim, Pratik,
+
             //PIS
-            Sanjeevani, Mihir, Shashant,
+
             //trs
-            SagarM, Hrishikesh, Shivam,
+
             coreTeam: [
                 {
                     name: "Rtr. Dr. Preeti Bhogle",
@@ -461,25 +433,20 @@ export default {
                     avenue: "Team Secretariat",
                     directors: [
                         {
-                            name: "Rtr. Ajinkya Dhuri",
-                            photo: Ajinkya,
+                            name: "Rtr. Hetvi Dedhia",
+                            photo: HetviD,
                             designation: "Jt Secretary",
                         },
                         {
-                            name: "Rtr. Dr. Projesh Mukherjee",
-                            photo: Projesh,
+                            name: "Rtr. Sweta Goundi",
+                            photo: SwetaG,
                             designation: "Jt Secretary",
                         },
                         {
-                            name: "Rtr. Ruhika Kalsekar",
-                            photo: Ruhika,
+                            name: "Rtr. Vaishnavi Joshi",
+                            photo: VaishnaviJ,
                             designation: "Jt Secretary",
-                        },
-                        {
-                            name: "Rtr. Sagar Brijwani",
-                            photo: SagarB,
-                            designation: "Jt Secretary",
-                        },
+                        }
                     ],
                     color: "Deep-Purple-border",
                 },
@@ -487,51 +454,56 @@ export default {
                     avenue: "Team Finance",
                     directors: [
                         {
-                            name: "Rtr. Sahil Agarwal",
-                            photo: SahilA,
+                            name: "Rtr. Viren Lassi",
+                            photo: VirenL,
                             designation: "Director Finance",
                         },
                         {
-                            name: "Rtr. Jitesh Bhatia ",
-                            photo: "",
-                            designation: "Director Finance",
+                            name: "Rtr. Hitesh Somaya",
+                            photo: HiteshS,
+                            designation: "Jt Director Finance",
                         },
                         {
-                            name: "Rtr. Vijay Kumawat",
-                            photo: VijayK,
-                            designation: "Director Finance",
+                            name: "Rtr. Harshada Jagtap",
+                            photo: HarshadaJ,
+                            designation: "Jt Director Finance",
                         },
                         {
-                            name: "Rtr. Abhishek Pandey",
-                            photo: Abhishek,
-                            designation: "Director Finance",
+                            name: "Rtr. Pratik Singh ",
+                            photo: PratikS,
+                            designation: "Jt Director Finance",
                         },
                     ],
                     color: "Blue-border",
                 },
                 {
                     avenue: "Team Club Service",
-                    deputy: [
-                        {
-                            name: "Rtr. Mahanand Vishwakarma",
-                            photo: Mahanand,
-                            designation: "Deputy Avenues 1 Chair",
-                        },
-                    ],
+                    // deputy: [
+                    //     {
+                    //         name: "Rtr. Mahanand Vishwakarma",
+                    //         photo: Mahanand,
+                    //         designation: "Deputy Avenues 1 Chair",
+                    //     },
+                    // ],
                     directors: [
                         {
-                            name: "Rtr. Viren Lassi",
-                            photo: Viren,
+                            name: "Rtr. Omkar Kadu",
+                            photo: OmkarKadu,
                             designation: "Club Service Director",
                         },
                         {
-                            name: "Rtr. Jugnu Borkar",
-                            photo: Jugnu,
+                            name: "Rtr. Noopur Rahane",
+                            photo: NoopurR,
                             designation: "Jt Club Service Director",
                         },
                         {
-                            name: "Rtr Mayuri Sapkale",
-                            photo: Mayuri,
+                            name: "Rtr. Srushti Yashwante",
+                            photo: SrushtiY,
+                            designation: "Jt Club Service Director",
+                        },
+                        {
+                            name: "Rtr. Gurshish Malhotra ",
+                            photo: GurshishM,
                             designation: "Jt Club Service Director",
                         },
                     ],
@@ -539,32 +511,32 @@ export default {
                 },
                 {
                     avenue: "Team Community Service",
-                    deputy: [
-                        {
-                            name: "Rtr.Mahanand Vishwakarma",
-                            photo: Mahanand,
-                            designation: "Deputy Avenues 1 Chair",
-                        },
-                    ],
+                    // deputy: [
+                    //     {
+                    //         name: "Rtr.Mahanand Vishwakarma",
+                    //         photo: Mahanand,
+                    //         designation: "Deputy Avenues 1 Chair",
+                    //     },
+                    // ],
                     directors: [
                         {
-                            name: "Rtr. Prem Nadar",
-                            photo: Prem,
+                            name: "Rtn. Rtr. Siddharth Dhanawde",
+                            photo: SiddharthD,
                             designation: "Community Service Director",
                         },
                         {
-                            name: "Rtr. Mitesh Jain",
-                            photo: Mitesh,
+                            name: "Rtr. Amit Pathai",
+                            photo: AmitP,
                             designation: "Jt Community Service Director",
                         },
                         {
-                            name: "Rtr. Srushti Yashwante",
-                            photo: Srusti,
+                            name: "Rtr. Prof. Manasi Patil",
+                            photo: ManasiP,
                             designation: "Jt Community Service Director",
                         },
                         {
-                            name: "Rtr. Mansi Kante",
-                            photo: Mansi,
+                            name: "Rtr. Swakeet Pashankar",
+                            photo: SwakeetP,
                             designation: "Jt Community Service Director",
                         },
                     ],
@@ -572,27 +544,32 @@ export default {
                 },
                 {
                     avenue: "Team Entrepreneurship Development",
-                    deputy: [
-                        {
-                            name: "Rtr. Mahanand Vishwakarma",
-                            photo: Mahanand,
-                            designation: "Deputy Avenues 1 Chair",
-                        },
-                    ],
+                    // deputy: [
+                    //     {
+                    //         name: "Rtr. Mahanand Vishwakarma",
+                    //         photo: Mahanand,
+                    //         designation: "Deputy Avenues 1 Chair",
+                    //     },
+                    // ],
                     directors: [
                         {
-                            name: "Rtr. Prasad Yadav",
-                            photo: Prasad,
+                            name: "Rtr. Kajal Dusseja",
+                            photo: KajalD,
                             designation: "Entrepreneurship Development Director",
                         },
                         {
-                            name: "Rtr. Natasha Jain",
-                            photo: Natasha,
+                            name: "Rtr. Minal Gor",
+                            photo: MinalG,
                             designation: "Jt Entrepreneurship Development Director",
                         },
                         {
-                            name: "Rtr. Twinkle Matta",
-                            photo: Twinkle,
+                            name: "Rtr. Afreen Sayed",
+                            photo: AfreenS,
+                            designation: "Jt Entrepreneurship Development Director",
+                        },
+                        {
+                            name: "Rtr. Sonia Sharma",
+                            photo: SoniaS,
                             designation: "Jt Entrepreneurship Development Director",
                         },
                     ],
@@ -600,27 +577,27 @@ export default {
                 },
                 {
                     avenue: "Team Sports",
-                    deputy: [
-                        {
-                            name: "Rtr. Dr. Preeti Bhogle",
-                            photo: Preeti,
-                            designation: "Deputy Avenues 2 Chair",
-                        },
-                    ],
+                    // deputy: [
+                    //     {
+                    //         name: "Rtr. Dr. Preeti Bhogle",
+                    //         photo: Preeti,
+                    //         designation: "Deputy Avenues 2 Chair",
+                    //     },
+                    // ],
                     directors: [
                         {
-                            name: "Rtr. Kunal Kataria",
-                            photo: Kunal,
-                            designation: "Director Sports",
-                        },
-                        {
-                            name: "Rtr. Aditya Gharat",
-                            photo: Aditya,
+                            name: "Rtr. Aniket Prajapati",
+                            photo: AniketP,
                             designation: "Jt Director Sports",
                         },
                         {
-                            name: "Rtr. Rruchi Bhandari",
-                            photo: Ruchi,
+                            name: "Rtr. Tanmay Pednekar",
+                            photo: TanmayP,
+                            designation: "Jt Director Sports",
+                        },
+                        {
+                            name: "Rtr. Sahil Shirke ",
+                            photo: SahilS,
                             designation: "Jt Director Sports",
                         },
                     ],
@@ -628,27 +605,32 @@ export default {
                 },
                 {
                     avenue: "Team International Service",
-                    deputy: [
-                        {
-                            name: "Rtr.Dr. Preeti Bhogle",
-                            photo: Preeti,
-                            designation: "Deputy Avenues 2 Chair",
-                        },
-                    ],
+                    // deputy: [
+                    //     {
+                    //         name: "Rtr.Dr. Preeti Bhogle",
+                    //         photo: Preeti,
+                    //         designation: "Deputy Avenues 2 Chair",
+                    //     },
+                    // ],
                     directors: [
                         {
-                            name: "Rtr. Aishwarya Gupta ",
-                            photo: Aishwarya,
+                            name: "Rtn. Rtr. Radhakrishnan Krishnamoorthy",
+                            photo: RadhakrishnanK,
                             designation: "International Service Director",
                         },
                         {
                             name: "Rtr. Needhi Shukla",
-                            photo: Needhi,
+                            photo: NeedhiS,
+                            designation: "International Service Director",
+                        },
+                        {
+                            name: "Rtr. Karthik Prabakaran",
+                            photo: KarthikP,
                             designation: "Jt International Service Director",
                         },
                         {
-                            name: "Rtr. Rushikesh Bhadane",
-                            photo: Rushikesh,
+                            name: "Rtr. Vishal Naidu",
+                            photo: VishalN,
                             designation: "Jt International Service Director",
                         },
                     ],
@@ -656,95 +638,47 @@ export default {
                 },
                 {
                     avenue: "Team Professional Development",
-                    deputy: [
-                        {
-                            name: "Rtr.Dr. Preeti Bhogle",
-                            photo: Preeti,
-                            designation: "Deputy Avenues 2 Chair",
-                        },
-                    ],
+                    // deputy: [
+                    //     {
+                    //         name: "Rtr.Dr. Preeti Bhogle",
+                    //         photo: Preeti,
+                    //         designation: "Deputy Avenues 2 Chair",
+                    //     },
+                    // ],
                     directors: [
                         {
-                            name: "Rtr. Vishal Shah",
-                            photo: VishalS,
+                            name: "Rtr. PST Nadar",
+                            photo: PremN,
                             designation: "Professional Development Director",
                         },
                         {
-                            name: "Rtr. Reena Mapari",
-                            photo: Reena,
+                            name: "Rtr. Siddhant Patel",
+                            photo: SiddhantP,
+                            designation: "Professional Development Director",
+                        },
+                        {
+                            name: "Rtr. Kshitij Chakraborty",
+                            photo: KshitijC,
                             designation: "Jt Professional Development Director",
                         },
                         {
-                            name: "Rtr. Anvi Shetty",
-                            photo: Anvi,
+                            name: "Rtr. Sheetal Padmanabhan",
+                            photo: SheetalP,
                             designation: "Jt Professional Development Director",
                         },
                     ],
                     color: "Light-Green-border",
                 },
                 {
-                    avenue: "Team Admin & Events",
-                    //   deputy:[
-                    //     {
-                    //       name:"Rtr. Ranjeet Pandey",
-                    //       photo:Ranjeet,
-                    //       designation:"Deputy Events and Admin"
-                    //     },
-                    //   ],
-                    directors: [
-                        {
-                            name: "Rtr. Shraddha Purohit",
-                            photo: Shraddha,
-                            designation: "Director Admin",
-                        },
-                        {
-                            name: "Rtr. Noopur Rahane",
-                            photo: Noopur,
-                            designation: "Jt Director Admin",
-                        },
-                        {
-                            name: "Rtn. Rtr. Archit Patki",
-                            photo: Archit,
-                            designation: "Jt Director Admin",
-                        },
-                        // {
-                        //   name:"Rtr. Tanmay Deshpande",
-                        //   photo:Tanmay,
-                        //   designation:"Director Events"
-                        // },
-                        {
-                            name: "Rtr. Sumit Bhanage",
-                            photo: Sumit,
-                            designation: "Jt Director Events",
-                        },
-                        {
-                            name: "Rtr. Vijay Malkani",
-                            photo: VijayM,
-                            designation: "Jt Director Events",
-                        },
-                    ],
-                    color: "Lime-border",
-                },
-                {
                     avenue: "Team Digital Communications",
                     deputy: [
                         {
-                            name: "Rtr. Mayuresh Jadhav",
-                            photo: Mayuresh,
+                            name: "Rtr. Chinmay Pradhan",
+                            photo: '',
                             designation: "Deputy Digital Communications Chair",
                         },
                     ],
                     directors: [
-                        // {
-                        //   name:"Rtr. Radhika Jagtap",
-                        //   photo:Radhika,
-                        //   designation:"Social Media Director"
-                        // },
-                        {
-                            name: "Rtr. Chinmay Pradhan",
-                            photo: ChinmayP,
-                            designation: "Jt Social Media Director",
-                        },
                         {
                             name: "Rtr. Sagar Pandit",
                             photo: SagarP,
@@ -761,14 +695,14 @@ export default {
                             designation: "Jt Creative Director",
                         },
                         {
-                            name: "Rtr. Jitesh Bhatia",
+                            name: "Rtr. Vanshika Karsan Patil",
                             photo: "",
-                            designation: "Editor",
+                            designation: "Joint Director - Editor",
                         },
                         {
-                            name: "Rtr. Siddhant Patel",
+                            name: "Rtr. Sayali Korgaonkar",
                             photo: Siddhant,
-                            designation: "Editor",
+                            designation: "Joint Director - Editor",
                         },
                     ],
                     color: "Cyan-border",
@@ -777,29 +711,24 @@ export default {
                     avenue: "Team Photography",
                     deputy: [
                         {
-                            name: "Rtr. Mayuresh Jadhav",
-                            photo: Mayuresh,
+                            name: "Rtr. Chinmay Pradhan",
+                            photo: '',
                             designation: "Deputy Digital Communications Chair",
                         },
                     ],
                     directors: [
-                        // {
-                        //   name:"Rtr. Rahul Yadav",
-                        //   photo:RahulY,
-                        //   designation:"Director of Photography"
-                        // },
                         {
                             name: "Rtr. Viraj Sawant",
                             photo: Viraj,
-                            designation: "Assistant Director of Photography",
+                            designation: "Director of Photography",
                         },
                         {
-                            name: "Rtr. Rahul Chahande",
+                            name: "Rtr. Omkar Bedade",
                             photo: RahulC,
                             designation: "Assistant Director of Photography",
                         },
                         {
-                            name: "Rtr. Shubhang Kashikar",
+                            name: "Rtr. Sneha Wayare",
                             photo: Shubhang,
                             designation: "Assistant Director of Photography",
                         },
@@ -963,6 +892,49 @@ export default {
                         },
                     ],
                     color: "Light-Blue-border",
+                },
+                {
+                    avenue: "Team Admin & Events",
+                    //   deputy:[
+                    //     {
+                    //       name:"Rtr. Ranjeet Pandey",
+                    //       photo:Ranjeet,
+                    //       designation:"Deputy Events and Admin"
+                    //     },
+                    //   ],
+                    directors: [
+                        {
+                            name: "Rtr. Shraddha Purohit",
+                            photo: Shraddha,
+                            designation: "Director Admin",
+                        },
+                        {
+                            name: "Rtr. Noopur Rahane",
+                            photo: Noopur,
+                            designation: "Jt Director Admin",
+                        },
+                        {
+                            name: "Rtn. Rtr. Archit Patki",
+                            photo: Archit,
+                            designation: "Jt Director Admin",
+                        },
+                        // {
+                        //   name:"Rtr. Tanmay Deshpande",
+                        //   photo:Tanmay,
+                        //   designation:"Director Events"
+                        // },
+                        {
+                            name: "Rtr. Sumit Bhanage",
+                            photo: Sumit,
+                            designation: "Jt Director Events",
+                        },
+                        {
+                            name: "Rtr. Vijay Malkani",
+                            photo: VijayM,
+                            designation: "Jt Director Events",
+                        },
+                    ],
+                    color: "Lime-border",
                 },
             ],
         };
