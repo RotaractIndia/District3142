@@ -316,14 +316,25 @@ import VanshM from "../../assets/council/VanshM.png";
 import VirajK from "../../assets/council/VirajK.png";
 import AmeyU from "../../assets/council/AmeyU.png";
 import HrishikeshB from "../../assets/council/HrishikeshB.png";
-//trs
 
+//trs
+import KingshukM from "../../assets/council/KingshukM.png";
+import HimanshuD from "../../assets/council/HimanshuD.png";
+import ProjeshM from "../../assets/council/ProjeshM.png";
+import MayureshT from "../../assets/council/MayureshT.png";
 
 //admin
-
+import HrishikeshS from "../../assets/council/HrishikeshS.png";
+import PratikM from "../../assets/council/PratikM.png";
+import VijayM from "../../assets/council/VijayM.png";
+import ReshmaP from "../../assets/council/ReshmaP.png";
+import AnaghaK from "../../assets/council/AnaghaK.png";
 
 //thrust areas
-
+import KrutikaK from "../../assets/council/KrutikaK.png";
+import SwaradH from "../../assets/council/SwaradH.png";
+import MannsiS from "../../assets/council/MannsiS.png";
+import ShamikaK from "../../assets/council/ShamikaK.png";
 
 export default {
     name: "Team",
@@ -342,6 +353,7 @@ export default {
             Rishab,
             Ruhika,
             Vishal,
+
             // Council
             // Secretary
             HetviD,
@@ -353,9 +365,6 @@ export default {
             HiteshS,
             PratikS,
             HarshadaJ,
-
-            //Deputy
-
 
             //Club serv
             OmkarKadu,
@@ -423,6 +432,13 @@ export default {
             HrishikeshB,
 
             //trs
+            KingshukM, HimanshuD, ProjeshM, MayureshT,
+
+            //admin
+            HrishikeshS, PratikM, VijayM, ReshmaP, AnaghaK,
+
+            //thrust areas
+            KrutikaK, SwaradH, MannsiS, ShamikaK,
 
             coreTeam: [
                 {
@@ -859,8 +875,6 @@ export default {
                     ],
                     color: "Cyan-border",
                 },
-
-
                 {
                     avenue: "Team Marketing",
                     deputy: [
@@ -873,7 +887,7 @@ export default {
                     directors: [
                         {
                             name: "Rtr. Keerthana Nambiar",
-                            photo: Jinit,
+                            photo: KeerthanaN,
                             designation: "Director Marketing",
                         },
                         {
@@ -883,12 +897,12 @@ export default {
                         },
                         {
                             name: "Rtr. Vansh Mehta",
-                            photo: Zenil,
+                            photo: VanshM,
                             designation: "Jt Director Marketing",
                         },
                         {
                             name: "Rtr. Viraj Kulkarni ",
-                            photo: Keerthana,
+                            photo: VirajK,
                             designation: "Jt Director Marketing",
                         },
                     ],
@@ -899,24 +913,24 @@ export default {
                     deputy: [
                         {
                             name: "Rtr. Sagar Mulchandani",
-                            photo: RahulS,
+                            photo: SagarM,
                             designation: "Deputy Corporate Communications",
                         }
                     ],
                     directors: [
                         {
                             name: "Rtr. Rohan Solanki",
-                            photo: Arya,
+                            photo: RohanS,
                             designation: "Director Public Relations",
                         },
                         {
                             name: "Rtr. Aniket A Khanolkar",
-                            photo: Khushabu,
+                            photo: AniketK,
                             designation: "Jt Director Public Relations",
                         },
                         {
                             name: "Rtr. Snehaa Padmanabhan",
-                            photo: Kajal,
+                            photo: SnehaaP,
                             designation: "Jt Director Public Relations",
                         },
                     ],
@@ -927,19 +941,19 @@ export default {
                     deputy: [
                         {
                             name: "Rtr. Sagar Mulchandani",
-                            photo: RahulS,
+                            photo: SagarM,
                             designation: "Deputy Corporate Communications",
                         }
                     ],
                     directors: [
                         {
                             name: "Rtr. Amey Udar",
-                            photo: Saalim,
+                            photo: AmeyU,
                             designation: "Jt Director CSR",
                         },
                         {
                             name: "Rtr. Hrishikesh Bhagwat",
-                            photo: Pratik,
+                            photo: HrishikeshB,
                             designation: "Jt Director CSR",
                         },
                     ],
@@ -950,51 +964,50 @@ export default {
                     deputy: [
                         {
                             name: "Rtr. Sagar Mulchandani",
-                            photo: RahulS,
+                            photo: SagarM,
                             designation: "Deputy Corporate Communications",
                         }
                     ],
                     directors: [
                         {
-                            name: "Rtr. Pratik Dhananjay Vidwans ",
-                            photo: Sanjeevani,
+                            name: "Rtr. Pratik Vidwans ",
+                            photo: PratikV,
                             designation: "Director PIS",
                         },
                         {
                             name: "Rtr. Adhit Nair",
-                            photo: Mihir,
+                            photo: AdhitN,
                             designation: "Jt Director PIS",
                         },
                         {
                             name: "Rtr. Apoorvaa Sivarraj",
-                            photo: Shashant,
+                            photo: ApoorvaS,
                             designation: "Jt Director PIS",
                         },
                     ],
                     color: "Purple-border",
                 },
-
                 {
                     avenue: "Team Training, Revival & Sustenance",
                     directors: [
                         {
                             name: "Rtr. Kingshuk Mazumder",
-                            photo: SagarM,
+                            photo: KingshukM,
                             designation: "Director Training, Revival & Sustenance ",
                         },
                         {
                             name: "Rtr. Himanshu Dapurkar",
-                            photo: Hrishikesh,
+                            photo: HimanshuD,
                             designation: "Director Training, Revival & Sustenance",
                         },
                         {
                             name: "Rtr. Dr. Projesh Mukherjee",
-                            photo: Hrishikesh,
+                            photo: ProjeshM,
                             designation: "Director Training, Revival & Sustenance",
                         },
                         {
                             name: "Rtr. Mayuresh Talashilkar",
-                            photo: Shivam,
+                            photo: MayureshT,
                             designation: "Director Training, Revival & Sustenance",
                         },
                     ],
@@ -1005,57 +1018,55 @@ export default {
                     deputy: [
                         {
                             name: "Rtr. Hrishikesh Sawant",
-                            photo: Ranjeet,
+                            photo: HrishikeshS,
                             designation: "Deputy Administration Chair"
                         },
                     ],
                     directors: [
                         {
                             name: "Rtr. Pratik Mate",
-                            photo: Shraddha,
+                            photo: PratikM,
                             designation: "Director Admin",
                         },
                         {
                             name: "Rtr. Vijay Malkani",
-                            photo: Shraddha,
+                            photo: VijayM,
                             designation: "Director Admin",
                         },
                         {
                             name: "Rtr. Reshma R. Pillai",
-                            photo: Noopur,
+                            photo: ReshmaP,
                             designation: "Jt Director Admin",
                         },
                         {
                             name: "Rtr. Anagha Krishnan",
-                            photo: Archit,
+                            photo: AnaghaK,
                             designation: "Jt Director Admin",
                         }
                     ],
                     color: "Lime-border",
                 },
-
-
                 {
                     avenue: "Team Thrust Areas",
                     directors: [
                         {
                             name: "Rtr. Krutika Kadam",
-                            photo: Shraddha,
+                            photo: KrutikaK,
                             designation: "Director Thrust Areas ",
                         },
                         {
                             name: "Cdt. Rtr. Swarad Hajarnis",
-                            photo: Noopur,
+                            photo: SwaradH,
                             designation: "Jt Director Thrust Areas",
                         },
                         {
                             name: "Rtr. Mannsi Srivastav",
-                            photo: Archit,
+                            photo: MannsiS,
                             designation: "Jt Director Thrust Areas",
                         },
                         {
                             name: "Rtr. Shamika Kadam",
-                            photo: Sumit,
+                            photo: ShamikaK,
                             designation: "Jt Director Thrust Areas",
                         }
                     ],

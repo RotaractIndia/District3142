@@ -31,21 +31,14 @@
 </template>
 
 <script>
-import SnehaW from "../../assets/council/Snehaw.png";
-import Kingshuk from "../../assets/council/Kingshuk.png";
-import Himanshu from "../../assets/council/Himanshu.png";
-import Pranod from "../../assets/council/Pranod.png";
-import Devashish from "../../assets/council/Dev.png";
-import Amri from "../../assets/council/Amri.png";
-import AishwaryaW from "../../assets/council/AishwaryaW.png";
-import Hetvi from "../../assets/council/Hetvi.png";
+// import  from "../../assets/council/";
 
 
 export default {
 	name: "Zones",
 	data() {
 		return {
-			SnehaW,Kingshuk,Himanshu,Pranod,Devashish,Amri,AishwaryaW,Hetvi,
+
 
 			zones: [
 				{
@@ -53,11 +46,11 @@ export default {
 					zrr: [
 						{
 							name: "Rtr. Sneha Wayare",
-							photo:SnehaW,
+							photo:'',
 						},
 						{
 							name: "Rtr. Kingshuk Mazumder",
-							photo:Kingshuk,
+							photo:'',
 						},
 					],
 					clubs: [
@@ -122,11 +115,11 @@ export default {
 					zrr: [
 						{
 							name: "Rtr. Himanshu Dapurkar",
-							photo:Himanshu,
+							photo:'',
 						},
 						{
 							name: "Rtr. Pranod Kalsekar",
-							photo:Pranod,
+							photo:'',
 						},
 					],
 					clubs: [
@@ -169,11 +162,11 @@ export default {
 					zrr: [
 						{
 							name: "Rtr. Devashish Mande",
-							photo:Devashish,
+							photo:'',
 						},
 						{
 							name: "Rtr. Amri Neve",
-							photo:Amri,
+							photo:'',
 						},
 					],
 					clubs: [
@@ -202,11 +195,11 @@ export default {
 					zrr: [
 						{
 							name: "Rtr. Aishwarya Warke",
-							photo:AishwaryaW,
+							photo:'',
 						},
 						{
 							name: "Rtr. Hetvi Dedhia",
-							photo:Hetvi,
+							photo:'',
 						},
 					],
 					clubs: [
