@@ -40,7 +40,7 @@
         </div>
         <!-- Card Layout -->
         <div class="container">
-            <h1 class="heading mt-5">Thrust Area</h1>
+            <h1 class="heading mt-5">Our Thrust Area</h1>
             <div class="thrust-area-container">
                 <a class="card" href="#!">
                     <div
@@ -70,10 +70,10 @@
                     <div class="back">
                         <div>
                             <p>
-                                Rotaract District 3142 is a part of one of the largest youth organisations. Taking
-                                strides towards being a credible brand and increasing our brand value is our prime
-                                focus. We as a district scream youth, responsible, energy, fun and self- development. We
-                                welcome all brands, big or small to join us and help us create the change we wish to.
+                                Rotaract is one of the largest youth organisations across the globe. Taking strides
+                                towards being a credible brand and increasing our brand value is our prime focus. We as
+                                a district scream youth, responsibility, energy, fun and self- development. We welcome
+                                all brands, big or small, to join us and help us create the change we wish for.
                                 Partnership is our strong suit!
                             </p>
                             <!-- <button class="button">Click Here</button> -->
@@ -90,10 +90,29 @@
                     <div class="back">
                         <div>
                             <p>
-                                There is no health without mental health. Your mental health matters and we, here at RID
-                                3142, strongly advocate for it. We, the change makers intend on breaking the stigma,
+                                There is no health without mental health. The mental health of our members matters and
+                                we, here at RID 3142, strongly advocate for it. We intend on breaking the stigma,
                                 continuing our work on denying the stereotypes associated with disorders and treatments.
                                 Help us make the world a safe space to talk, to seek help and empathise.
+                            </p>
+                        </div>
+                    </div>
+                </a
+                >
+                <a class="card" href="#!">
+                    <div
+                            class="front"
+                            style="background-image: url(https://i.ibb.co/wphZV1J/thrust-Three.png)"
+                    >
+                    </div>
+                    <div class="back">
+                        <div>
+                            <p>
+                                Education is every child’s right and we at Rotaract District 3142 have been taking steps
+                                towards it for a few years now. Under our beloved initiative Daptar, we have been
+                                empowering young children with skills that would prepare them to take on challenges that
+                                life throws at them. Each year, we hope to get bigger and better and for this, we invite
+                                collaborations of all kinds.
                             </p>
                         </div>
                     </div>
@@ -452,7 +471,7 @@ a {
 
 .thrust-area-container {
     display: grid;
-    grid-template-columns: repeat(3, 330px);
+    grid-template-columns: repeat(4, 300px);
     justify-content: space-evenly;
     margin-bottom: 2rem;
 }

@@ -13,21 +13,27 @@
             "
                     >
                         <img
-                                src="../../assets/img/CMLogoB.png"
+                                src="../../assets/img/VamosLogo.png"
                                 class="img-fluid"
                                 alt="ChangeMaker Logo"
                                 data-aos="zoom-in"
+                                style="height: 230px;"
                         />
                     </div>
                     <div class="col-lg-6 pt-5 pt-lg-0 year-theme">
                         <!-- <img class="image" src="../../assets/CMLogoB.png" alt=""><br> -->
                         <p data-aos="fade-up" data-aos-delay="100">
-                            Change is the catalyst for evolution. It is a process and is
-                            inevitable. Having pie (3.142) as one such constant resonated with
-                            us has been a grace for us so far. With CHANGE, another universal
-                            constant abiding by our side, the ROTARACT DISTRICT 3142 army has
-                            become stronger than ever. Therefore, we call ourselves THE
-                            CHANGEMAKERS.
+                            "You are defined by your choices."
+                            Being a strong believer of this quote ourselves, we are happy you chose to be a part of this
+                            organisation, and contribute towards the change we all wish to see in this world.
+                            Our theme for the year 2022-23 is "Vamos", which is a Spanish word for we go, and we will go
+                            together. We touch the sky together, we create history together; and if we fail, we fail
+                            together, we will learn together. implying we work together towards creating a substantial
+                            impact in the lives of others as well as our ownselves.
+                            We are grateful to you for extending a helping hand in our endeavours, spreading smiles and
+                            hope.
+
+                            Vamos!
                             <br/><br/>
                         </p>
                     </div>
@@ -52,22 +58,22 @@
             </div>
             <div class="body_inner_right">
                 <div>
-                    With the motto of "Self-development through fellowship and service," it
-                    should be our prime focus to promote an environment that enables
-                    individuals to do just that. To achieve this, sustainability of
-                    experienced, well-trained members is imperative to help newer members
-                    understand the power of Rotaract. In the coming years, our true
-                    Rotaraction is going to be challenged; however, we should overcome this
-                    by realising the importance of the organisation and the impact of our
-                    work - on our lives as well as others'. My personal gain through
-                    Rotaract has been immense career advancement, which is why I wish that
-                    every Rotaractor benefits from the movement not only on the personal
-                    front but in the professional aspect as well. It is only wise to grab
-                    every opportunity provided to hone our skills by coming onto the working
-                    face of the movement. We need to encourage our members to work on ground
-                    and witness the change that it brings about in an individual while
-                    making a change in the world. After all, as much as we give to Rotaract,
-                    we are bound to get back in multitude.
+                    "The only person limiting you from the success you deserve is you, yourself."
+                    I strongly believe that one can excel to their maximum potential merely by embracing every
+                    opportunity that knocks on their door. Rotaract is one such goblet of opportunities! The movement
+                    enables one to explore and learn what they love doing the most and gives innumerable chances to
+                    prove their mettle and outshine themselves. As a person, I always believe that stepping out of one's
+                    comfort zone helps identify oneself and leads towards success. With exploration, what comes handy is
+                    consistency - never shying away from challenging oneself, is a quality, I feel is of utmost
+                    importance for every Rotaractor to possess. Working with people from various walks of life, it is
+                    essential for one to be compassionate towards their peers and try to place themselves in the other's
+                    shoe before acting upon a particular situation. The key to earning people's respect is to avoid
+                    disputes and always be accommodating of the other person, making them feel respected. It is not
+                    important for people to remember us by our names, but it is imperative to make a mark with our
+                    deeds, and that is something I feel we all should be working towards, everyday.
+                    Let's together make this world a better place to live in - for ourselves and for others.
+
+                    Vamos!
                 </div>
             </div>
         </div>
@@ -340,106 +346,6 @@ export default {
     name: "Team",
     data() {
         return {
-            // core
-            Amri,
-            Bhargav,
-            ChinmayS,
-            Hardik,
-            Jitesh,
-            Nisha,
-            Pranod,
-            Prasad,
-            Preeti,
-            Rishab,
-            Ruhika,
-            Vishal,
-
-            // Council
-            // Secretary
-            HetviD,
-            SwetaG,
-            VaishnaviJ,
-
-            // Finance
-            VirenL,
-            HiteshS,
-            PratikS,
-            HarshadaJ,
-
-            //Club serv
-            OmkarKadu,
-            NoopurR,
-            SrushtiY,
-            GurshishM,
-
-            //Commserv
-            SiddharthD,
-            AmitP,
-            ManasiP,
-            SwakeetP,
-
-            //ED
-            KajalD,
-            MinalG,
-            AfreenS,
-            SoniaS,
-
-            //Sports
-            AniketP,
-            TanmayP,
-            SahilS,
-
-            //ISD
-            RadhakrishnanK,
-            NeedhiS,
-            KarthikP,
-            VishalN,
-
-            //PD
-            PremN,
-            SiddhantP,
-            KshitijC,
-            SheetalP,
-
-            //Digicom
-            ChinmayP,
-            VanshikaP,
-            SayaliK,
-            VirajS,
-            OmkarB,
-            SnehaW,
-            ShritejB,
-            OmkarJ,
-            AneeshA,
-            AdityaT,
-            BharathI,
-            SmaranU,
-            KenishaK,
-
-            //marketing
-            SagarM,
-            PratikV,
-            ApoorvaS,
-            AdhitN,
-            RohanS,
-            AniketK,
-            SnehaaP,
-            KeerthanaN,
-            OmkarK,
-            VanshM,
-            VirajK,
-            AmeyU,
-            HrishikeshB,
-
-            //trs
-            KingshukM, HimanshuD, ProjeshM, MayureshT,
-
-            //admin
-            HrishikeshS, PratikM, VijayM, ReshmaP, AnaghaK,
-
-            //thrust areas
-            KrutikaK, SwaradH, MannsiS, ShamikaK,
-
             coreTeam: [
                 {
                     name: "Rtr. Dr. Preeti Bhogle",
@@ -507,6 +413,12 @@ export default {
                     position: "District Administrations Chair",
                     image: Amri,
                     color: "Deep-Purple",
+                },
+                {
+                    name: "Rtr. Ruhika Kalsekar",
+                    position: "District Thrust Areas Chair",
+                    image: Ruhika,
+                    color: "Light-Blue",
                 },
             ],
             council: [

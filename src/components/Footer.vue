@@ -25,7 +25,7 @@
 							<!-- <li class="mb-2"><a href="#" class="text-muted">About Rotary</a></li> -->
 							<li class="mb-2">
 								<router-link to="team" class="text-muted"
-									>Team 2021-22</router-link
+									>Team 2022-23</router-link
 								>
 							</li>
 							<li class="mb-2">
@@ -130,7 +130,7 @@
 				<hr />
 				<div class="container text-center">
 					<p class="text-muted mb-0 py-2">
-						© 2021 Rotaract District 3142. All rights reserved.
+						© 2022 Rotaract District 3142. All rights reserved.
 					</p>
 				</div>
 			</div>

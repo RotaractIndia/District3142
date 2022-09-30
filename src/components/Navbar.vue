@@ -14,7 +14,7 @@
           <transition name="fade">
             <ul v-if="listTwo" @click="listTwo = false" class="menu2">
               <li class="sub-menu"><router-link to="about">Who we are</router-link></li>
-              <li class="sub-menu"><router-link to="team">Team 2021-22</router-link></li>
+              <li class="sub-menu"><router-link to="team">Team 2022-23</router-link></li>
               <li class="sub-menu"><router-link to="zones">Zonal Bifurcation</router-link></li>
               <li class="sub-menu"><router-link to="faq">FAQ</router-link></li>
             </ul>

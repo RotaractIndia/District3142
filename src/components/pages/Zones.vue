@@ -31,26 +31,31 @@
 </template>
 
 <script>
-// import  from "../../assets/council/";
+import RamiyaP from "../../assets/council/RamiyaP.png";
+import RevatiS from "../../assets/council/RevatiS.png";
+import MansiK from "../../assets/council/MansiK.png";
+import ZenilS from "../../assets/council/ZenilS.png";
+import MalharK from "../../assets/council/MalharK.png";
+import ShashantS from "../../assets/council/ShashantS.png";
+import MiteshJ from "../../assets/council/MiteshJ.png";
+import SurbhiM from "../../assets/council/SurbhiM.png";
 
 
 export default {
 	name: "Zones",
 	data() {
 		return {
-
-
 			zones: [
 				{
 					zone: "Zone 1",
 					zrr: [
 						{
-							name: "Rtr. Sneha Wayare",
-							photo:'',
+							name: "Rtn. Rtr. Ramiya R Pillai",
+							photo:RamiyaP,
 						},
 						{
-							name: "Rtr. Kingshuk Mazumder",
-							photo:'',
+							name: "Rtr. Revati Sawant",
+							photo:RevatiS,
 						},
 					],
 					clubs: [
@@ -114,12 +119,12 @@ export default {
 					zone: "Zone 2",
 					zrr: [
 						{
-							name: "Rtr. Himanshu Dapurkar",
-							photo:'',
+							name: "Rtr. Mansi Kante",
+							photo:MansiK,
 						},
 						{
-							name: "Rtr. Pranod Kalsekar",
-							photo:'',
+							name: "Rtr. Zenil Shah",
+							photo:ZenilS,
 						},
 					],
 					clubs: [
@@ -161,12 +166,12 @@ export default {
 					zone: "Zone 3",
 					zrr: [
 						{
-							name: "Rtr. Devashish Mande",
-							photo:'',
+							name: "Rtr. Malhar Kulkarni",
+							photo:MalharK,
 						},
 						{
-							name: "Rtr. Amri Neve",
-							photo:'',
+							name: "Rtr. Shashant Singh",
+							photo:ShashantS,
 						},
 					],
 					clubs: [
@@ -194,12 +199,12 @@ export default {
 					zone: "Zone 4",
 					zrr: [
 						{
-							name: "Rtr. Aishwarya Warke",
-							photo:'',
+							name: "Rtr. Mitesh Jain ",
+							photo:MiteshJ,
 						},
 						{
-							name: "Rtr. Hetvi Dedhia",
-							photo:'',
+							name: "Rtr. Surbhi Mishra",
+							photo:SurbhiM,
 						},
 					],
 					clubs: [
