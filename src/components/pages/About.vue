@@ -329,6 +329,7 @@
                 </div>
             </div>
         </section>
+        <!--
         <section class="about">
             <div class="container">
                 <div class="row justify-content-between">
@@ -372,6 +373,7 @@
                 </div>
             </div>
         </section>
+        -->
     </div>
 </template>
 <script>

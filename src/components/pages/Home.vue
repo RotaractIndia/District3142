@@ -44,8 +44,7 @@
             <div class="thrust-area-container">
                 <a class="card" href="#!">
                     <div
-                            class="front"
-                            style="background-image: url(https://i.ibb.co/YjXYb1V/thrust-One.png)"
+                            class="front thrust-one"
                     >
                     </div>
                     <div class="back">
@@ -63,8 +62,7 @@
                 >
                 <a class="card" href="#!">
                     <div
-                            class="front"
-                            style="background-image: url(https://i.ibb.co/Gc9ymFw/thrust-Two.png)"
+                            class="front thrust-two"
                     >
                     </div>
                     <div class="back">
@@ -83,8 +81,7 @@
                 >
                 <a class="card" href="#!">
                     <div
-                            class="front"
-                            style="background-image: url(https://i.ibb.co/wphZV1J/thrust-Three.png)"
+                            class="front thrust-three"
                     >
                     </div>
                     <div class="back">
@@ -101,8 +98,7 @@
                 >
                 <a class="card" href="#!">
                     <div
-                            class="front"
-                            style="background-image: url(https://i.ibb.co/wphZV1J/thrust-Three.png)"
+                            class="front thrust-four"
                     >
                     </div>
                     <div class="back">
@@ -808,6 +804,19 @@ span {
 
 }
 
+.thrust-one {
+    background-image: url('../../assets/img/thrust-One.png');
+}
+
+.thrust-two {
+    background-image: url('../../assets/img/thrust-Two.png');
+}
+.thrust-three {
+    background-image: url('../../assets/img/thrust-Three.png');
+}
+.thrust-four {
+    background-image: url('../../assets/img/thrust-Four.png');
+}
 @media (max-width: 940px) {
     .container_blog {
         grid-template-columns: 1fr;
