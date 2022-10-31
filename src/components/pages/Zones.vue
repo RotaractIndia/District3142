@@ -61,7 +61,7 @@ export default {
 					clubs: [
 						{
 							name: "Rotaract Club of Saraswati College of Engineering",
-							isPlatinum: true,
+							isPlatinum: false,
 						},
 						{ name: "Rotaract Club of SIES Nerul", isPlatinum: false },
 						{ name: "Rotaract Club of BVP Sunrise", isPlatinum: false },
@@ -71,7 +71,7 @@ export default {
 						},
 						{
 							name: "Rotaract Club of Smart City Navi Mumbai",
-							isPlatinum: true,
+							isPlatinum: false,
 						},
 						{
 							name: "Rotaract Club of Navi Mumbai Hillside",
@@ -80,11 +80,11 @@ export default {
 						{ name: "Rotaract Club of Link Town Airoli", isPlatinum: false },
 						{
 							name: "Rotaract Club of Navi Mumbai Industrial Area",
-							isPlatinum: true,
+							isPlatinum: false,
 						},
-						{ name: "Rotaract Club of New Bombay", isPlatinum: true },
+						{ name: "Rotaract Club of New Bombay", isPlatinum: false },
 						{ name: "Rotaract Club of Lekarz", isPlatinum: false },
-						{ name: "Rotaract Club of New Bombay Seaside", isPlatinum: true },
+						{ name: "Rotaract Club of New Bombay Seaside", isPlatinum: false },
 						{
 							name: "Rotaract Club of Navi Mumbai Industrial Area",
 							isPlatinum: false,
@@ -130,7 +130,7 @@ export default {
 					clubs: [
 						{ name: "Rotaract Club of Hiranandani Estate", isPlatinum: false },
 						{ name: "Rotaract Club of Thane Central", isPlatinum: false },
-						{ name: "Rotaract Club of Thane Downtown", isPlatinum: true },
+						{ name: "Rotaract Club of Thane Downtown", isPlatinum: false },
 						{ name: "Rotaract Club of Thane East", isPlatinum: false },
 						{
 							name: "Rotaract Club of Anand Vishwa Gurukul",
@@ -143,12 +143,12 @@ export default {
 							isPlatinum: false,
 						},
 						{ name: "Rotaract Club of Thane North", isPlatinum: false },
-						{ name: "Rotaract Club of Thane North End", isPlatinum: true },
+						{ name: "Rotaract Club of Thane North End", isPlatinum: false },
 						{ name: "Rotaract Club of Thane TownWing", isPlatinum: false },
 						{ name: "Rotaract Club of Thane Hills", isPlatinum: false },
 						{ name: "Rotaract Club of Thane Horizon", isPlatinum: false },
 						{ name: "Rotaract Club of Singhania School", isPlatinum: false },
-						{ name: "Rotaract Club of Thane Premium", isPlatinum: true },
+						{ name: "Rotaract Club of Thane Premium", isPlatinum: false },
 						{ name: "Rotaract Club of Thane Creekside", isPlatinum: false },
 						{ name: "Rotaract Club of Thane Mid Town", isPlatinum: false },
 						{ name: "Rotaract Club of Thane Lake City", isPlatinum: false },
@@ -175,11 +175,11 @@ export default {
 						},
 					],
 					clubs: [
-						{ name: "Rotaract Club of Birla", isPlatinum: true },
-						{ name: "Rotaract Club of Dombivli", isPlatinum: true },
-						{ name: "Rotaract Club of Dombivli East", isPlatinum: true },
-						{ name: "Rotaract Club of Dombivli Suncity", isPlatinum: true },
-						{ name: "Rotaract Club of Kalyan Central", isPlatinum: true },
+						{ name: "Rotaract Club of Birla", isPlatinum: false },
+						{ name: "Rotaract Club of Dombivli", isPlatinum: false },
+						{ name: "Rotaract Club of Dombivli East", isPlatinum: false },
+						{ name: "Rotaract Club of Dombivli Suncity", isPlatinum: false },
+						{ name: "Rotaract Club of Kalyan Central", isPlatinum: false },
 						{ name: "Rotaract Club of Kalyan Riverside", isPlatinum: false },
 						{ name: "Rotaract Club of Kalyan Diamonds", isPlatinum: false },
 						{ name: "Rotaract Club of Kalyan West", isPlatinum: false },
@@ -208,7 +208,7 @@ export default {
 						},
 					],
 					clubs: [
-						{ name: "Rotaract Club of Ambernath", isPlatinum: true },
+						{ name: "Rotaract Club of Ambernath", isPlatinum: false },
 						{ name: "Rotaract Club of Ambernath East", isPlatinum: false },
 						{ name: "Rotaract Club of Ambernath North", isPlatinum: false },
 						{ name: "Rotaract Club of Badlapur", isPlatinum: false },
@@ -223,7 +223,7 @@ export default {
 						{ name: "Rotaract Club of MIM college", isPlatinum: false },
 						{
 							name: "Rotaract Club of Ulhasnagar Sapna Garden",
-							isPlatinum: true,
+							isPlatinum: false,
 						},
 						{
 							name: "Rotaract Club of Chandibai Himatmal Mansukhani College",

@@ -34,7 +34,7 @@
                     the society.
                 </p>
                 <p class="read-more">
-                    <router-link to="about">Read More</router-link>
+                    <router-link to="about-us">Read More</router-link>
                 </p>
             </div>
         </div>
@@ -210,19 +210,19 @@
           </div>
         </div> -->
         <!-- Sponsors -->
-        <SponsorCarousel class="merch"></SponsorCarousel>
+        <!-- <SponsorCarousel class="merch"></SponsorCarousel>-->
         <!-- Testimonials -->
         <!-- <Testimonials></Testimonials> -->
     </div>
 </template>
 
 <script>
-import SponsorCarousel from '../sections/SponsorCarousel.vue';
+// import SponsorCarousel from '../sections/SponsorCarousel.vue';
 // import Testimonials from './sections/Testimonials.vue';
 
 export default {
     name: "Home",
-    components: {SponsorCarousel},
+    // components: {SponsorCarousel},
     mounted() {
         this.titleText();
     },

@@ -118,8 +118,8 @@
                 world around you is dark, it’s the best time to shine.
             </div>
         </div>
-        <div class="body_wrapper">
-            <div class="body_inner_left_holder">
+        <div>
+            <div class="body_inner_left_holder drr-elect">
                 <article class="material-card Red">
                     <h2>
                         <span>Rtn. Rtr. Sushmita Valecha Bhatia</span>
@@ -132,24 +132,24 @@
                     </div>
                 </article>
             </div>
-            <div class="body_inner_right">
-                With the motto of "Self-development through fellowship and service," it
-                should be our prime focus to promote an environment that enables
-                individuals to do just that. To achieve this, sustainability of
-                experienced, well-trained members is imperative to help newer members
-                understand the power of Rotaract. In the coming years, our true
-                Rotaraction is going to be challenged; however, we should overcome this
-                by realising the importance of the organisation and the impact of our
-                work - on our lives as well as others'. My personal gain through
-                Rotaract has been immense career advancement, which is why I wish that
-                every Rotaractor benefits from the movement not only on the personal
-                front but in the professional aspect as well. It is only wise to grab
-                every opportunity provided to hone our skills by coming onto the working
-                face of the movement. We need to encourage our members to work on ground
-                and witness the change that it brings about in an individual while
-                making a change in the world. After all, as much as we give to Rotaract,
-                we are bound to get back in multitude.
-            </div>
+            <!--            <div class="body_inner_right">
+                            With the motto of "Self-development through fellowship and service," it
+                            should be our prime focus to promote an environment that enables
+                            individuals to do just that. To achieve this, sustainability of
+                            experienced, well-trained members is imperative to help newer members
+                            understand the power of Rotaract. In the coming years, our true
+                            Rotaraction is going to be challenged; however, we should overcome this
+                            by realising the importance of the organisation and the impact of our
+                            work - on our lives as well as others'. My personal gain through
+                            Rotaract has been immense career advancement, which is why I wish that
+                            every Rotaractor benefits from the movement not only on the personal
+                            front but in the professional aspect as well. It is only wise to grab
+                            every opportunity provided to hone our skills by coming onto the working
+                            face of the movement. We need to encourage our members to work on ground
+                            and witness the change that it brings about in an individual while
+                            making a change in the world. After all, as much as we give to Rotaract,
+                            we are bound to get back in multitude.
+                        </div>-->
         </div>
         <!-- core team -->
         <section class="container">
@@ -2850,6 +2850,11 @@ a:hover {
     margin: 0 1rem;
 }
 
+.drr-elect {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
 /* Media queries */
 @media (min-width: 768px) and (max-width: 1024px) {
     .about {
@@ -2948,6 +2953,9 @@ a:hover {
     .deputy-hr {
         margin: 0 3rem;
         width: auto;
+    }
+    .drr-elect{
+        max-width: 350px !important;
     }
 }
 </style>

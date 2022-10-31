@@ -57,7 +57,7 @@ export default {
 								type: "link",
 								text: "Who we are",
 								// subText: "Know about us!!!",
-								path: "/about",
+								path: "/about-us",
 							},
 							{
 								type: "link",
