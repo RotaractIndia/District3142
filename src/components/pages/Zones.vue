@@ -31,39 +31,37 @@
 </template>
 
 <script>
-import SnehaW from "../../assets/council/Snehaw.png";
-import Kingshuk from "../../assets/council/Kingshuk.png";
-import Himanshu from "../../assets/council/Himanshu.png";
-import Pranod from "../../assets/council/Pranod.png";
-import Devashish from "../../assets/council/Dev.png";
-import Amri from "../../assets/council/Amri.png";
-import AishwaryaW from "../../assets/council/AishwaryaW.png";
-import Hetvi from "../../assets/council/Hetvi.png";
+import RamiyaP from "../../assets/council/RamiyaP.png";
+import RevatiS from "../../assets/council/RevatiS.png";
+import MansiK from "../../assets/council/MansiK.png";
+import ZenilS from "../../assets/council/ZenilS.png";
+import MalharK from "../../assets/council/MalharK.png";
+import ShashantS from "../../assets/council/ShashantS.png";
+import MiteshJ from "../../assets/council/MiteshJ.png";
+import SurbhiM from "../../assets/council/SurbhiM.png";
 
 
 export default {
 	name: "Zones",
 	data() {
 		return {
-			SnehaW,Kingshuk,Himanshu,Pranod,Devashish,Amri,AishwaryaW,Hetvi,
-
 			zones: [
 				{
 					zone: "Zone 1",
 					zrr: [
 						{
-							name: "Rtr. Sneha Wayare",
-							photo:SnehaW,
+							name: "Rtn. Rtr. Ramiya R Pillai",
+							photo:RamiyaP,
 						},
 						{
-							name: "Rtr. Kingshuk Mazumder",
-							photo:Kingshuk,
+							name: "Rtr. Revati Sawant",
+							photo:RevatiS,
 						},
 					],
 					clubs: [
 						{
 							name: "Rotaract Club of Saraswati College of Engineering",
-							isPlatinum: true,
+							isPlatinum: false,
 						},
 						{ name: "Rotaract Club of SIES Nerul", isPlatinum: false },
 						{ name: "Rotaract Club of BVP Sunrise", isPlatinum: false },
@@ -73,7 +71,7 @@ export default {
 						},
 						{
 							name: "Rotaract Club of Smart City Navi Mumbai",
-							isPlatinum: true,
+							isPlatinum: false,
 						},
 						{
 							name: "Rotaract Club of Navi Mumbai Hillside",
@@ -82,11 +80,11 @@ export default {
 						{ name: "Rotaract Club of Link Town Airoli", isPlatinum: false },
 						{
 							name: "Rotaract Club of Navi Mumbai Industrial Area",
-							isPlatinum: true,
+							isPlatinum: false,
 						},
-						{ name: "Rotaract Club of New Bombay", isPlatinum: true },
+						{ name: "Rotaract Club of New Bombay", isPlatinum: false },
 						{ name: "Rotaract Club of Lekarz", isPlatinum: false },
-						{ name: "Rotaract Club of New Bombay Seaside", isPlatinum: true },
+						{ name: "Rotaract Club of New Bombay Seaside", isPlatinum: false },
 						{
 							name: "Rotaract Club of Navi Mumbai Industrial Area",
 							isPlatinum: false,
@@ -121,18 +119,18 @@ export default {
 					zone: "Zone 2",
 					zrr: [
 						{
-							name: "Rtr. Himanshu Dapurkar",
-							photo:Himanshu,
+							name: "Rtr. Mansi Kante",
+							photo:MansiK,
 						},
 						{
-							name: "Rtr. Pranod Kalsekar",
-							photo:Pranod,
+							name: "Rtr. Zenil Shah",
+							photo:ZenilS,
 						},
 					],
 					clubs: [
 						{ name: "Rotaract Club of Hiranandani Estate", isPlatinum: false },
 						{ name: "Rotaract Club of Thane Central", isPlatinum: false },
-						{ name: "Rotaract Club of Thane Downtown", isPlatinum: true },
+						{ name: "Rotaract Club of Thane Downtown", isPlatinum: false },
 						{ name: "Rotaract Club of Thane East", isPlatinum: false },
 						{
 							name: "Rotaract Club of Anand Vishwa Gurukul",
@@ -145,12 +143,12 @@ export default {
 							isPlatinum: false,
 						},
 						{ name: "Rotaract Club of Thane North", isPlatinum: false },
-						{ name: "Rotaract Club of Thane North End", isPlatinum: true },
+						{ name: "Rotaract Club of Thane North End", isPlatinum: false },
 						{ name: "Rotaract Club of Thane TownWing", isPlatinum: false },
 						{ name: "Rotaract Club of Thane Hills", isPlatinum: false },
 						{ name: "Rotaract Club of Thane Horizon", isPlatinum: false },
 						{ name: "Rotaract Club of Singhania School", isPlatinum: false },
-						{ name: "Rotaract Club of Thane Premium", isPlatinum: true },
+						{ name: "Rotaract Club of Thane Premium", isPlatinum: false },
 						{ name: "Rotaract Club of Thane Creekside", isPlatinum: false },
 						{ name: "Rotaract Club of Thane Mid Town", isPlatinum: false },
 						{ name: "Rotaract Club of Thane Lake City", isPlatinum: false },
@@ -168,20 +166,20 @@ export default {
 					zone: "Zone 3",
 					zrr: [
 						{
-							name: "Rtr. Devashish Mande",
-							photo:Devashish,
+							name: "Rtr. Malhar Kulkarni",
+							photo:MalharK,
 						},
 						{
-							name: "Rtr. Amri Neve",
-							photo:Amri,
+							name: "Rtr. Shashant Singh",
+							photo:ShashantS,
 						},
 					],
 					clubs: [
-						{ name: "Rotaract Club of Birla", isPlatinum: true },
-						{ name: "Rotaract Club of Dombivli", isPlatinum: true },
-						{ name: "Rotaract Club of Dombivli East", isPlatinum: true },
-						{ name: "Rotaract Club of Dombivli Suncity", isPlatinum: true },
-						{ name: "Rotaract Club of Kalyan Central", isPlatinum: true },
+						{ name: "Rotaract Club of Birla", isPlatinum: false },
+						{ name: "Rotaract Club of Dombivli", isPlatinum: false },
+						{ name: "Rotaract Club of Dombivli East", isPlatinum: false },
+						{ name: "Rotaract Club of Dombivli Suncity", isPlatinum: false },
+						{ name: "Rotaract Club of Kalyan Central", isPlatinum: false },
 						{ name: "Rotaract Club of Kalyan Riverside", isPlatinum: false },
 						{ name: "Rotaract Club of Kalyan Diamonds", isPlatinum: false },
 						{ name: "Rotaract Club of Kalyan West", isPlatinum: false },
@@ -201,16 +199,16 @@ export default {
 					zone: "Zone 4",
 					zrr: [
 						{
-							name: "Rtr. Aishwarya Warke",
-							photo:AishwaryaW,
+							name: "Rtr. Mitesh Jain ",
+							photo:MiteshJ,
 						},
 						{
-							name: "Rtr. Hetvi Dedhia",
-							photo:Hetvi,
+							name: "Rtr. Surbhi Mishra",
+							photo:SurbhiM,
 						},
 					],
 					clubs: [
-						{ name: "Rotaract Club of Ambernath", isPlatinum: true },
+						{ name: "Rotaract Club of Ambernath", isPlatinum: false },
 						{ name: "Rotaract Club of Ambernath East", isPlatinum: false },
 						{ name: "Rotaract Club of Ambernath North", isPlatinum: false },
 						{ name: "Rotaract Club of Badlapur", isPlatinum: false },
@@ -225,7 +223,7 @@ export default {
 						{ name: "Rotaract Club of MIM college", isPlatinum: false },
 						{
 							name: "Rotaract Club of Ulhasnagar Sapna Garden",
-							isPlatinum: true,
+							isPlatinum: false,
 						},
 						{
 							name: "Rotaract Club of Chandibai Himatmal Mansukhani College",

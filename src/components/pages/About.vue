@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section id="about" class="about">
+        <section class="about">
             <div class="container">
                 <div class="row justify-content-between">
                     <div
@@ -38,7 +38,7 @@
             </div>
         </section>
         <!-- Events -->
-        <section id="about" class="about">
+        <section class="about">
             <div class="container">
                 <h1 class="heading">Our Flagship Initiative</h1>
                 <div class="row justify-content-between">
@@ -85,7 +85,7 @@
                 </div>
             </div>
         </section>
-        <section id="about" class="about">
+        <section class="about">
             <div class="container">
                 <div class="row justify-content-between">
                     <div
@@ -126,7 +126,7 @@
                 </div>
             </div>
         </section>
-        <section id="about" class="about">
+        <section class="about">
             <div class="container">
                 <div class="row justify-content-between">
                     <div
@@ -173,7 +173,7 @@
                 </div>
             </div>
         </section>
-        <section id="about" class="about">
+        <section class="about">
             <div class="container">
                 <div class="row justify-content-between">
                     <div
@@ -204,7 +204,7 @@
                 </div>
             </div>
         </section>
-        <section id="about" class="about">
+        <section class="about">
             <div class="container">
                 <div class="row justify-content-between">
                     <div
@@ -249,7 +249,7 @@
                 </div>
             </div>
         </section>
-        <section id="about" class="about">
+        <section class="about">
             <div class="container">
                 <div class="row justify-content-between">
                     <div
@@ -274,14 +274,23 @@
                         </h1>
                         <br/>
                         <p data-aos="fade-up" data-aos-delay="100">
-                            Rotaract Initiative towards Sporting Excellence is a sporting event that brings all the Rotaractors together.
-                            It consists of games like cricket, football, carrom,etc.
+                            RISE – Rotaract Initiative towards Sporting Excellence, is the annual Sports initiative
+                            organized by Rotaract District 3142. It is a platform where Rotaractors get an opportunity
+                            to showcase their zeal, enthusiasm and talent across various sporting events like Tennis,
+                            Kho Kho, Kabaddi, Carrom, Chess, Football, Cricket, Badminton and much more.
+                            <br/>
+                            The main objective of the event is to promote a sense of team-spirit and
+                            competitiveness amongst our Rotaractors and support infrastructure,
+                            education and other vital necessities of underprivileged schools across
+                            our District. More than 3000 Rotaractors come together and create an atmosphere full of
+                            motivation and competitive spirit, which further enhances the event and creates long lasting
+                            memories.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="about" class="about">
+        <section class="about">
             <div class="container">
                 <div class="row justify-content-between">
                     <div
@@ -320,6 +329,51 @@
                 </div>
             </div>
         </section>
+        <!--
+        <section class="about">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div
+                            class="
+              col-lg-4
+              d-flex
+              align-items-center
+              justify-content-center
+              about-img
+            "
+                    >
+                        <img
+                                src="../../assets/img/explore.jpg"
+                                class="img-fluid"
+                                alt=""
+                                data-aos="zoom-in"
+                        />
+                    </div>
+                    <div class="col-lg-7 pt-5 pt-lg-0 content">
+                        <h1 data-aos="fade-up">
+                            iFinance
+                        </h1>
+                        <br/>
+                        <p data-aos="fade-up" data-aos-delay="100">
+                            iFinance acts as a skillset development session for people who are in the stage about to
+                            begin their growth in their respective professional arenas.<br>
+                            Barring the idea of savings, the concepts of Investment, Insurance, Financial Planning,
+                            Passive Income, Financial Freedom, taxation and inflation are alien to these people who are
+                            to begin their professional careers.<br>
+                            Through iFinance, a RID 3142 initiative, we aim to sensitize our peers on how to make the
+                            grass green for themselves; Quite synonymous to a bootcamp - that helps youth get better at
+                            most things relating money!<br>
+                            It is a one-day event offering 360° insights in creating, managing and growing your personal
+                            finances through interactive workshops, speaker sessions and engaging DIY activities. Over
+                            700 young adults who are at the beginning of their financial literacy curve engage
+                            with ideas from top organisations and professionals working in the
+                            financial space in this half day finance fiesta!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        -->
     </div>
 </template>
 <script>

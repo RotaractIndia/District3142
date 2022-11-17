@@ -57,11 +57,11 @@ export default {
 								type: "link",
 								text: "Who we are",
 								// subText: "Know about us!!!",
-								path: "/about",
+								path: "/about-us",
 							},
 							{
 								type: "link",
-								text: "Team 2021-22",
+								text: "Team 2022-23",
 								// subText: "Know our team...!!",
 								path: "/team",
 								arrowColor: "#659CC8",
